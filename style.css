@@ -1,0 +1,160 @@
+
+
+body {width:100%;
+
+		margin: 0;
+		font-family: Helvetica, sans-serif;
+	  }
+
+/*navbar*/
+p{font-size: 1.3em;}
+
+nav{
+	
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+	width: 100%;}
+.topnav #first{border: 1.8px solid black; 
+	border-radius: 25px;
+	padding: 10px 16px;
+	text-align: center;
+	background-color: white;
+}
+.topnav a 
+{margin: 2%!important;
+		float: left;
+		text-decoration: none;
+		font-size: 1em;
+		color:black;
+		text-decoration: none;
+	  }
+	  
+
+.split {margin:2%;
+		float: right;
+		
+
+	  }
+.dropdown-menu-right{color: black !important; 
+	 border: 1.8px solid black; 
+	 border-radius: 25px;
+	padding: 10px 16px;
+	background-color: white !important; 
+	text-align: right !important;}
+
+
+
+.bar1, .bar2, .bar3 {
+		width: 40px;
+  	height: 6px;
+ 	 background-color: white;
+	 border: 1.8px solid black;
+ 	 border-radius:25px;
+ 	 margin: 6px 0;
+ 	 transition: 0.4s;
+	  }
+	  
+.change .bar1 {
+		transform: translate(0, 11px) rotate(-45deg);
+	  }
+	  
+.change .bar2 {opacity: 0;}
+	  
+.change .bar3 {
+		transform: translate(0, -11px) rotate(45deg);}
+
+.dropdown-toggle::after {
+			width: 0;
+			height: 0;
+			margin-left: 0;
+			
+			border-top: 0;
+			border-right: 0;
+			border-bottom: 0;
+			border-left: 0;
+		}
+
+/*main*/
+.content{margin: 0 7%;}
+
+#firstSection{height:100vh;
+padding:25% 8%}
+
+#firstSection h1{font-size: 4em;
+font-weight: 550;}
+
+#secondSection div{text-align: center;
+	padding:5%;
+
+	border:1px solid black;
+	border-radius: 20px;
+	box-shadow: inset;
+
+	}
+
+
+
+#thirdSection{display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-top:2%;
+gap:2.5%; 
+
+height:100vh;}
+
+
+#thirdSection div{flex:30%}
+
+h2{font-size: 2.5em;
+padding-bottom: 2%;}
+#thirdSection img{flex:5%;
+
+	width:5%
+}
+
+#disclamer{color:rgb(96, 96, 96)
+}
+
+.datasets{display:flex;
+	flex-direction: row;
+	gap:1%;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.dataset{border:1px solid black;
+	font-size: small;
+	padding:5%;
+	border-radius: 20px;
+}
+
+
+#fifthsection{padding:  7% 0}
+
+.tab-pane{border:1px solid black;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+padding: 4% 5%}
+
+
+.nav-link .active{border:1px solid black;
+	border-radius: 30px !important;
+
+}
+
+/*responsive*/
+@media only screen and (max-width: 426px) {
+	#firstSection h1{font-size: 3em;
+	font-weight: 550;
+padding-top:10%}
+	
+	#firstSection h2{font-size: 1.5em;
+		}
+
+	#thirdSection{display:flex;
+			flex-direction: column;
+			}
+
+	#thirdSection img{width:100%}		
+}

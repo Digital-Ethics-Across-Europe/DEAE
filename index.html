@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>try</title>
+
+  
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
+
+    <link href="style.css" rel="stylesheet">
+
+	
+  </head>
+  <body>
+	<nav>
+		<div class="topnav">
+			<a href="#home" id="first">DEAE</a>
+			<div class="dropdown split">
+				<div class="btn-group">
+					<a class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div class="container" onclick="myFunction(this)">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						  </div>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+					  <a class="dropdown-item" >Project</a>
+					  <a class="dropdown-item" >Metadata</a>
+					  <a class="dropdown-item" >Visualization</a>
+					  <a class="dropdown-item" >Catalogue</a>
+					
+					  <a class="dropdown-item" >Documentation</a>
+					  <a class="dropdown-item" >About</a>
+					</div>
+				  </div>
+				
+			</div>
+		</div>
+		
+	</nav>
+
+	<main>
+		<div id="firstSection">
+			<h1>Digital Ethics Across Europe</h1>
+			<h2>Navigating LGBTQ+ Discrimination Across European Borders
+			</h2>
+		</div>
+		
+
+		<div class="content" id="secondSection">
+			<div>
+				<p><strong>Digital Ethics Across Europe (DEAE) </strong>is an end-of-course project for the exam <em>Open Access and Digital Ethics</em></p>
+			<p>We aim to analyze and repurpose open access datasets to highlight the significance of digital ethics in addressing LGBTQ+ disparities and to explore the variations in treatment across different European countries.
+			</p>
+			<p id="disclamer">While we aim to present a balanced comparison, we recognize that no scholarly project is entirely free from bias and we acknowledge the limitations in our approach</p>
+			</div>
+			
+		</div>
+
+		<div  class="content" id="thirdSection"> 
+			<div>
+				<h2>Scenario</h2>
+				<p>Discrimination against LGBTQ+ individuals remains a pressing issue across Europe, affecting fundamental aspects of life such as access to healthcare, employment opportunities, education, and social inclusion. 
+				</p>
+				<p>This project seeks to investigate and analyze the disparities faced by LGBTQ+ communities in different European countries through the use of open data. By collecting and examining datasets across various domains, the project aims to uncover patterns of inequality and provide insights into how these challenges vary geographically. </p>
+			</div>
+			<img src="imgs/scenario.png">
+		</div>
+
+		<div  class="content" id="fourthSection"> 
+			<div>
+				<h2>Dataset overview</h2>
+				<p>Our project relies on a diverse range of datasets to explore and analyze the discrimination faced by LGBTQ+ individuals across Europe. These datasets provide valuable insights into the societal, legal, and individual challenges that members of the LGBTQ+ community encounter. Below is an outline of the key resources used
+				</p>
+				
+				<div class="datasets">
+					<div class="dataset">
+						<p><strong>Discrimination in the EU</strong></p>
+						<p>ID: D1</p>
+						<p>Provenience: European Commetee</p>
+						<p>Format: .xlsx, .pdf</p>
+						<p>Metadata: Provided</p>
+						<p>URI:</p>
+						<p>License:</p>
+					</div>
+					<div class="dataset">
+						<p><strong>Discrimination in the EU</strong></p>
+						<p>ID: D1</p>
+						<p>Provenience: European Commetee</p>
+						<p>Format: .xlsx, .pdf</p>
+						<p>Metadata: Provided</p>
+						<p>URI:</p>
+						<p>License:</p>
+					</div>
+					<div class="dataset">
+						<p><strong>Discrimination in the EU</strong></p>
+						<p>ID: D1</p>
+						<p>Provenience: European Commetee</p>
+						<p>Format: .xlsx, .pdf</p>
+						<p>Metadata: Provided</p>
+						<p>URI:</p>
+						<p>License:</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="content" id="fifthsection">
+			
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+				  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+				  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+				  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+				  <button class="nav-link" id="nav-tech-tab" data-bs-toggle="tab" data-bs-target="#nav-tech" type="button" role="tab" aria-controls="nav-tech" aria-selected="false">Contact</button>
+				</div>
+			  
+			  <div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					<h2>Analysis</h2>
+					<p>Our project relies on a diverse range of datasets to explore and analyze the discrimination faced by LGBTQ+ individuals across Europe. These datasets provide valuable insights into the societal, legal, and individual challenges that members of the LGBTQ+ community encounter. Below is an outline of the key resources used
+					</p>
+				</div>
+				<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+				<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+				<div class="tab-pane fade" id="nav-tech" role="tabpanel" aria-labelledby="nav-tech-tab">...</div>
+			  </div>
+		</div>
+
+	</main>
+  </body>
+  <footer>
+	<script src="thejs.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </footer>
+</html>
+
+
+
+
+
+
+
