@@ -1,4 +1,156 @@
 
+/* Footer */
+footer {
+    background-color: white;
+    color: black;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	margin:5%;
+	border:1px solid black;
+	border-radius: 20px;
+}
+
+footer img{width:50%;
+height:auto}
+
+footer h3 {
+    font-size: 800;
+}
+
+footer .right {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	text-align: right;
+    gap: 26px;
+}
+
+footer .right .links {
+    display: flex;
+    gap: 30px;
+}
+
+footer .right .links a {
+	text-decoration: none;
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .links a:hover {
+    color: red;
+	font-weight: 550;
+}
+
+footer .right .social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .right .social i {
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .social i:hover {
+    color:#d6054e;
+}
+
+footer .right p {
+    font-size: 16.5px;
+    color: #777;
+	
+}
+
+.social a {
+    color: #fff !important;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1400px) {
+
+    
+    footer {
+        padding: 100px 40px;
+    }
+
+    footer h3 {
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+  
+   
+
+    footer .links a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+   
+    footer {
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    footer h3 {
+        margin-bottom: 40px;
+        font-size: 32px;
+    }
+
+    footer .right {
+        width: 100%;
+        align-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+  
+
+    
+    footer {
+        padding: 40px 20px;
+    }
+    
+    footer img{padding-bottom:2em;}
+
+}
+
+
+@media screen and (max-width: 576px) {
+    
+   
+
+
+   footer{padding-top: 60px;}
+  
+
+   footer p{text-align: center;}
+
+    .links {font-size: 12px;
+        display: flex;
+        flex-wrap: wrap; 
+        text-align: left;
+        margin: 0 50px;
+    }
+    
+    .links a {
+        flex: 1 0 calc(30% - 1px);  
+    }
+
+    .links a:nth-child(even){text-align: right;}
+
+}
 
 body {width:100%;
 
@@ -98,21 +250,21 @@ border-radius: 20px;
 	flex-wrap: wrap;
 	padding-top: 5%;
 	padding: 10% 0;
-	box-sizing: border-box; /* Ensures padding is included in width */
+	box-sizing: border-box; 
   }
   
   #thirdSection div {
-	flex: 1 1 calc(65% - 20px); /* Adjust div width to leave space for the image */
-	padding-right: 20px; /* Add some spacing between divs */
-	box-sizing: border-box; /* Ensures padding is part of the width */
+	flex: 1 1 calc(65% - 20px); 
+	padding-right: 20px; 
+	box-sizing: border-box; 
   }
   
   #thirdSection img {
 	flex: 1 1 auto; 
-	width: 35%; /* Set fixed image width */
-	height: auto; /* Maintain aspect ratio */
-	padding: 10px; /* Add some padding around the image */
-	box-sizing: border-box; /* Ensures padding is part of the width */
+	width: 35%; 
+	height: auto; 
+	padding: 10px; 
+	box-sizing: border-box; 
   }
   
 
@@ -133,6 +285,7 @@ align-items: center;
 font-size: small;
 padding:5%;
 border-radius: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -155,8 +308,22 @@ color: black;
 transition: all 0.3s ease; 
 }
 
-.nav-tabs .nav-link:hover {
+.nav-tabs .nav-link:hover:nth-child(1) {
 background-color: red; 
+color:white
+}
+
+.nav-tabs .nav-link:hover:nth-child(2) {
+    background-color: orange; 
+    color:white
+    }
+
+.nav-tabs .nav-link:hover:nth-child(3) {
+        background-color: green; 
+        color:white
+        }
+.nav-tabs .nav-link:hover:nth-child(4) {
+background-color: blue; 
 color:white
 }
 
@@ -175,7 +342,7 @@ background-color: white;
 border-bottom: 1px solid white; 
 }
 
-.tab-content {
+.tab-content {  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 padding: 4% 5%;
 border: 1px solid black;
 border-radius: 0 10px 10px 10px;
@@ -201,6 +368,27 @@ line-height: 1.6;
 
 
 /*responsive*/
+@media screen and (max-width: 768px) {
+    .tab-content{border-radius: 10px;}
+    .nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active:active {
+    margin-bottom: 0.5%; 
+outline: 1px solid black; 
+border-bottom: 1px solid black; 
+border-radius: 20px;
+}
+.nav-tabs .nav-link.active {
+    border-radius: 20px;
+    border-bottom: 1px solid black; 
+    }
+
+.nav-tabs .nav-link{margin:3%;
+    flex: 1 0 calc(30% - 2px);
+    transition: none;    
+}
+}
+
+
 @media only screen and (max-width: 426px) {
 #firstSection h1{font-size: 3em;
 font-weight: 550;
