@@ -300,6 +300,7 @@ border-radius: 20px;
 border: 1px solid black;
 padding: 10px 20px;
 margin-right: 1%;
+margin-bottom:1%;
 text-align: center;
 text-transform: uppercase;
 background-color: #fff;
@@ -324,10 +325,6 @@ color:white
 .nav-tabs .nav-link:hover:nth-child(4) {
 background-color: blue; 
 color:white
-}
-
-.nav-link {
-margin-bottom: 0.5%;
 }
 
 .nav-tabs .nav-link.active {
@@ -388,7 +385,7 @@ td{text-align: center;}
 .fa{font-size:36px; 
     color:green}
 
-
+.x{font-size:27px;}
     
 /*responsive*/
 @media screen and (max-width: 768px) {
