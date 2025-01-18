@@ -1,0 +1,46 @@
+<data/DS4>
+    a dcat:Dataset;
+    dcterms:identifier <data/DS4>;
+    dcterms:title "Marriage and parenting regulations 1989-2016";
+    dcterms:description "This dataset contains data about the state of marriage and parenting regolamentation for samesex couples in European Union countries from the year 1989 until the year 2016";
+    dcterms:creator "team/LukasFirantas";
+    dcterms:issued "2025/01/20"^^xsd:date;
+    dcterms:modified "2025/01/20"^^xsd:date;
+    dcterms:source <https://www.lawsandfamilies.eu/en/legal-project/interactive-database/>;
+    dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
+    dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcat:startDate "1989"^^xsd:gYear
+    dcat:endDate "2016"^^xsd:gYear
+    dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
+    dcterms:subject <http://eurovoc.europa.eu/538>;
+    dcterms:subject <http://eurovoc.europa.eu/1818>
+    dcterms:subject <http://eurovoc.europa.eu/c_25d12753>
+    dcat:keyword "LGBTQ+";
+    dcat:keyword "equality";
+    dcat:keyword "society";
+    dcat:keyword "marriage";
+    dcat:keyword "parenting";  
+    dcat:distribution <............csv>;
+    dcat:distribution <...........json>.
+
+<data/DS4/...........csv>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS4>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "CSV distribution of DEAE data about marriage and parenting laws 1989-2016";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<data/DS4/........json>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS4>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "JSON distribution of DEAE data about about marriage and parenting laws 1989-2016";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<team/LukasFirantas>
+    a foaf:Agent

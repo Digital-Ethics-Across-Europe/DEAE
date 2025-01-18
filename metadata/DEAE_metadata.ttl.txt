@@ -1,0 +1,224 @@
+@base <https://github.com/Digital-Ethics-Across-Europe/DEAE/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<data>
+    a dcat:Catalog;    
+    dcterms:title "Digital Ethics Across Europe";
+    dcterms:description "This catalog contains datasets about LGBTQ+ comunity's treatement across the European Union";
+    dcterms:publisher "team/AlishaCarolHiscox";
+    dcterms:publisher "team/GiorgiaUmana";
+    dcterms:publisher "team/LukasFirantas";
+    dcterms:publisher "team/ValentinaBertelli";
+    dcterms:issued "2025/01/20"^^xsd:date;
+    dcterms:modified "2025/01/20"^^xsd:date;
+    dcat:Dataset <data/DS1>;
+    dcat:Dataset <data/DS2>;
+    dcat:Dataset <data/DS3>;
+    dcat:Dataset <data/DS4>;
+    foaf:homepage <https://digital-ethics-across-europe.github.io/DEAE/>;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>; 
+    dcat:keyword "LGBTQ+";
+    dcat:keyword "equality";
+    dcat:keyword "society";
+    dcat:keyword "discrimination";
+    dcat:keyword "public opinion";
+    dcat:keyword "marriage";
+    dcat:keyword "parenting".
+
+<data/DS1>
+    a dcat:Dataset;
+    dcterms:identifier <data/DS1>;
+    dcterms:title "public opinion about LGBTQ+";
+    dcterms:description "This dataset contains data about public opinion about the LGBTQ+ comunity";
+    dcterms:creator "team/GiorgiaUmanai";
+    dcterms:issued "2025/01/20"^^xsd:date;
+    dcterms:modified "2025/01/20"^^xsd:date;
+    dcterms:source <https://europa.eu/eurobarometer/surveys/detail/2972>;
+    dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
+    dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcterms:temporalCoverage "2023"^^xsd:gYear
+    dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
+    dcterms:subject <http://eurovoc.europa.eu/538>;
+    dcterms:subject <http://eurovoc.europa.eu/6231>
+    dcat:keyword "LGBTQ+";
+    dcat:keyword "equality";
+    dcat:keyword "society";
+    dcat:keyword "public opinion"; 
+    dcat:distribution <data/DS1/Discrimination_in_the_EU_sp535_volumeA.csv>;
+    dcat:distribution <data/DS1/Discrimination_in_the_EU_sp535_volumeA.json>.
+
+<data/DS1/Discrimination_in_the_EU_sp535_volumeA.csv>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS1>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "CSV distribution of DEAE data about public opinion on LGBTQ+ comunity";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<data/DS1/Discrimination_in_the_EU_sp535_volumeA.json>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS1>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "JSON distribution of DEAE data about public opinion on LGBTQ+ comunity";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<team/GiorgiaUmana>
+    a foaf:Agent       
+
+<data/DS2>
+    a dcat:Dataset;
+    dcterms:identifier <data/DS2>;
+    dcterms:title "LGBTQ+ discrimination";
+    dcterms:description "This dataset contains data about discrimination against LGBTQ+ comunity members in European Union countries in different areas of life: emplyment, healthcare and educational institutions";
+    dcterms:publisher "team/ValentinaBertelli";
+    dcterms:creator "team/ValentinaBertelli";
+    dcterms:issued "2025/01/20"^^xsd:date;
+    dcterms:modified "2025/01/20"^^xsd:date;
+    dcterms:source <https://fra.europa.eu/en/publications-and-resources/data-and-maps/2024/eu-lgbtiq-survey-iii>;
+    dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
+    dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcterms:temporalCoverage "2023"^^xsd:gYear
+    dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
+    dcterms:subject <http://eurovoc.europa.eu/538>;
+    dcterms:subject <http://eurovoc.europa.eu/6231>
+    dcat:keyword "LGBTQ+";
+    dcat:keyword "equality";
+    dcat:keyword "society";
+    dcat:keyword "discrimination"; 
+    dcat:distribution <data/DS2/discrimination.csv>;
+    dcat:distribution <data/DS2/discrimination.json>.
+    
+<data/DS2/discrimination.csv>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS2>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "CSV distribution of DEAE data about LGBTQ+ discrimination";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<data/DS2/discrimination.json>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS2>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "JSON distribution of DEAE data about LGBTQ+ discrimination";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<team/ValentinaBertelli>
+    a foaf:Agent    
+
+<data/DS3>
+    a dcat:Dataset;
+    dcterms:identifier <data/DS3>;
+    dcterms:title "Marriage and parenting regulations 2024";
+    dcterms:description "This dataset contains data about the state of marriage and parenting regolamentation for same sex couples in European Union countries  in the year 2024";
+    dcterms:creator "team/";
+    dcterms:issued "2025/01/20"^^xsd:date;
+    dcterms:modified "2025/01/20"^^xsd:date;
+    dcterms:source <https://rainbowmap.ilga-europe.org/categories/family/>;
+    dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
+    dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcterms:temporalCoverage "2024"^^xsd:gYear
+    dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
+    dcterms:subject <http://eurovoc.europa.eu/538>;
+    dcterms:subject <http://eurovoc.europa.eu/1818>
+    dcterms:subject <http://eurovoc.europa.eu/c_25d12753>
+    dcat:keyword "LGBTQ+";
+    dcat:keyword "equality";
+    dcat:keyword "society";
+    dcat:keyword "marriage";
+    dcat:keyword "parenting";  
+    dcat:distribution <............csv>;
+    dcat:distribution <...........json>.
+
+<data/DS1/...........csv>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS3>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "CSV distribution of DEAE data about marriage and parenting laws in 2024";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<data/DS1/.....json>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS3>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "JSON distribution of DEAE data about about marriage and parenting laws in 2024";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<team/.......>
+    a foaf:Agent
+
+<data/DS4>
+    a dcat:Dataset;
+    dcterms:identifier <data/DS4>;
+    dcterms:title "Marriage and parenting regulations 1989-2016";
+    dcterms:description "This dataset contains data about the state of marriage and parenting regolamentation for samesex couples in European Union countries from the year 1989 until the year 2016";
+    dcterms:creator "team/LukasFirantas";
+    dcterms:issued "2025/01/20"^^xsd:date;
+    dcterms:modified "2025/01/20"^^xsd:date;
+    dcterms:source <https://www.lawsandfamilies.eu/en/legal-project/interactive-database/>;
+    dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
+    dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcat:startDate "1989"^^xsd:gYear
+    dcat:endDate "2016"^^xsd:gYear
+    dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
+    dcterms:subject <http://eurovoc.europa.eu/538>;
+    dcterms:subject <http://eurovoc.europa.eu/1818>
+    dcterms:subject <http://eurovoc.europa.eu/c_25d12753>
+    dcat:keyword "LGBTQ+";
+    dcat:keyword "equality";
+    dcat:keyword "society";
+    dcat:keyword "marriage";
+    dcat:keyword "parenting";  
+    dcat:distribution <............csv>;
+    dcat:distribution <...........json>.
+
+<data/DS4/...........csv>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS4>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "CSV distribution of DEAE data about marriage and parenting laws 1989-2016";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<data/DS4/........json>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS4>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "JSON distribution of DEAE data about about marriage and parenting laws 1989-2016";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<team/LukasFirantas>
+    a foaf:Agent    
+
+<https://www.geonames.org/6255148/europe.html>
+    a dcat:Location
+
+<https://creativecommons.org/licenses/by/4.0/>
+    a dcat:LicenceDocument
+    dcterms:type         
