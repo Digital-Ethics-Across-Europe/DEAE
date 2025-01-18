@@ -364,8 +364,26 @@ line-height: 1.6;
 }
 
 
+/*analysis section*/
+.accordion-button {color:orange}
+
+.accordion-button:not(.collapsed){background-color: orange;
+color:white}
+
+table{padding:1%}
+
+th, td { padding:2%;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+td{text-align: center;}
+
+.fa{font-size:36px; 
+    color:green}
 
 
+    
 /*responsive*/
 @media screen and (max-width: 768px) {
     .tab-content{border-radius: 10px;}
