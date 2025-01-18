@@ -370,6 +370,12 @@ line-height: 1.6;
 .accordion-button:not(.collapsed){background-color: orange;
 color:white}
 
+.accordion-button:focus{
+    border-color: #be9a23;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(247, 188, 10, 0.25);
+}
+
 table{padding:1%}
 
 th, td { padding:2%;
