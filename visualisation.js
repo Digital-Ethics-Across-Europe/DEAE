@@ -16,8 +16,8 @@ const data = {
           color: "red",
           info: "Austria",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation: false,
           AdoptionMarried:false,
           AdoptionRegistered: false,
           AdoptionCohabitation:false,
@@ -27,20 +27,20 @@ const data = {
           info: "Belgium",
           marriageEquality: false,
           registeredPartnership	: false,
-          Cohabitation: false,
+          
           AdoptionMarried:false,
           AdoptionRegistered: false,
-          AdoptionCohabitation:"partial",
+          AdoptionCohabitation:false,
         },
         "BG": {
           color: "red",
           info: "Bulgaria",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          
           AdoptionMarried:false,
           AdoptionRegistered: false,
-    
+          AdoptionCohabitation:false,
          
         },
         "BA": {
@@ -298,570 +298,830 @@ const data = {
           info: "Cyprus",
            }      
       },
-    "1990": {
-      "AL": {
-         
-        },
-        "AD": {
-          
-        },
-        "AL": {
-         
-        },
-        "AT": {
+    "1990": {"BG": {
           color: "red",
-          info: "Austria",
+          info: "Bulgaria",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
         },
         "BE": {
           color: "red",
           info: "Belgium",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
-        "BG": {
+     "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+    },
+    "1991": {"BG": {
           color: "red",
           info: "Bulgaria",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
         },
-        "BA": {
+        "BE": {
           color: "red",
-          info: "Bosnia",
+          info: "Belgium",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
-        "BY": {
+      "AT": {
           color: "red",
-          info: "Belarus",
+          info: "Austria",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
-        "CH": {
-          color: "red",
-          info: "Switzerland",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "CZ": {
-          color: "red",
-          info: "Czech Republic",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "DE": {
-          color: "red",
-          info: "Germany",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "DK": {
-          color: "red",
-          info: "Denmark",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "EE": {
-          color: "red",
-          info: "Estonia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "FI": {
-          color: "red",
-          info: "Finland",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "GB": {
-          color: "red",
-          info: "United Kingdom",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "GE": {
-          color: "red",
-          info: "Georgia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "GR": {
-          color: "red",
-          info: "Greece",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "HR": {
-          color: "red",
-          info: "Croatia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "HU": {
-          color: "red",
-          info: "Hungary",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "IE": {
-          color: "red",
-          info: "Ireland",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "IS": {
-          color: "red",
-          info: "Iceland",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "IT": {
-          color: "red",
-          info: "Italy",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "LI": {
-          color: "red",
-          info: "Liechtenstein",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "LT": {
-          color: "red",
-          info: "Lithuania",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "LU": {
-          color: "red",
-          info: "Luxembourg",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "LV": {
-          color: "red",
-          info: "Latvia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "MD": {
-          color: "red",
-          info: "Moldova",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "MK": {
-          color: "red",
-          info: "Macedonia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "ME": {
-          color: "red",
-          info: "Montenegro",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "NO": {
-          color: "red",
-          info: "Norway",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "PL": {
-          color: "red",
-          info: "Poland",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "PT": {
-          color: "red",
-          info: "Portugal",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "RO": {
-          color: "red",
-          info: "Romania",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "RS": {
-          color: "red",
-          info: "Serbia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "SK": {
-          color: "red",
-          info: "Slovakia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "SI": {
-          color: "red",
-          info: "Slovenia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "SE": {
-          color: "red",
-          info: "Sweden",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "TR": {
-          color: "red",
-          info: "Turkey",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "UA": {
-          color: "red",
-          info: "Ukraine",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "XK": {
-          color: "red",
-          info: "Kosovo",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "NL": {
-          color: "red",
-          info: "Netherlands",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "ES": {
-          color: "red",
-          info: "Spain",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "FR": {
-          color: "#0af",
-          info: "France",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "PT": {
-          color: "red",
-          info: "Portugal",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
-        },
-        "CY": {
-          color: "#0af",
-          info: "Cyprus",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,  }      
-    
     },
-    "1991": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1992": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },
+        "BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1992": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1993": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },
+        "BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+     "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1993": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1994": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },
+        "BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1994": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1995": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1995": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1996": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },
+        "BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+     "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1996": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1997": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },
+        "BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+     "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partialYes",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1997": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1998": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partialYes",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1998": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "1999": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partialYes",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "1999": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2000": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+     "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partialYes",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2000": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2001": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partialYes",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2001": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2002": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "red",
+          info: "Belgium",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partialYes",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2002": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2003": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2003": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2004": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2004": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2005": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        }, "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2005": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2006": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2006": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2007": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2007": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2008": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2008": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2009": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2009": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "FR": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2010": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2010": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2011": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2011": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2012": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2012": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2013": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2013": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2014": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+     "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
-    "2014": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
-    },
-    "2015": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+    "2015": {"BG": {
+          color: "red",
+          info: "Bulgaria",
+          marriageEquality: false,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+         
+        },"BE": {
+          color: "green",
+          info: "Belgium",
+          marriageEquality: true,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:true,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:"partialYes",
+        },
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
+        },
     },
     "2016": {
-      "AL": {
-        color: "#a0f",
-        info: "Albania - Text for 2000"
-      },
-      "AD": {
-        color: "#f00",
-        info: "Andorra - Text for 2000"
-      }
+      "AT": {
+          color: "red",
+          info: "Austria",
+          marriageEquality: false,
+          registeredPartnership	: true,
+          Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: true,
+          AdoptionCohabitation:true,
+        },
     },
     "2024": {
       "AL": {
@@ -910,54 +1170,64 @@ const data = {
       // Define the table content
       const rows = [
         {
-          category: "Marriage Equality",
-          status: countryData.marriageEquality === true
-            ? '<i class="fa fa-check-circle text-success"></i>'
-            : countryData.marriageEquality === "partial"
-            ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
-            : '<i class="fa fa-times-circle text-danger"></i>'
-        },
-        {   category: "Registered Partnership",
-            status: countryData.registeredPartnership === true
-            ? '<i class="fa fa-check-circle text-success"></i>'
-            : countryData.registeredPartnership === false
-            ? '<i class="fa fa-times-circle text-danger"></i>'
-            : countryData.registeredPartnership === "partial"
-            ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
-            : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
-              
-              
+            category: "Marriage Equality",
+            status: countryData.marriageEquality === true
+              ? '<i class="fa fa-check-circle text-success"></i>'
+              : countryData.marriageEquality === false
+              ? '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.marriageEquality === "partial"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
+              : countryData.marriageEquality === "partialYes"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> Yes, but...'
+              : '<i class="fa fa-times-circle text-secondary"></i>'
           },
-        {
+          {
+            category: "Registered Partnership",
+            status: countryData.registeredPartnership === true
+              ? '<i class="fa fa-check-circle text-success"></i>'
+              : countryData.registeredPartnership === false
+              ? '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.registeredPartnership === "partial"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
+              : countryData.registeredPartnership === "partialYes"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> Yes, but...'
+              : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
+          },
+          {
             category: "Cohabitation",
             status: countryData.Cohabitation === true
-            ? '<i class="fa fa-check-circle text-success"></i>'
-            : countryData.Cohabitation === false
-            ? '<i class="fa fa-times-circle text-danger"></i>'
-            : countryData.Cohabitation === "partial"
-            ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
-            : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
-              
+              ? '<i class="fa fa-check-circle text-success"></i>'
+              : countryData.Cohabitation === false
+              ? '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.Cohabitation === "partial"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
+              : countryData.Cohabitation === "partialYes"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> Yes, but...'
+              : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
           },
-        {
+          {
             category: "Adoption - Marriage",
-            status: countryData.AdoptionMarried=== true
+            status: countryData.AdoptionMarried === true
               ? '<i class="fa fa-check-circle text-success"></i>'
               : countryData.AdoptionMarried === false
               ? '<i class="fa fa-times-circle text-danger"></i>'
               : countryData.AdoptionMarried === "partial"
               ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
-              : '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.AdoptionMarried === "partialYes"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> Yes, but...'
+              : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
           },
           {
             category: "Adoption - Partnership",
-            status: countryData.AdoptionRegistered=== true
+            status: countryData.AdoptionRegistered === true
               ? '<i class="fa fa-check-circle text-success"></i>'
               : countryData.AdoptionRegistered === false
               ? '<i class="fa fa-times-circle text-danger"></i>'
-              : countryData.AdoptionRegistered=== "partial"
+              : countryData.AdoptionRegistered === "partial"
               ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
-              : '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.AdoptionRegistered === "partialYes"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> Yes, but...'
+              : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
           },
           {
             category: "Adoption - Cohabitation",
@@ -967,8 +1237,12 @@ const data = {
               ? '<i class="fa fa-times-circle text-danger"></i>'
               : countryData.AdoptionCohabitation === "partial"
               ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
-              : '<i class="fa fa-times-circle text-danger"></i>'
-          }
+              : countryData.AdoptionCohabitation === "partialYes"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> Yes, but...'
+              : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
+          },
+          
+         
       ];
   
       // Populate the table
