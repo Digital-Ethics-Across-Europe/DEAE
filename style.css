@@ -367,7 +367,16 @@ line-height: 1.6;
 
 
 /*analysis section*/
-.accordion-button {color:orange}
+.accordion-body{overflow-x:auto;}
+
+
+.accordionQuality .accordion-button{color:red;
+     font-weight: 600;}
+.accordion-button:not(.collapsed){background-color: red;
+    color:white}
+
+.accordion-button{color:orange;
+    font-weight: 600;}
 
 .accordion-button:not(.collapsed){background-color: orange;
 color:white}
@@ -461,3 +470,91 @@ padding-top:10%}
 
 #thirdSection img{width:100%}		
 }
+
+
+/*visualizaton*/
+#VisualizationLaw{display: flex;
+	flex-direction:row;}
+	
+
+#mapSection{display: flex;
+flex-direction:column;}
+
+#slider {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%; 
+	border:1px solid black;
+	border-radius: 20px;
+	padding:1.5%
+  }
+  
+#sliderInfo{display: flex;
+	flex-direction: row;
+	align-items: center;
+	width:100%;
+}
+  
+label{margin-right:3%}
+
+#yearSlider {
+	width: 100%;
+	border-radius: 6px; 
+	background: white;
+	border:1px solid black;
+	outline: none;
+	cursor: pointer; 
+	
+  }
+  
+  #yearSlider:hover {
+	background: red;
+  }
+  
+  #yearSlider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 30px; 
+	height: 30px;
+	
+	background: white;
+	cursor: pointer;
+
+  }
+  
+  
+  #yearSlider::-moz-range-thumb {
+	width: 30px; 
+	height: 30px;
+	background: white;
+	cursor: pointer;
+	transition: 0.3s, transform 0.2s;
+  }
+  
+svg{border:1px solid black;
+border-radius: 20px;}
+
+  svg path {
+	stroke: rgba(0, 0, 0, 0.744);
+	stroke-width: 0.5;
+	cursor: pointer;
+  }
+
+  
+
+  .country-info {
+	margin-top: 20px;
+  }
+
+
+  svg path {
+	fill: white; 
+  }
+  
+  svg path:hover {
+	stroke: #000;
+	stroke-width: 0.25;
+	cursor: pointer;
+  }
+  
