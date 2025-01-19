@@ -327,6 +327,11 @@ background-color: blue;
 color:white
 }
 
+.nav-tabs .nav-link:hover:nth-child(5) {
+    background-color: purple; 
+    color:white
+}
+
 .nav-tabs .nav-link.active {
 margin-bottom: -1px; 
 border-radius: 15px 15px 0 0;
@@ -408,6 +413,39 @@ border-radius: 20px;
 }
 }
 
+.metadata-table td {
+    border-radius: 0;
+    border: #000;
+    text-align: left;
+}
+
+.metadata-table td a {
+    color: black;
+}
+
+#catalogue-table td a:hover {
+    color: red;
+}
+
+#ds1-table td a:hover {
+    color: rgb(218, 143, 4);
+}
+
+#ds2-table td a:hover {
+    color: rgb(0, 182, 0);
+}
+
+#ds3-table td a:hover {
+    color: blue;
+}
+
+#ds4-table td a:hover {
+    color: #6900ea;
+} 
+
+.table-purple {
+    background-color: rgb(238, 218, 252);
+}
 
 @media only screen and (max-width: 426px) {
 #firstSection h1{font-size: 3em;

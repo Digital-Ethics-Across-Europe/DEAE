@@ -10,17 +10,16 @@
     dcterms:source <https://fra.europa.eu/en/publications-and-resources/data-and-maps/2024/eu-lgbtiq-survey-iii>;
     dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
-    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcterms:spatial <https://www.geonames.org/6695072/european-union.html>;
     dcterms:temporalCoverage "2023"^^xsd:gYear
     dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
     dcterms:subject <http://eurovoc.europa.eu/538>;
     dcterms:subject <http://eurovoc.europa.eu/6231>
-    dcat:keyword "LGBTQ+";
+    dcat:keyword "LGBTQ+ comunity";
     dcat:keyword "equality";
     dcat:keyword "society";
-    dcat:keyword "discrimination"; 
     dcat:distribution <data/DS2/discrimination.csv>;
     dcat:distribution <data/DS2/discrimination.json>.
     
