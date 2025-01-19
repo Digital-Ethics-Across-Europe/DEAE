@@ -24,7 +24,19 @@
     dcat:keyword "marriage";
     dcat:keyword "parenting";
 
-<https://www.geonames.org/6255148/europe.html>
+<team/AlishaCarolHiscox>
+    a foaf:Agent    
+
+<team/GiorgiaUmana>
+    a foaf:Agent 
+
+<team/LukasFirantas>
+    a foaf:Agent    
+
+<team/ValentinaBertelli>
+    a foaf:Agent 
+
+<https://www.geonames.org/6695072/european-union.html>
     a dcat:Location
 
 <https://creativecommons.org/licenses/by/4.0/>

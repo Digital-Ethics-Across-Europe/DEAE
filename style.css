@@ -369,36 +369,62 @@ line-height: 1.6;
 /*analysis section*/
 .accordion-body{overflow-x:auto;}
 
-
-.accordionQuality .accordion-button{color:red;
-     font-weight: 600;}
-.accordion-button:not(.collapsed){background-color: red;
-    color:white}
-
-.accordion-button{color:orange;
-    font-weight: 600;}
-
-.accordion-button:not(.collapsed){background-color: orange;
-color:white}
-
-.accordion-button:focus{
-    border-color: #be9a23;
-    outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(247, 188, 10, 0.25);
+.accordion-button::after {
+    color: #6900ea;
 }
 
-table{padding:1%}
+#accordionQuality .accordion-item button{color:red;
+    font-weight: 600;}
 
-th, td { padding:2%;
-    border: 1px solid black;
-    border-radius: 20px;
-  }
+#accordionQuality .accordion-item button:not(.collapsed){background-color: red;
+    color:white}
+
+#accordionQuality .accordion-item button:focus{
+    border-color: red;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 144, 144, 0.25);
+}
+
+#accordionLegal .accordion-item button{color:orange;
+  font-weight: 600;}
+
+#accordionLegal .accordion-item button:not(.collapsed){background-color: orange;
+  color:white}
+
+#accordionLegal .accordion-item button:focus{
+  border-color: orange;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(255, 207, 84, 0.25);
+}
+
+#accordionEthical .accordion-item button{color:green;
+  font-weight: 600;}
+
+#accordionEthical .accordion-item button:not(.collapsed){background-color: green;
+  color:white}
+
+#accordionEthical .accordion-item button:focus{
+  border-color: green;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(187, 255, 114, 0.25);
+}
+
+#accordionTech .accordion-item button{color:blue;
+  font-weight: 600;}
+
+#accordionTech .accordion-item button:not(.collapsed){background-color: blue;
+  color:white}
+
+#accordionTech .accordion-item button:focus{
+  border-color: blue;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(103, 181, 255, 0.25);
+}
 
 td{text-align: center;}
 
 .fa{font-size:36px; 
     color:green}
-
 .x{font-size:27px;}
     
 /*responsive*/
@@ -422,9 +448,7 @@ border-radius: 20px;
 }
 }
 
-.metadata-table td {
-    border-radius: 0;
-    border: #000;
+table th, table td{
     text-align: left;
 }
 
