@@ -19,5 +19,3 @@ triggerTabList.forEach(function (triggerEl) {
 
 
 
-
-
