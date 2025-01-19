@@ -3,7 +3,7 @@
 // Colours for each year
 const data = {
     "1989": {
-        "AL": {
+        "AL": {info: "Albania",
          
         },
         "AD": {
@@ -18,13 +18,19 @@ const data = {
           marriageEquality: false,
           registeredPartnership	: true,
           Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "BE": {
           color: "red",
           info: "Belgium",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:"partial",
         },
         "BG": {
           color: "red",
@@ -32,244 +38,225 @@ const data = {
           marriageEquality: false,
           registeredPartnership	: true,
           Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+    
+         
         },
         "BA": {
-          color: "red",
-          info: "Bosnia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Bosnia",          
         },
         "BY": {
-          color: "red",
-          info: "Belarus",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Belarus",
         },
         "CH": {
-          color: "red",
-          info: "Switzerland",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Switzerland",
         },
         "CZ": {
           color: "red",
           info: "Czech Republic",
           marriageEquality: false,
-          registeredPartnership	: true,
+          registeredPartnership	: false,
           Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "DE": {
           color: "red",
           info: "Germany",
           marriageEquality: false,
-          registeredPartnership	: true,
+          registeredPartnership	: false,
           Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "DK": {
-          color: "red",
-          info: "Denmark",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Denmark",
         },
         "EE": {
-          color: "red",
-          info: "Estonia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Estonia",
         },
         "FI": {
           color: "red",
           info: "Finland",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:"partial",
         },
         "GB": {
           color: "red",
-          info: "United Kingdom",
+          info: "ENgland, Wales",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "GE": {
-          color: "red",
-          info: "Georgia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Georgia",
         },
         "GR": {
           color: "red",
           info: "Greece",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation:false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "HR": {
-          color: "red",
-          info: "Croatia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Croatia",
         },
         "HU": {
           color: "red",
           info: "Hungary",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation:false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "IE": {
           color: "red",
           info: "Ireland",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation:false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "IS": {
           color: "red",
           info: "Iceland",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation:"partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "IT": {
           color: "red",
           info: "Italy",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation:false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "LI": {
-          color: "red",
-          info: "Liechtenstein",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Liechtenstein",
         },
         "LT": {
-          color: "red",
-          info: "Lithuania",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Lithuania",
         },
         "LU": {
-          color: "red",
-          info: "Luxembourg",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Luxembourg",
         },
         "LV": {
-          color: "red",
-          info: "Latvia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Latvia",
         },
         "MD": {
-          color: "red",
-          info: "Moldova",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Moldova",
         },
         "MK": {
-          color: "red",
-          info: "Macedonia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Macedonia",
         },
         "ME": {
-          color: "red",
-          info: "Montenegro",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+            info: "Montenegro",
         },
         "NO": {
           color: "red",
           info: "Norway",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          Cohabitation:"partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "PL": {
           color: "red",
           info: "Poland",
           marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          registeredPartnership	: false,
+          
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "PT": {
           color: "red",
           info: "Portugal",
           marriageEquality: false,
           registeredPartnership	: true,
-          Cohabitation: true,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "RO": {
           color: "red",
           info: "Romania",
           marriageEquality: false,
           registeredPartnership	: true,
-          Cohabitation: true,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "RS": {
-          color: "red",
+          
           info: "Serbia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+         
         },
         "SK": {
-          color: "red",
           info: "Slovakia",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+        
         },
         "SI": {
           color: "red",
           info: "Slovenia",
           marriageEquality: false,
           registeredPartnership	: true,
-          Cohabitation: true,
+          Cohabitation: "partial",
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "SE": {
           color: "red",
           info: "Sweden",
           marriageEquality: false,
           registeredPartnership	: true,
-          Cohabitation: true,
+          Cohabitation: false,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "TR": {
-          color: "red",
           info: "Turkey",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          
         },
         "UA": {
-          color: "red",
+        
           info: "Ukraine",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          
         },
         "XK": {
-          color: "red",
+         
           info: "Kosovo",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          
         },
         "NL": {
           color: "red",
@@ -277,34 +264,39 @@ const data = {
           marriageEquality: false,
           registeredPartnership	: true,
           Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "ES": {
-          color: "red",
+        
           info: "Spain",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,
+          
         },
         "FR": {
-          color: "#0af",
+          color: "#red",
           info: "France",
           marriageEquality: false,
-          registeredPartnership	: true,
+          registeredPartnership	: false,
           Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "PT": {
           color: "red",
           info: "Portugal",
           marriageEquality: false,
-          registeredPartnership	: true,
+          registeredPartnership	: false,
           Cohabitation: true,
+          AdoptionMarried:false,
+          AdoptionRegistered: false,
+          AdoptionCohabitation:false,
         },
         "CY": {
-          color: "#0af",
+         
           info: "Cyprus",
-          marriageEquality: false,
-          registeredPartnership	: true,
-          Cohabitation: true,  }      
+           }      
       },
     "1990": {
       "AL": {
@@ -883,7 +875,6 @@ const data = {
     }
   };
   
-  
   const yearSlider = document.getElementById("yearSlider");
   const selectedYearText = document.getElementById("selectedYear");
   const countryName = document.getElementById("countryName");
@@ -908,35 +899,79 @@ const data = {
     const countryData = data[year]?.[countryId];
   
     if (countryData) {
+      // Update country name and info
       countryName.textContent = countryData.info;
       countryInfo.textContent = `Details for ${countryData.info}`;
   
-   
+      // Get the table body and clear existing rows
       const tableBody = document.querySelector("#infoTable tbody");
       tableBody.innerHTML = "";
   
+      // Define the table content
       const rows = [
         {
           category: "Marriage Equality",
-          status: countryData.marriageEquality
+          status: countryData.marriageEquality === true
             ? '<i class="fa fa-check-circle text-success"></i>'
+            : countryData.marriageEquality === "partial"
+            ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
             : '<i class="fa fa-times-circle text-danger"></i>'
         },
-        {
-          category: "Relationship Recognition",
-          status: countryData.relationshipRecognition
+        {   category: "Registered Partnership",
+            status: countryData.registeredPartnership === true
             ? '<i class="fa fa-check-circle text-success"></i>'
-            : '<i class="fa fa-times-circle text-danger"></i>'
-        },
+            : countryData.registeredPartnership === false
+            ? '<i class="fa fa-times-circle text-danger"></i>'
+            : countryData.registeredPartnership === "partial"
+            ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
+            : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
+              
+              
+          },
         {
-            category: "Adoption Recognition",
-            status: countryData.adoptionRecognition
+            category: "Cohabitation",
+            status: countryData.Cohabitation === true
+            ? '<i class="fa fa-check-circle text-success"></i>'
+            : countryData.Cohabitation === false
+            ? '<i class="fa fa-times-circle text-danger"></i>'
+            : countryData.Cohabitation === "partial"
+            ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
+            : '<i class="fa fa-question-circle text-secondary"></i> Unknown'
+              
+          },
+        {
+            category: "Adoption - Marriage",
+            status: countryData.AdoptionMarried=== true
               ? '<i class="fa fa-check-circle text-success"></i>'
+              : countryData.AdoptionMarried === false
+              ? '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.AdoptionMarried === "partial"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
+              : '<i class="fa fa-times-circle text-danger"></i>'
+          },
+          {
+            category: "Adoption - Partnership",
+            status: countryData.AdoptionRegistered=== true
+              ? '<i class="fa fa-check-circle text-success"></i>'
+              : countryData.AdoptionRegistered === false
+              ? '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.AdoptionRegistered=== "partial"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
+              : '<i class="fa fa-times-circle text-danger"></i>'
+          },
+          {
+            category: "Adoption - Cohabitation",
+            status: countryData.AdoptionCohabitation === true
+              ? '<i class="fa fa-check-circle text-success"></i>'
+              : countryData.AdoptionCohabitation === false
+              ? '<i class="fa fa-times-circle text-danger"></i>'
+              : countryData.AdoptionCohabitation === "partial"
+              ? '<i class="fa fa-exclamation-circle text-warning"></i> No, but...'
               : '<i class="fa fa-times-circle text-danger"></i>'
           }
       ];
   
-     
+      // Populate the table
       rows.forEach((row) => {
         const tr = document.createElement("tr");
         tr.innerHTML = `<td>${row.category}</td><td>${row.status}</td>`;
@@ -946,10 +981,12 @@ const data = {
       countryName.textContent = "No Information";
       countryInfo.textContent = "";
   
+      // Clear the table if no data is available
       const tableBody = document.querySelector("#infoTable tbody");
       tableBody.innerHTML = "<tr><td colspan='2'>No Data Available</td></tr>";
     }
   }
+  
   
   
   //slider 
