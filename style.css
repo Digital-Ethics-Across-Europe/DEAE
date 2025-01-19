@@ -362,6 +362,7 @@ line-height: 1.6;
 
 
 /*analysis section*/
+.accordion-body{overflow-x:auto;}
 .accordion-button {color:orange}
 
 .accordion-button:not(.collapsed){background-color: orange;

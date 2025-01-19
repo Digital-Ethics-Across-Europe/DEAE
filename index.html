@@ -31,8 +31,9 @@
 						  </div>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-					  <a class="dropdown-item" >Project</a>
-					  <a class="dropdown-item" >Metadata</a>
+					  <a class="dropdown-item" >Scenario</a>
+					  <a class="dropdown-item" >Dataset overview</a>
+					  <a class="dropdown-item">Analysis</a>
 					  <a class="dropdown-item" >Visualization</a>
 					  <a class="dropdown-item" >Catalogue</a>
 					
@@ -66,7 +67,7 @@
 
 		<div  class="content" id="thirdSection"> 
 			<div>
-				<h2>Scenario</h2>
+				<a></a><h2>Scenario</h2>
 				<p>Discrimination against LGBTQ+ individuals remains a pressing issue across Europe, affecting fundamental aspects of life such as access to healthcare, employment opportunities, education, and social inclusion. 
 				</p>
 				<p>This project seeks to investigate and analyze the disparities faced by LGBTQ+ communities in different European countries through the use of open data. By collecting and examining datasets across various domains, the project aims to uncover patterns of inequality and provide insights into how these challenges vary geographically. </p>
@@ -127,8 +128,146 @@
 			<div class="tab-content" id="nav-tabContent">
 				<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 					<h3>Quality Analysis</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					</p>
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Completeness
+							</button>
+						  </h2>
+						  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body" >
+							  <table>
+								<tr>
+									<th></th>
+									<td><strong>Discrimination in the EU</strong></td>
+									<td><strong>EU LGBTIQ Survey III</strong></td>
+									<td><strong>Rainbow Europe</strong></td>
+									<td><strong>Laws And Families</strong></td>
+								</tr>
+								<tr>
+									<th>Completeness of the scheme</th>
+									<td>The dataset includes scores for all European countries, no values are missing</td>
+									<td>The database is generally complete. In cases where questions are addressed to specific social groups, there are instances of missing values for certain countries due to the sample size being under 20 unweighted observations.</td>
+									<td>The dataset includes scores for all European countries, no values are missing</td>
+									<td>The database only provides 20 EU countries and UK. For these countries it's generally complete however the data stopped beying logged from 2016 untill now</td>
+								</tr>
+								
+								<tr>
+									<th>Completeness of records</th>
+									<td>No values are missing</td>
+									<td>One of the elements associated with each record is notes about values: if values are present, there are usually no notes; if values are missing, the notes provide explanations for the lack of data.</td>
+									<td>No values are missing</td>
+									<td>In certain table cells the data is missing, probablly indicating that there was nothing to log that year. It is indicated by "?"</td>
+								</tr>
+								<tr>
+									<th>Percentage of null values
+										compared to a reference population</th>
+									<td>The survey is well-representative of the LGBTQ+ community, taking into account a good range of sexualities and gender identities (Lesbian, Gay, Bisexual, Transgender, Intersex people)</td>
+									<td>The survey is well-representative of the LGBTQ+ community, taking into account a wide range of sexualities and gender identities. Some countries lack data on certain categories of members due to small sample sizes.</td>
+									<td>The survey is well-representative of the LGBTQ+ community, taking into account a good range of sexualities and gender identities (Lesbian, Gay, Bisexual, Transgender, Intersex people)</td>
+									<td>The data contains countries that allow certain relationships between same sex and different sex people up untill 2016.</td>
+								</tr>
+							  </table>
+							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
+								Accuracy
+							</button>
+						  </h2>
+						  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  <table>
+								<tr>
+									<th></th>
+									<td><strong>Discrimination in the EU</strong></td>
+									<td><strong>EU LGBTIQ Survey III</strong></td>
+									<td><strong>Rainbow Europe</strong></td>
+									<td><strong>Laws And Families</strong></td>
+								</tr>
+								<tr>
+									<th>Are there any syntactic or semantic errors?</th>
+									<td class="x">&#10060;</td>
+									<td class="x">&#10060;</td>
+									<td class="x">&#10060;</td>
+									<td class="x">&#10060;</td>
+								</tr>
+							  </table>
+							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Coherence
+							</button>
+						  </h2>
+						  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<table>
+									<tr>
+										<th></th>
+										<td><strong>Discrimination in the EU</strong></td>
+										<td><strong>EU LGBTIQ Survey III</strong></td>
+										<td><strong>Rainbow Europe</strong></td>
+										<td><strong>Laws And Families</strong></td>
+									</tr>
+									<tr>
+										<th>Are there any contradictions?</th>
+										<td class="x">&#10060;</td>
+										<td class="x">&#10060;</td>
+										<td class="x">&#10060;</td>
+										<td class="x">&#10060;</td>
+									</tr>
+								</table>
+							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFour">
+							  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+								Timeliness
+							  </button>
+							</h2>
+							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+							  <div class="accordion-body">
+								<table>
+									<tr>
+										<th></th>
+										<td><strong>Discrimination in the EU</strong></td>
+										<td><strong>EU LGBTIQ Survey III</strong></td>
+										<td><strong>Rainbow Europe</strong></td>
+										<td><strong>Laws And Families</strong></td>
+									</tr>
+									<tr>
+										<th>When was the data last updated?</th>
+										<td>Between the 11th of April and the 16th of May</td>
+										<td>28th June 2024</td>
+										<td>May 2024</td>
+										<td>Between 1989 to 2016</td>
+									</tr>
+									<tr>
+										<th>Known update frequency</th>
+										<td>It is part of a series of Eurobarometer surveys examining discrimination, with previous surveys conducted in 2006, 2009, 2012, 2015 and 2019</td>
+										<td>Data was collected in 2023 and published in 2024. This is the third iteration of the EU LGBTIQ Survey of the European Union Agency for Fundamental Rights (FRA). Previous surveys were conducted in 2012 and 2019</td>
+										<td>The data reflects the legal and policy situation in 2024, ensuring up-to-date relevance</td>
+										<td>The data was compiled in early 2016 in Paris</td>
+									</tr>
+									<tr>
+										<th>Average update frequency</th>
+										<td>Average update frequency 3/4 years</td>
+										<td>Average update frequency 5/6 years</td>
+										<td>Published annually during the week of May 17</td>
+										<td>Dataset was not beying updated. It was released once in early 2016</td>
+									</tr>
+								</table>
+							  </div>
+							</div>
+						</div>
+				    </div>
 				</div>
 				<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 					<h3>Legal Analysis</h3>
@@ -141,8 +280,8 @@
 								Privacy issues
 							</button>
 						  </h2>
-						  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-							<div class="accordion-body" style="overflow-x:auto;">
+						  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body" >
 							  <table>
 								<tr>
 									<th></th>
@@ -289,7 +428,7 @@
 						</div>
 						<div class="accordion-item">
 						  <h2 class="accordion-header" id="headingTwo">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
 								IPR of the
 								dataset
 							</button>
@@ -411,7 +550,7 @@
 								Limitations on public access
 							  </button>
 							</h2>
-							<div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 							  <div class="accordion-body">
 								<table>
 									<tr>
@@ -473,7 +612,7 @@
 								Economical Conditions
 							  </button>
 							</h2>
-							<div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 							  <div class="accordion-body">
 								<table>
 									<tr>
@@ -484,13 +623,61 @@
 										<td><strong>Laws And Families</strong></td>
 									</tr>
 									<tr>
-										<th></th>
+										<th>Do you check that the dataset could be released for free?</th>
+										<td><i class="fa fa-check"></i></td>
+										<td><i class="fa fa-check"></i></td>
 										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
+										<td><i class="fa fa-check"></i></td>
 									</tr>
-
+									<tr>
+										<th>Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price?</th>
+										<td>Not applicable for Eurobarometer, the datasets are released for free</td>
+										<td class="x">&#10060;</td>
+										<td></td>
+										<td class="x">&#10060;</td>
+									</tr>
+									<tr>
+										<th>Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided?</th>
+										<td>The terms of service include disclaimers to limit liability regarding the accuracy and use of the data provided.</td>
+										<td class="x">&#10060;</td>
+										<td></td>
+										<td class="x">&#10060;</td>
+									</tr>
+									<tr>
+										<th>In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected?</th>
+										<td>The data is provided for free</td>
+										<td>The data is provided for free</td>
+										<td></td>
+										<td>The data is provided for free</td>
+									</tr>
+									<tr>
+										<th>Are you able to calculate the “marginal cost”?</th>
+										<td>The data is provided for free</td>
+										<td>The data is provided for free</td>
+										<td></td>
+										<td>The data is provided for free</td>
+									</tr>
+									<tr>
+										<th>Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance?</th>
+										<td>The data is provided for free</td>
+										<td>The data is provided for free</td>
+										<td></td>
+										<td>The data is provided for free</td>
+									</tr>
+									<tr>
+										<th>There is a national law that justify your public administration to apply the “reasonable return of investment”?</th>
+										<td>The data is provided for free</td>
+										<td>The data is provided for free</td>
+										<td></td>
+										<td>The data is provided for free</td>
+									</tr>
+									<tr>
+										<th> In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?</th>
+										<td>The data is provided for free</td>
+										<td>The data is provided for free</td>
+										<td></td>
+										<td>The data is provided for free</td>
+									</tr>
 								</table>
 								
 							  </div>
@@ -502,20 +689,45 @@
 								Temporary aspects 
 							  </button>
 							</h2>
-							<div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+							<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
 							  <div class="accordion-body">
 								<table>
 									<tr>
-										<th>Do you check that the dataset concerns your institutional competences, scope and finality?</th>		
-										<td></td>
+										<th></th>
+										<td><strong>Discrimination in the EU</strong></td>
+										<td><strong>EU LGBTIQ Survey III</strong></td>
+										<td><strong>Rainbow Europe</strong></td>
+										<td><strong>Laws And Families</strong></td>
 									</tr>
-									
-									<th>Do you check if the dataset concerns other public administration competences?</th>
-									<th>Do you check the limitations for the publication stated by your national legislation or by the EU directives?</th>
-									<th>Do you check if there are some limitations connected to the international relations, public security or national defence?</th>
-									<th>Do you check if there are some limitations concerning the public interest?</th>
-									<th>Do you check the international law limitations?</th>
-									<th>Do you check the INSPIRE law limitations for the spatial data?</th>
+									<tr>
+										<th>Do you have a temporary policy for updating the dataset?</th>
+										<td>Eurobarometer datasets are updated periodically based on new survey waves</td>
+										<td><i class="fa fa-check"></i></td>
+										<td></td>
+										<td class="x">&#10060;</td>
+									</tr>
+									<tr>
+										<th>Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage?</th>
+										<td>Updates are announced on the European Commission's open data portal to inform users</td>
+										<td><i class="fa fa-check"></i></td>
+										<td></td>
+										<td><i class="fa fa-check"></i></td>
+									</tr>
+									<tr>
+										<th>Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.)?
+										</th>
+										<td>The dataset is indexed by the research engines </td>
+										<td class="x">&#10060;</td>
+										<td></td>
+										<td class="x">&#10060;</td>
+									</tr>
+									<tr>
+										<th>In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?</th>
+										<td>The European Commission complies with GDPR by providing mechanisms for individuals to request data deletion or exercise other privacy rights</td>
+										<td><i class="fa fa-check"></i></td>
+										<td></td>
+										<td>There is no personal data</td>
+									</tr>
 								</table>
 							  </div>
 							</div>
