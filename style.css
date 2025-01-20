@@ -500,8 +500,11 @@ padding-top:10%}
 #VisualizationLaw{ display: grid;
   grid-template-columns: 1fr 1fr;
   gap:2%;
-  margin-top:5%}
-	
+  }
+
+  #textVisualisation{margin-top: 5%;
+    margin-bottom: 2%;
+  }
 
 #mapSection{flex:30%;
   display: flex;
@@ -618,6 +621,8 @@ th,td{border:none}
     color: red;
   }
   
+#infoTableBefore2016, #infoTable2024, #infoTableBefore2016 th:first-child, #infoTable2024 th:first-child{padding:0 5% ;
+width:100%}  
 svg{border:1px solid black;
 border-radius: 20px;}
 
