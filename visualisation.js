@@ -5676,7 +5676,7 @@ const selectedYearText = document.getElementById("selectedYear");
 const countryName = document.getElementById("countryName");
 const countryInfo = document.getElementById("countryInfo");
 
-// Update country colors based on the year
+
 function updateMapColors(year) {
   const paths = document.querySelectorAll("svg path");
 
@@ -5690,7 +5690,7 @@ function updateMapColors(year) {
   });
 }
 
-// Update country information in tables
+
 function updateCountryInfo(countryId, year) {
   const countryData = data[year]?.[countryId];
 
@@ -5826,9 +5826,9 @@ function getStatusIcon(value) {
   } else if (value === "partial") {
     return '<i class="fa fa-exclamation-circle text-warning"></i> No, but...';
   } else if (value === "partialYes") {
-    return '<i class="fa fa-exclamation-circle text-warning"></i> Yes, but...';
+    return '<i class="fa fa-exclamation-circle text-secondary"></i> Yes, but...';
   } else if (value === "doubt") {
-    return '<i class="fa fa-exclamation-circle text-warning"></i> Doubt';
+    return '<i class="fa fa-question-circle text-warning"></i> Doubt';
   } else {
     return '<i class="fa fa-question-circle text-secondary"></i> Unknown';
   }

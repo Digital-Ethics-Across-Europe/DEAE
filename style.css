@@ -503,8 +503,35 @@ padding-top:10%}
   }
 
   #textVisualisation{margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
   }
+
+#textVisualisation h2{padding-bottom: 0}  
+#textVisualisation h3{font-size: 1.3rem} 
+
+#legend{
+margin:2% 5%;
+
+
+}
+#legend .item{display:flex;
+flex-direction:row;
+padding:0.5%
+
+}
+#legend .item p{font-size: 1rem;
+padding-left:1%}
+
+.cube{border:1px solid black;
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+  padding-right:1%
+ 
+}
+#nom{background-color: #ef233c;}
+#ym{background-color: #538d22;}
+#boh{background-color: #f5f3f4;}
 
 #mapSection{flex:30%;
   display: flex;
