@@ -272,19 +272,57 @@ padding-bottom: 2%;}
 
 
 
-.datasets{margin-top: 3%;
-display:flex;
-flex-direction: row;
-gap:3%;
-flex-wrap: wrap;
-align-items: center;
+.datasets {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  gap:1.5%;
+  flex-wrap: wrap;
+  align-items: stretch; 
 }
 
-.dataset{border:1px solid black;
-font-size: small;
-padding:5%;
-border-radius: 20px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+.dataset {
+  border: 1px solid black;
+  font-size: small;
+  padding: 4% 5%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.218);
+  flex: 1 1 calc(50% - 1.5%);
+  box-sizing: border-box; 
+}
+
+.datasets .dataset:first-child:hover{background-color: red;
+  color:white;
+  transition: all 0.5s ease; }
+
+  .datasets .dataset:nth-child(2):hover{background-color: orange;
+    color:white;
+    transition: all 0.5s ease; }
+
+.datasets .dataset:nth-child(3):hover{background-color: blue;
+color:white;
+transition: all 0.5s ease; }
+
+.datasets .dataset:nth-child(4):hover{background-color: green;
+  color:white;
+  transition: all 0.5s ease; }
+
+.datasetsDivided {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5%;
+}
+.datasetsDivided .left{padding-right:5%}
+
+.datasetsDivided .left,
+.datasetsDivided .right {
+  flex: 1;
+  
+}
+
+.left p, .right p {
+  margin: 10px 0; 
 }
 
 
@@ -503,11 +541,19 @@ padding-top:10%}
   }
 
   #textVisualisation{margin-top: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
   }
+#visualisationIntro{ margin-bottom: 3%;}
 
 #textVisualisation h2{padding-bottom: 0}  
-#textVisualisation h3{font-size: 1.3rem} 
+ul li{font-size:1.25rem ;}
+
+#textVisualisation h3{font-size: 1.2rem} 
+a{text-decoration: none;
+  color:green;
+font-weight:550;}
+a:hover{text-decoration: none;
+  color:green}
 
 #legend{
 margin:2% 5%;

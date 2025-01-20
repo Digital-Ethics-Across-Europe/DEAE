@@ -1,4 +1,3 @@
-
 /*visualization*/
 // Colours for each year
 const data = {
