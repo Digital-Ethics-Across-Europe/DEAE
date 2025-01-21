@@ -9,7 +9,7 @@
     dcterms:source <https://rainbowmap.ilga-europe.org/categories/family/>;
     dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
-    dcterms:spatial <https://www.geonames.org/6695072/european-union.html>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
     dcterms:temporalCoverage "2024"^^xsd:gYear
     dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
@@ -22,24 +22,25 @@
     dcat:keyword "society";
     dcat:keyword "marriage";
     dcat:keyword "parenting";  
-    dcat:distribution <............csv>;
-    dcat:distribution <...........json>.
+    dcat:distribution <data/DS3/marriage_and_parenting_2024.csv>;
+    dcat:distribution <data/DS3/marriage_and_parenting_2024.json>;
+    dcat:distribution <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS3/marriage_and_parenting_2024.json>.
 
-<data/DS1/...........csv>
+<data/DS3/marriage_and_parenting_2024.csv>
     a  dcat:Distribution;
-    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS3>;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS3/marriage_and_parenting_2024.csv>;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
     dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
     dcterms:description "CSV distribution of DEAE data about marriage and parenting laws in 2024";  
     dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
 
-<data/DS1/.....json>
+<data/DS3/marriage_and_parenting_2024.json>
     a  dcat:Distribution;
-    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/data/DS3>;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS3/marriage_and_parenting_2024.json>;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
     dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
     dcterms:description "JSON distribution of DEAE data about about marriage and parenting laws in 2024";  
     dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
 
-<team/.......>
+<team/AlishaCarolHiscox>
     a foaf:Agent

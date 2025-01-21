@@ -1,3 +1,11 @@
+@base <https://github.com/Digital-Ethics-Across-Europe/DEAE/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
 <data>
     a dcat:Catalog;    
     dcterms:title "Digital Ethics Across Europe";
@@ -14,7 +22,7 @@
     dcat:dataset <data/DS4>;
     foaf:homepage <https://digital-ethics-across-europe.github.io/DEAE/>;
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
-    dcterms:spatial <https://www.geonames.org/6695072/european-union.html>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>; 
@@ -34,11 +42,4 @@
     a foaf:Agent    
 
 <team/ValentinaBertelli>
-    a foaf:Agent 
-
-<https://www.geonames.org/6695072/european-union.html>
-    a dcat:Location
-
-<https://creativecommons.org/licenses/by/4.0/>
-    a dcat:LicenceDocument
-    dcterms:type          
+    a foaf:Agent        
