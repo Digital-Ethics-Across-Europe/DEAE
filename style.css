@@ -229,11 +229,15 @@ text-align: right !important;}
 	}
 
 /*main*/
-.content{margin: 0 7%;}
+.content{
+  margin: 0 7%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 #firstSection{height:140vh;
 padding:30% 8%;
-background-image: url("homebackground.png");
+background-image: url("imgs/homebackground.png");
 
   background-position: center;
   background-repeat: no-repeat;
