@@ -3,7 +3,7 @@
     dcterms:identifier <data/DS3>;
     dcterms:title "Marriage and parenting regulations 2024";
     dcterms:description "This dataset contains data about the state of marriage and parenting regolamentation for same sex couples in European Union countries in the year 2024";
-    dcterms:creator "team/";
+    dcterms:creator "team/AlishaCarolHiscox";
     dcterms:issued "2025/01/20"^^xsd:date;
     dcterms:modified "2025/01/20"^^xsd:date;
     dcterms:source <https://rainbowmap.ilga-europe.org/categories/family/>;
