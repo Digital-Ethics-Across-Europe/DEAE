@@ -160,6 +160,8 @@ body {width:100%;
 /*navbar*/
 p{font-size: 1.3em;}
 
+h1{ font-family: "League Gothic", serif;}
+
 nav{
 
 background-color: transparent;
@@ -229,18 +231,44 @@ text-align: right !important;}
 /*main*/
 .content{margin: 0 7%;}
 
-#firstSection{height:100vh;
-padding:25% 8%}
+#firstSection{height:140vh;
+padding:30% 8%;
+background-image: url("/imgs/homebackground.png");
 
-#firstSection h1{font-size: 4em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  position: relative;}
+
+#firstSection div{
+  text-align: center;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#firstSection h2{font-size: 1.7em;}
+
+#firstSection h1{font-size: 5em;
 font-weight: 550;}
 
-#secondSection div{text-align: center;
-padding:5%;
+#secondSection {
+  position: relative; 
+  margin-top: -300px; 
+  z-index: 1; 
+}
 
-border:1px solid black;
-border-radius: 20px;
-
+#secondSection div {
+  text-align: center;
+  padding: 5%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  
 }
 
 
