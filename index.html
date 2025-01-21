@@ -18,7 +18,7 @@
 	
 
     <link href="style.css" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	
   </head>
   <body>
@@ -1251,7 +1251,8 @@
         
         <div class="content" id="sixthsection">
 			<h2>Catalogue and metadata</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			<p>Our catalog and the final datasets have been thoroughly described with metadata from the <a href="https://www.w3.org/TR/vocab-dcat-3/">DCAT-AP</a> vocabulary, a metadata schema designed specifically to facilitate interoperability between data catalogues published on the Web. The RDF assertion of metadata has been carried out to further enhance interoperability, and the resulting Turtle output for the entire catalog and individual datasets is linked in the following table. A Turtle file containing all the metadata can be found <a href="https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/metadata/DEAE_metadata.ttl">here</a>.
+				<br><a href="https://op.europa.eu/en/web/eu-vocabularies">EU contolled vocabularies</a>, such as EuroVoc, were used to define themes and subjects to allign our catalogue compliant to EU standrads.    
 			</p>
 			<div class="nav nav-tabs" id="nav-tab" role="tablist">
 				  <button class="nav-link active" id="nav-catalogue-tab-metadata" data-bs-toggle="tab" data-bs-target="#nav-catalogue" type="button" role="tab" aria-controls="nav-catalogue" aria-selected="true">Catalogue</button>
@@ -1264,8 +1265,7 @@
 			<div class="tab-content" id="nav-tabContent">
 				<div class="tab-pane fade active show" id="nav-catalogue" role="tabpanel" aria-labelledby="nav-catalogue-tab-metadata">
 					<h3>Catalogue</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					</p>
+
 					<table class="table metadata-table" id="catalogue-table">
 						<tbody>
 							<tr class="table-danger">
@@ -1335,8 +1335,7 @@
 				</div>
 				<div class="tab-pane fade" id="nav-ds1" role="tabpanel" aria-labelledby="nav-ds1-tab-metadata">
 					<h3>DS1 - Public opinion about LGBTQ+</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					</p>
+					
 					<table class="table metadata-table" id="ds1-table">
 						<tbody>
 							<tr class="table-warning">
@@ -1425,8 +1424,7 @@
 				</div>
 				<div class="tab-pane fade" id="nav-ds2" role="tabpanel" aria-labelledby="nav-ds2-tab-metadata">
 					<h3>DS2 - LGBTQ+ discrimination</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					</p>
+					
 					<table class="table metadata-table" id="ds2-table">
 						<tbody>
 							<tr class="table-success">
@@ -1515,8 +1513,6 @@
 				</div>
 				<div class="tab-pane fade" id="nav-ds3" role="tabpanel" aria-labelledby="nav-ds3-tab-metadata">
 					<h3>DS3 - Marriage and parenting regulations 2024</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					</p>
 					<table class="table metadata-table" id="ds3-table">
 						<tbody>
 							<tr class="table-primary">
@@ -1606,8 +1602,7 @@
 				</div>
 				<div class="tab-pane fade" id="nav-ds4" role="tabpanel" aria-labelledby="nav-ds4-tab-metadata">
 					<h3>DS4 - Marriage and parenting regulations 1989-2016</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					</p>
+					
 					<table class="table metadata-table" id="ds4-table">
 						<tbody>
 							<tr class="table-purple">
@@ -1709,7 +1704,64 @@
 			</ul>
 			<p>Bar charts created using <a href="https://www.chartjs.org/docs/latest/">Charts.js</a> have been used to present the data on discrimination, while a map shows how the legal status of gay people has changed during the years.</p>
 		</div>
+	</diV>
+	<div id="barchartsText" class="content">	
+		<h2>Discrimination and public opinion</h2>
+		<h3>2023</h3>
+		<p>The following interactive graphs display relevant information regarding the <em>treatment and experiences of LGBTQ+ </em> people across the European Union. The first graph illustrates the percentage of <em>discrimination</em> experienced by LGBTQ+ people in 2023, broken down into three key areas of life: employment, healthcare, and education. The second graph presents the <em>public opinion</em> of EU citizens on issues affecting the LGBTQ+ community.
+		</p>
+		<p>By comparing the two charts, you can observe disparities between the actual discrimination faced by the community and the public's perception of these issues. To explore the different topics represented in the charts, click on the bars below each chart and select one of the options.
+		</p>
+	</diV>
+	<div  id="VisualizationDiscrimination" class="content">
+		<div class="chart-div" id="barchart1">
+			<div class="bar-div" style="width: 1000px; height: 600px;">
+				<canvas id="discrimination-chart"></canvas>
+			</div>
+			
+			<div class="control-row" style="margin-bottom: 20px;">
+			  <select class="countrydata2" id="discrimination-select">
+				<option value="discriminationLastTwelveMonths">Discrimination felt in the last twelve months</option>
+				<option value="discriminationEmployement">Discrimination in employment</option>
+				<option value="discriminationHealthcare">Discrimination in healthcare</option>
+				<option value="discriminationEducation">Discrimination in the educational system</option>
+			  </select>
+			</div>
+		</div>
+		<div class="chart-div" id="barchart2">
+			<div class="bar-div" style="width: 1000px; height: 600px;">
+				<canvas id="public-opinion-chart"></canvas>
+			</div>
 		
+			<div class="control-row" style="margin-bottom: 80px;">
+			  <select class="countrydata2" id="public-opinion-select">
+				<option value="discriminationSexualOrientation">In your opinion how widespread is discrimination lesbian, gay and bisexual people in your country?</option>
+				<option value="discriminationTransgender">In your opinion how widespread is discrimination against transgender people in your country?'</option>
+				<option value="discriminationIntersex">In your opinion how widespread is discrimination against intersex people in your country?'r</option>
+				<option value="politicalFigureLGB">In a scale from 1 to 10, how comfortable would you feel having a lesbian, gay or bisexual person in the highest elected political position?</option>
+				<option value="politicalFigureTransgenderOrIntersex">In a scale from 1 to 10, how comfortable would you feel having a transgender or intesex person in the highest elected political position?</option>
+				<option value="workLGB">In a scale from 1 to 10, how comfortable would you feel, if a colleague at work was lesbian, gay or bisexual person?</option>
+				<option value="workTransgenderOrIntersex">In a scale from 1 to 10, how comfortable would you feel, if a colleague at work was transgender or intersex?</option>
+				<option value="childrenSameSexPartner">Regardless of whether you have children or not, how comfortable you would feel if one of your children was in a love relationship with a person of the same sex as them</option>
+				<option value="childrenTransgenderOrIntersexPartner">Regardless of whether you have children or not, how comfortable you would feel if one of your children was in a love relationship with transgender or intersex person</option>
+				<option value="agreeLGBRigths">To what extent do you agree or disagree with each of the following statement: "Lesbian, gay and bisexual people should have the same rights as heterosexual people (marriage, adoption, parental rights)"</option>
+				<option value="agreeSameSexRelatioships">To what extent do you agree or disagree with each of the following statement: "There is nothing wrong in a sexual relationship between two persons of the same sex"</option>
+				<option value="agreeSameSexMarriage">To what extent do you agree or disagree with each of the following statement: "Same sex marriages should be allowed throughout Europe"</option>
+				<option value="agreeTransgenderRights">To what extent do you agree or disagree with each of the following statement: "Transgender people should have the same rights as anyone else (marriage, adoption, parental rights)"'</option>
+				<option value="agreeTeachingLGBInSchool">To what extent do you agree or disagree with the following statement: "School lessons and material should include information about sexual orientations (for example being lesbian, gay, or bisexual)?"'</option>
+				<option value="agreeTeachingGenderIdentitiesInSchool">To what extent do you agree or disagree with the following statement: "School lessons and material should include information about Sexual the existence of multiple gender identities (for example being transgender)?"</option>
+				<option value="changeTransgenderDocuments">Do you think that transgender persons should be able to change their civil documents to match their gender identity?</option>
+				<option value="thirdGenderOptionOnDocuments">Do you believe that official documents, like passports and birth certificates, should have a third option, such as X or O (other) beside male (M) and female (F) for those persons who do not identify as female and male?</option>
+				<option value="partOfLGBTI">Do you consider yourself to be...?</option>
+				<option value="friendsLGB">Do you have friends or acquaintances who are lesbian, gay or bisexual?</option>
+				<option value="friendsTransgender">Do you have friends or acquaintances who are transgender?</option>
+				<option value="friendsIntersex">Do you have friends or acquaintances who are intersex?</option>
+			  </select>
+			</div>
+		
+		</div>
+	</div>
+	<div id="mapText" class="content">	
 		<h2>Marriage and Adoption</h2>
 		<h3>1989 - 2024</h3>
 		<p>This map shows data from two different resources, <em>Rainbow Europe</em> and <em>The Laws and Families dataset</em>. The datasets focus on legal family diversity, exploring <strong>marriage</strong>, registered partnerships, cohabitation, and <strong>adoption rights </strong>for both same-sex and different-sex couples, providing a legal framework for understanding family laws across Europe.
@@ -1717,6 +1769,7 @@
 		<p>
 			The Laws and Families dataset offers information on 20 European countries, from 1989 to 2015, while Rainbow Europe provides data for the present year. This leaves a gap in information between 2016 and 2024, highlighting the need for significant research and updates in this field.</p>
 	</diV>
+
 	<div id="VisualizationLaw" class="content">
 		<div id="mapSection">
 			

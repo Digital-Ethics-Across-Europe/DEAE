@@ -774,4 +774,20 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       font-size: 1.1em;
   }
 
-   
+option {
+  text-align: justify;
+}   
+
+.chart-div {
+  justify-content: center;
+  align-items: center;
+}
+
+.countrydata2 {
+  width: 500px; /* Imposta la larghezza del select, se necessario */
+}
+
+.countrydata2 select option {
+  white-space: normal; /* Permette di andare a capo */
+  word-wrap: break-word; /* Impedisce che il testo fuoriesca dal contenitore */
+}
