@@ -493,9 +493,9 @@ line-height: 1.6;
 
 td{text-align: center;}
 
-.fa{font-size:36px; 
+.fa{font-size:38px; 
     color:green}
-.x{font-size:27px;}
+.x{font-size:20px;}
     
 /*responsive*/
 @media screen and (max-width: 768px) {
@@ -794,4 +794,8 @@ option {
 .countrydata2 select option {
   white-space: normal; /* Permette di andare a capo */
   word-wrap: break-word; /* Impedisce che il testo fuoriesca dal contenitore */
+}
+
+#equality-table tr, #equality-table tr{
+  font-size: 17px;
 }
