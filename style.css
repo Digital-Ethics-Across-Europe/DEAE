@@ -1,18 +1,16 @@
 
 /* Footer */
 footer {
-    background-color: white;
-    color: black;
-    padding: 100px 80px;
+    background-color: black;
+    color: white;
+    padding: 100px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-	margin:5%;
 	
 }
 
-footer img{width:50%;
-height:auto}
+
 
 footer h3 {
     font-size: 800;
@@ -34,30 +32,11 @@ footer .right .links {
 
 footer .right .links a {
 	text-decoration: none;
-    color: #989898;
+    color: white;
     transition: color 0.3s ease;
 }
 
-footer .right .links a:hover {
-    color: red;
-	font-weight: 550;
-}
 
-footer .right .social {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-footer .right .social i {
-    font-size: 30px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-footer .right .social i:hover {
-    color:#d6054e;
-}
 
 footer .right p {
     font-size: 16.5px;
@@ -194,6 +173,7 @@ background-color: white;
  border-radius: 25px;
 padding: 10px 16px;
 background-color: white !important; 
+z-index: 4;
 text-align: right !important;}
 
 
@@ -324,6 +304,7 @@ padding-bottom: 2%;}
   box-sizing: border-box; 
 }
 
+.datasets a{color:black}
 .datasets .dataset:first-child:hover{background-color: red;
   color:white;
   transition: all 0.5s ease; }
@@ -573,9 +554,9 @@ padding-top:10%}
   }
 
   #textVisualisation{margin-top: 5%;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
   }
-#visualisationIntro{ margin-bottom: 3%;}
+#visualisationIntro{ margin-bottom: 1%;}
 
 #textVisualisation h2{padding-bottom: 0}  
 ul li{font-size:1.25rem ;}
@@ -795,6 +776,17 @@ option {
   white-space: normal; /* Permette di andare a capo */
   word-wrap: break-word; /* Impedisce che il testo fuoriesca dal contenitore */
 }
+
+.countrydata2{border: 1px solid black;
+  border-radius: 20px;
+  align-items: center;
+ margin:2%;
+  padding: 1.5%;
+  width: 80%;
+  position: relative
+  }
+
+  
 
 #equality-table tr, #equality-table tr{
   font-size: 17px;
