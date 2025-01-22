@@ -142,7 +142,8 @@ p{font-size: 1.3em;}
 h1{ font-family: "League Gothic", serif;}
 
 nav{
-
+  z-index: 999;
+  
 background-color: transparent;
 position: fixed;
 top: 0;
@@ -173,7 +174,6 @@ background-color: white;
  border-radius: 25px;
 padding: 10px 16px;
 background-color: white !important; 
-z-index: 4;
 text-align: right !important;}
 
 
