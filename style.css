@@ -305,6 +305,10 @@ padding-bottom: 2%;}
 }
 
 .datasets a{color:black}
+.dataset:first-child:hover a,.dataset:nth-child(2):hover a,.dataset:nth-child(3):hover a, .dataset:nth-child(3):hover a, .dataset:nth-child(4):hover a{color:white;
+  transition: all 0.5s ease;}
+
+
 .datasets .dataset:first-child:hover{background-color: red;
   color:white;
   transition: all 0.5s ease; }
