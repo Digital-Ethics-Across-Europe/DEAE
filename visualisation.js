@@ -6372,16 +6372,16 @@ document.addEventListener('DOMContentLoaded', function () {
               currentChart.options.plugins.title.text = 'In your opinion how widespread is discrimination against intersex people in your country?';
               break;
             case 'politicalFigureLGB':
-              currentChart.options.plugins.title.text = 'In a scale from 1 to 10, how comfortable would you feel having a lesbian, gay or bisexual person in the highest elected political position?';
+              currentChart.options.plugins.title.text = 'How comfortable would you feel having a lesbian, gay or bisexual person in the highest elected political position?';
               break;
             case 'politicalFigureTransgenderOrIntersex':
-              currentChart.options.plugins.title.text = 'In a scale from 1 to 10, how comfortable would you feel having a transgender or intersex person in the highest elected political position?';
+              currentChart.options.plugins.title.text = 'How comfortable would you feel having a transgender or intersex person in the highest elected political position?';
               break;
             case 'workLGB':
-              currentChart.options.plugins.title.text = 'In a scale from 1 to 10, how comfortable would you feel, if a colleague at work was a lesbian, gay or bisexual person?';
+              currentChart.options.plugins.title.text = 'How comfortable would you feel, if a colleague at work was a lesbian, gay or bisexual person?';
               break;
             case 'workTransgenderOrIntersex':
-              currentChart.options.plugins.title.text = 'In a scale from 1 to 10, how comfortable would you feel, if a colleague at work was transgender or intersex?';
+              currentChart.options.plugins.title.text = 'How comfortable would you feel, if a colleague at work was transgender or intersex?';
               break;
             case 'childrenSameSexPartner':
               currentChart.options.plugins.title.text = 'Regardless of whether you have children or not, how comfortable would you feel if one of your children was in a love relationship with a person of the same sex as them?';
