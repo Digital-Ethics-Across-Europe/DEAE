@@ -5853,224 +5853,203 @@ paths.forEach((path) => {
 document.addEventListener('DOMContentLoaded', function () {
 
   const data1 = [
-      {
-        country: "Albania",
-        discriminationLastTwelveMonths: 51,
-        discriminationEmployement: 36,
-        discriminationHealthcare: 17,
-        discriminationEducation: 31
-      },
-      {
+    {
+      country: "EU27",
+      discriminationLastTwelveMonths: 37,
+      discriminationEmployement: 19,
+      discriminationHealthcare: 14,
+      discriminationEducation: 15
+    },
+    {
         country: "Austria",
         discriminationLastTwelveMonths: 38,
         discriminationEmployement: 20,
         discriminationHealthcare: 12,
         discriminationEducation: 13
-      },
-      {
+    },
+    {
         country: "Belgium",
         discriminationLastTwelveMonths: 32,
         discriminationEmployement: 15,
         discriminationHealthcare: 11,
         discriminationEducation: 11
-      },
-      {
+    },
+    {
         country: "Bulgaria",
         discriminationLastTwelveMonths: 50,
         discriminationEmployement: 28,
         discriminationHealthcare: 20,
         discriminationEducation: 31
-      },
-      {
+    },
+    {
         country: "Cyprus",
         discriminationLastTwelveMonths: 50,
         discriminationEmployement: 37,
         discriminationHealthcare: 21,
         discriminationEducation: 30
-      },
-      {
+    },
+    {
+      country: "Croatia",
+      discriminationLastTwelveMonths: 35,
+      discriminationEmployement: 19,
+      discriminationHealthcare: 9,
+      discriminationEducation: 16
+    },
+    {
         country: "Czechia",
         discriminationLastTwelveMonths: 35,
         discriminationEmployement: 16,
         discriminationHealthcare: 13,
         discriminationEducation: 13
-      },
-      {
-        country: "Germany",
-        discriminationLastTwelveMonths: 38,
-        discriminationEmployement: 19,
-        discriminationHealthcare: 15,
-        discriminationEducation: 14
-      },
-      {
+    },
+    {
         country: "Denmark",
         discriminationLastTwelveMonths: 29,
         discriminationEmployement: 13,
         discriminationHealthcare: 11,
         discriminationEducation: 9
-      },
-      {
+    },
+    {
         country: "Estonia",
         discriminationLastTwelveMonths: 31,
         discriminationEmployement: 12,
         discriminationHealthcare: 6,
         discriminationEducation: 14
-      },
-      {
-        country: "Greece",
-        discriminationLastTwelveMonths: 45,
-        discriminationEmployement: 28,
-        discriminationHealthcare: 20,
-        discriminationEducation: 25
-      },
-      {
-        country: "Spain",
-        discriminationLastTwelveMonths: 37,
-        discriminationEmployement: 19,
-        discriminationHealthcare: 15,
-        discriminationEducation: 14
-      },
-      {
+    },
+    {
         country: "Finland",
         discriminationLastTwelveMonths: 24,
         discriminationEmployement: 11,
         discriminationHealthcare: 8,
         discriminationEducation: 6
-      },
-      {
+    },
+    {
         country: "France",
         discriminationLastTwelveMonths: 34,
         discriminationEmployement: 18,
         discriminationHealthcare: 13,
         discriminationEducation: 12
-      },
-      {
-        country: "Croatia",
-        discriminationLastTwelveMonths: 35,
+    },
+    {
+        country: "Germany",
+        discriminationLastTwelveMonths: 38,
         discriminationEmployement: 19,
-        discriminationHealthcare: 9,
-        discriminationEducation: 16
-      },
-      {
+        discriminationHealthcare: 15,
+        discriminationEducation: 14
+    },
+    {
+        country: "Greece",
+        discriminationLastTwelveMonths: 45,
+        discriminationEmployement: 28,
+        discriminationHealthcare: 20,
+        discriminationEducation: 25
+    },
+    {
         country: "Hungary",
         discriminationLastTwelveMonths: 40,
         discriminationEmployement: 23,
         discriminationHealthcare: 21,
         discriminationEducation: 27
-      },
-      {
+    },
+    {
         country: "Ireland",
         discriminationLastTwelveMonths: 35,
         discriminationEmployement: 18,
         discriminationHealthcare: 13,
         discriminationEducation: 11
-      },
-      {
+    },
+    {
         country: "Italy",
         discriminationLastTwelveMonths: 38,
         discriminationEmployement: 21,
         discriminationHealthcare: 13,
         discriminationEducation: 15
-      },
-      {
-        country: "Lithuania",
-        discriminationLastTwelveMonths: 47,
-        discriminationEmployement: 20,
-        discriminationHealthcare: 18,
-        discriminationEducation: 34
-      },
-      {
-        country: "Luxembourg",
-        discriminationLastTwelveMonths: 34,
-        discriminationEmployement: 16,
-        discriminationHealthcare: 11,
-        discriminationEducation: 14
-      },
-      {
+    },
+    {
         country: "Latvia",
         discriminationLastTwelveMonths: 38,
         discriminationEmployement: 19,
         discriminationHealthcare: 14,
         discriminationEducation: 19
-      },
-      {
-        country: "North Macedonia",
-        discriminationLastTwelveMonths: 39,
-        discriminationEmployement: 27,
-        discriminationHealthcare: 17,
-        discriminationEducation: 25
-      },
-      {
+    },
+    {
+        country: "Lithuania",
+        discriminationLastTwelveMonths: 47,
+        discriminationEmployement: 20,
+        discriminationHealthcare: 18,
+        discriminationEducation: 34
+    },
+    {
+        country: "Luxembourg",
+        discriminationLastTwelveMonths: 34,
+        discriminationEmployement: 16,
+        discriminationHealthcare: 11,
+        discriminationEducation: 14
+    },
+    {
         country: "Malta",
         discriminationLastTwelveMonths: 31,
         discriminationEmployement: 14,
         discriminationHealthcare: 11,
         discriminationEducation: 12
-      },
-      {
+    },
+    {
         country: "Netherlands",
         discriminationLastTwelveMonths: 31,
         discriminationEmployement: 13,
         discriminationHealthcare: 8,
         discriminationEducation: 7
-      },
-      {
+    },
+    {
         country: "Poland",
         discriminationLastTwelveMonths: 44,
         discriminationEmployement: 24,
         discriminationHealthcare: 19,
         discriminationEducation: 22
-      },
-      {
+    },
+    {
         country: "Portugal",
         discriminationLastTwelveMonths: 38,
         discriminationEmployement: 18,
         discriminationHealthcare: 15,
         discriminationEducation: 22
-      },
-      {
+    },
+    {
         country: "Romania",
         discriminationLastTwelveMonths: 39,
         discriminationEmployement: 25,
         discriminationHealthcare: 20,
         discriminationEducation: 30
-      },
-      {
-        country: "Serbia",
-        discriminationLastTwelveMonths: 45,
-        discriminationEmployement: 24,
-        discriminationHealthcare: 19,
-        discriminationEducation: 26
-      },
-      {
-        country: "Sweden",
-        discriminationLastTwelveMonths: 21,
-        discriminationEmployement: 10,
-        discriminationHealthcare: 9,
-        discriminationEducation: 9
-      },
-      {
-        country: "Slovenia",
-        discriminationLastTwelveMonths: 29,
-        discriminationEmployement: 13,
-        discriminationHealthcare: 7,
-        discriminationEducation: 10
-      },
-      {
+    },
+    {
         country: "Slovakia",
         discriminationLastTwelveMonths: 46,
         discriminationEmployement: 27,
         discriminationHealthcare: 19,
         discriminationEducation: 28
-      },
-      {
-        country: "EU27",
+    },
+    {
+        country: "Slovenia",
+        discriminationLastTwelveMonths: 29,
+        discriminationEmployement: 13,
+        discriminationHealthcare: 7,
+        discriminationEducation: 10
+    },
+    {
+        country: "Spain",
         discriminationLastTwelveMonths: 37,
         discriminationEmployement: 19,
-        discriminationHealthcare: 14,
-        discriminationEducation: 15
-      }
-    ];
+        discriminationHealthcare: 15,
+        discriminationEducation: 14
+    },
+    {
+        country: "Sweden",
+        discriminationLastTwelveMonths: 21,
+        discriminationEmployement: 10,
+        discriminationHealthcare: 9,
+        discriminationEducation: 9
+    }
+  ];
   
     const discriminationChart = new Chart( 
       document.getElementById('discrimination-chart'),{
@@ -6081,23 +6060,34 @@ document.addEventListener('DOMContentLoaded', function () {
           {
               label: 'Discrimination felt by LGBTQ+ members in the European Union in 2023',
               data: data1.map(row => row.discriminationLastTwelveMonths),
-              //backgroundColor: data1.map((_, index) => { 
-                  //return index % 2 === 0 ? 'rgba(255, 99, 132, 0.6)' : 'rgba(54, 162, 235, 0.6)';
-                //}),
-              //borderColor: 'rgba(255, 99, 132, 1)',
+              backgroundColor: 'red',
               borderWidth: 1
           }
           ]
       },
       options: {
         scales: {
-          y: {
-            beginAtZero: true
-          }
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    callback: function(value) {
+                        return value + '%';  // Append percentage sign to y-axis labels
+                    }
+                }
+            }
+        },
+        plugins: {
+            tooltip: {
+                callbacks: {
+                    label: function(tooltipItem) {
+                        // Return the dataset label and the value with a percentage sign
+                        return tooltipItem.dataset.label + ': ' + tooltipItem.raw + '%';
+                    }
+                }
+            }
         }
-      }
-      }
-  )
+      }}
+    )
   
         // Function to update the chart data based on the selected option
         function updateChartData(selectedOption) {
@@ -6125,9 +6115,9 @@ document.addEventListener('DOMContentLoaded', function () {
             datasets: [
               { label: 'Very widespread', data: [16, 14, 14, 6, 12, 11, 9, 12, 28, 14, 22, 20, 19, 24, 10, 20, 6, 17, 5, 20, 12, 17, 27, 13, 18, 11, 5, 10], backgroundColor: 'red' },
               { label: 'Fairly widespread', data: [38, 42, 26, 18, 31, 33, 22, 34, 46, 39, 43, 36, 53, 43, 23, 33, 32, 36, 32, 42, 31, 37, 43, 28, 34, 20, 34, 36], backgroundColor: 'orange' },
-              { label: 'Fairly rare', data: [27, 34, 27, 37, 37, 31, 28, 34, 21, 28, 23, 24, 20, 19, 19, 17, 38, 22, 38, 29, 35, 28, 21, 23, 39, 43], backgroundColor: 'yellow' },
+              { label: 'Fairly rare', data: [27, 34, 27, 37, 37, 31, 28, 34, 21, 28, 23, 24, 20, 19, 19, 17, 38, 22, 38, 29, 35, 28, 21, 23, 20, 23, 39, 43], backgroundColor: 'yellow' },
               { label: 'Very rare', data: [12, 8, 13, 29, 18, 15, 23, 12, 4, 15, 6, 14, 5, 10, 21, 14, 18, 17, 23, 7, 14, 11, 3, 19, 21, 29, 14, 10], backgroundColor: 'green' },
-              { label: 'Non-existent', data: [1, 0, 3, 1, 0, 1, 2, 1, 0, 1, 1, 1, 0, 10, 3, 1, 3, 0, 1, 1, 2, 0, 4, 2, 2, 0], backgroundColor: 'blue' },
+              { label: 'Non-existent', data: [1, 0, 3, 1, 0, 1, 2, 1, 0, 1, 1, 1, 0, 0, 10, 3, 1, 3, 0, 1, 1, 2, 0, 4, 2, 2, 0, 0], backgroundColor: 'blue' },
               { label: 'Do not know', data: [6, 2, 17, 9, 2, 9, 16, 7, 1, 3, 5, 5, 3, 4, 17, 13, 5, 5, 2, 1, 7, 5, 6, 13, 5, 15, 8, 1], backgroundColor: 'grey' },
             ]
           },
@@ -6153,76 +6143,47 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           politicalFigureLGB: {
             datasets: [
-              { label: '1, Not at all comfortable', data: [6, 5, 32, 6, 3, 5, 19, 1, 11, 1, 2, 14, 3, 19, 19, 30, 2, 11, 2, 0, 12, 7, 5, 23, 12, 15, 4, 1], backgroundColor: '#7D0707' },
-              { label: '2', data: [3, 2, 12, 3, 1, 2, 6, 1, 6, 1, 1, 5, 3, 7, 4, 6, 1, 6, 1, 1, 3, 7, 2, 8, 4, 5, 2, 0], backgroundColor: '#B90808' },
-              { label: '3', data: [3, 2, 9, 3, 0, 3, 6, 0, 4, 1, 3, 6, 4, 8, 3, 5, 1, 8, 2, 1, 7, 6, 2, 9, 6, 7, 2, 1], backgroundColor: 'red' },
-              { label: '4', data: [4, 3, 6, 3, 1, 3, 4, 0, 4, 1, 2, 5, 5, 5, 2, 5, 1, 9, 4, 1, 5, 6, 2, 10, 6, 5, 3, 1], backgroundColor: '#FF8100' },
-              { label: '5', data: [8, 8, 9, 10, 4, 11, 11, 3, 9, 4, 5, 12, 5, 13, 10, 10, 3, 15, 6, 1, 8, 12, 7, 11, 14, 11, 4, 4], backgroundColor: '#FFC000' },
-              { label: '6', data: [5, 6, 6, 6, 2, 4, 3, 3, 6, 4, 4, 9, 9, 4, 3, 4, 2, 7, 4, 1, 7, 8, 3, 7, 5, 3, 3, 1], backgroundColor: '#FFE000' },
-              { label: '7', data: [6, 8, 5, 4, 2, 6, 5, 5, 9, 6, 3, 7, 10, 4, 5, 3, 3, 9, 7, 2, 5, 9, 7, 8, 6, 4, 3, 4], backgroundColor: '#FFFF53' },
-              { label: '8', data: [10, 12, 3, 7, 5, 9, 6, 10, 14, 13, 10, 8, 15, 6, 7, 5, 9, 8, 10, 5, 10, 8, 9, 6, 8, 6, 6, 5], backgroundColor: '#D8FF00' },
-              { label: '9', data: [10, 11, 3, 6, 4, 9, 8, 14, 11, 19, 9, 8, 13, 10, 9, 8, 4, 7, 6, 8, 8, 8, 10, 5, 6, 7, 8, 5], backgroundColor: '#76FF24' },
-              { label: '10, Totally comfortable', data: [42, 41, 9, 48, 74, 47, 42, 21, 23, 62, 26, 49, 57, 22, 31, 22, 33, 21, 66, 16, 58, 79, 27, 29, 50, 8, 29, 32, 62, 78], backgroundColor: '#62D200' },
-              { label: 'Indifferent', data: [1, 0, 2, 1, 3, 4, 4, 2, 4, 0, 0, 0, 1, 1, 0, 2, 2, 1, 7, 2, 0, 1, 6, 0, 0, 1, 2, 2, 1, 0], backgroundColor: 'blue' },
-              { label: 'Do not know', data: [2, 2, 4, 3, 1, 1, 2, 6, 5, 1, 0, 1, 3, 3, 2, 0, 3, 2, 1, 2, 0, 0, 2, 0, 3, 4, 2, 3, 2, 0], backgroundColor: 'grey' }
+                { label: 'Uncomfortable', data: [16, 12, 59, 15, 4, 14, 36, 2, 25, 4, 9, 30, 15, 39, 29, 45, 5, 33, 9, 3, 27, 26, 11, 49, 28, 31, 10, 4], backgroundColor: 'red' },
+                { label: 'Moderately comfortable', data: [13, 13, 15, 16, 6, 15, 13, 5, 14, 8, 9, 21, 15, 17, 14, 15, 5, 23, 9, 2, 15, 19, 10, 19, 19, 15, 7, 5], backgroundColor: 'orange' },
+                { label: 'Comfortable', data: [68, 73, 20, 65, 85, 65, 42, 91, 61, 87, 78, 44, 68, 42, 53, 37, 82, 41, 81, 95, 50, 54, 76, 27, 49, 49, 80, 91], backgroundColor: 'green' },
+                { label: 'Indifferent', data: [1, 0, 2, 1, 4, 4, 4, 0, 0, 0, 1, 1, 0, 2, 2, 1, 7, 2, 1, 0, 6, 0, 0, 1, 2, 2, 1, 0], backgroundColor: '#00AFFF' },
+                { label: 'Do not know', data: [2, 2, 4, 3, 1, 2, 5, 2, 0, 1, 3, 4, 2, 0, 2, 2, 1, 1, 0, 0, 2, 1, 3, 4, 2, 3, 2, 0], backgroundColor: 'grey' }
             ]
           },
           politicalFigureTransgenderOrIntersex: {
             datasets: [
-              { label: '1, Not at all comfortable', data: [8, 7, 36, 11, 5, 8, 24, 4, 10, 2, 7, 16, 4, 20, 22, 34, 5, 13, 3, 2, 18, 8, 8, 22, 14, 18, 7, 3], backgroundColor: '#7D0707' },
-              { label: '2', data: [4, 3, 11, 5, 2, 3, 6, 2, 7, 2, 4, 7, 4, 6, 5, 6, 1, 9, 2, 1, 6, 7, 2, 9, 6, 8, 4, 1], backgroundColor: '#B90808' },
-              { label: '3', data: [5, 5, 8, 6, 1, 6, 5, 1, 4, 2, 3, 8, 5, 6, 4, 5, 3, 11, 3, 2, 6, 8, 2, 9, 6, 7, 3, 2], backgroundColor: 'red' },
-              { label: '4', data: [5, 4, 7, 4, 3, 5, 4, 2, 5, 2, 5, 7, 6, 7, 5, 4, 2, 10, 5, 2, 6, 6, 2, 11, 6, 4, 3, 2], backgroundColor: '#FF8100' },
-              { label: '5', data: [9, 10, 8, 14, 5, 12, 12, 4, 10, 6, 8, 11, 8, 15, 13, 10, 6, 12, 11, 3, 8, 12, 5, 11, 14, 11, 6, 6], backgroundColor: '#FFC000' },
-              { label: '6', data: [6, 6, 5, 5, 3, 5, 5, 4, 6, 4, 5, 8, 12, 7, 4, 4, 2, 7, 3, 3, 7, 7, 4, 8, 5, 3, 2, 3], backgroundColor: '#FFE000' },
-              { label: '7', data: [7, 10, 6, 4, 3, 6, 5, 5, 10, 6, 5, 8, 10, 3, 5, 5, 4, 8, 5, 5, 8, 9, 7, 7, 7, 4, 6, 5], backgroundColor: '#FFFF53' },
-              { label: '8', data: [9, 12, 2, 7, 8, 8, 5, 8, 11, 10, 8, 7, 12, 5, 4, 6, 9, 7, 8, 9, 6, 8, 9, 6, 9, 6, 8, 8], backgroundColor: '#D8FF00' },
-              { label: '9', data: [9, 9, 2, 5, 5, 8, 6, 11, 10, 19, 7, 6, 11, 6, 8, 5, 5, 6, 7, 7, 7, 8, 10, 4, 4, 5, 8, 4], backgroundColor: '#76FF24' },
-              { label: '10, Totally comfortable', data: [52, 50, 14, 64, 85, 53, 35, 67, 41, 57, 73, 29, 36, 47, 49, 39, 73, 24, 68, 88, 33, 36, 54, 14, 42, 40, 78, 89], backgroundColor: '#62D200' },
-              { label: 'Indifferent (SPONTANEOUS)', data: [1, 0, 1, 2, 3, 3, 4, 4, 4, 1, 4, 0, 0, 1, 0, 3, 1, 0, 6, 2, 0, 1, 6, 0, 0, 1, 2, 2, 2, 0], backgroundColor: 'blue' },
-              { label: 'Don\'t know', data: [3, 3, 7, 8, 2, 3, 3, 6, 6, 3, 3, 2, 3, 4, 3, 3, 4, 4, 3, 3, 1, 0, 3, 1, 6, 5, 2, 5, 3, 1], backgroundColor: 'grey' }
+              { label: 'Uncomfortable', data: [22, 19, 61, 26, 11, 21, 39, 9, 26, 8, 19, 38, 19, 39, 36, 49, 11, 42, 13, 7, 36, 29, 14, 50, 32, 37, 17, 8], backgroundColor: 'red' },
+              { label: 'Moderately comfortable', data: [15, 16, 13, 19, 8, 18, 16, 8, 16, 10, 13, 19, 20, 22, 17, 14, 8, 19, 14, 6, 14, 19, 9, 19, 19, 14, 8, 10], backgroundColor: 'orange' },
+              { label: 'Comfortable', data: [58, 62, 18, 45, 76, 54, 35, 80, 51, 80, 65, 38, 57, 34, 42, 33, 72, 34, 72, 86, 41, 50, 71, 25, 46, 42, 70, 82], backgroundColor: 'green' },
+              { label: 'Indifferent', data: [2, 0, 1, 2, 3, 4, 4, 1, 4, 0, 0, 1, 1, 3, 1, 0, 6, 2, 0, 1, 6, 1, 1, 1, 1, 2, 2, 0], backgroundColor: '#00AFFF' },
+              { label: 'Do not know', data: [3, 3, 7, 8, 2, 3, 6, 2, 3, 2, 3, 4, 3, 2, 4, 4, 3, 3, 1, 0, 3, 1, 5, 5, 2, 5, 3, 0], backgroundColor: 'grey' }
             ]
           },
           workLGB: {
             datasets: [
-              { label: '1, Not at all comfortable', data: [4, 3, 22, 4, 2, 3, 14, 1, 6, 1, 2, 12, 3, 9, 13, 20, 1, 9, 0, 0, 7, 6, 3, 16, 7, 8, 1, 1], backgroundColor: '#7D0707' },
-              { label: '2', data: [2, 1, 10, 1, 0, 1, 5, 0, 2, 1, 1, 4, 3, 2, 2, 4, 1, 4, 0, 0, 3, 6, 2, 8, 3, 4, 1, 0], backgroundColor: '#B90808' },
-              { label: '3', data: [2, 2, 8, 2, 0, 2, 3, 0, 2, 1, 1, 4, 3, 5, 2, 4, 2, 6, 2, 0, 5, 5, 2, 7, 3, 6, 1, 0], backgroundColor: 'red' },
-              { label: '4', data: [3, 3, 9, 2, 0, 3, 4, 1, 3, 0, 1, 5, 4, 2, 2, 3, 0, 8, 1, 0, 4, 6, 2, 8, 2, 4, 1, 0], backgroundColor: '#FF8100' },
-              { label: '5', data: [5, 8, 9, 5, 2, 7, 7, 1, 7, 2, 3, 9, 5, 8, 7, 6, 1, 15, 4, 1, 11, 8, 5, 12, 10, 10, 2, 1], backgroundColor: '#FFC000' },
-              { label: '6', data: [5, 6, 7, 3, 1, 4, 2, 1, 4, 2, 3, 7, 9, 4, 3, 3, 2, 8, 3, 1, 6, 9, 2, 7, 6, 5, 1, 0], backgroundColor: '#FFE000' },
-              { label: '7', data: [6, 6, 6, 2, 1, 6, 5, 4, 8, 7, 3, 8, 10, 6, 4, 4, 4, 8, 5, 1, 6, 7, 7, 9, 5, 5, 1, 2], backgroundColor: '#FFFF53' },
-              { label: '8', data: [8, 10, 5, 7, 3, 9, 7, 10, 12, 10, 5, 9, 13, 4, 5, 7, 8, 9, 7, 4, 7, 7, 9, 8, 11, 6, 3, 4], backgroundColor: '#D8FF00' },
-              { label: '9', data: [10, 10, 3, 7, 4, 8, 9, 13, 15, 18, 7, 11, 12, 12, 8, 8, 4, 6, 8, 5, 8, 10, 12, 6, 8, 9, 8, 2], backgroundColor: '#76FF24' },
-              { label: '10, Totally comfortable', data: [34, 31, 7, 29, 60, 32, 18, 55, 20, 45, 45, 17, 25, 19, 25, 17, 54, 12, 52, 65, 19, 25, 44, 7, 25, 27, 48, 65], backgroundColor: '#62D200' },
-              { label: 'Indifferent', data: [1, 0, 1, 0, 2, 3, 2, 1, 3, 1, 0, 0, 0, 0, 0, 1, 2, 0, 3, 1, 1, 0, 6, 0, 0, 1, 1, 1, 1, 0], backgroundColor: 'blue' },
-              { label: 'Depends', data: [1, 0, 1, 1, 0, 0, 1, 3, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0], backgroundColor: '#00AFFF' },
-              { label: 'Don\'t know', data: [1, 1, 5, 2, 0, 1, 1, 5, 4, 1, 0, 1, 1, 2, 1, 0, 3, 2, 0, 1, 1, 0, 2, 0, 2, 4, 1, 2, 2, 1], backgroundColor: 'grey' }
-            ]
-          },
-          
+              { label: 'Uncomfortable', data: [12, 10, 49, 9, 3, 9, 26, 1, 13, 3, 5, 25, 12, 18, 19, 30, 4, 26, 4, 1, 19, 22, 9, 39, 15, 22, 4, 2], backgroundColor: 'red' },
+              { label: 'Moderately comfortable', data: [10, 13, 16, 9, 2, 10, 10, 3, 11, 4, 5, 16, 15, 12, 10, 10, 3, 23, 7, 1, 17, 17, 7, 19, 16, 15, 3, 2], backgroundColor: 'orange' },
+              { label: 'Comfortable', data: [75, 76, 28, 79, 93, 76, 56, 94, 76, 92, 88, 57, 71, 68, 66, 58, 89, 48, 87, 98, 54, 61, 82, 37, 66, 60, 90, 96], backgroundColor: 'green' },
+              { label: 'Indifferent', data: [1, 0, 1, 0, 2, 2, 2, 1, 0, 0, 0, 0, 0, 1, 2, 0, 3, 1, 1, 0, 6, 0, 0, 1, 1, 1, 1, 0], backgroundColor: '#00AFFF' },
+              { label: 'It depends', data: [1, 0, 1, 1, 0, 1, 2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0], backgroundColor: 'blue' },
+              { label: 'Do not know', data: [1, 1, 5, 2, 0, 2, 4, 1, 0, 1, 1, 2, 1, 1, 3, 2, 0, 1, 1, 0, 2, 0, 2, 4, 1, 2, 2, 0], backgroundColor: 'grey' }
+            ]  
+          },   
           workTransgenderOrIntersex: {
             datasets: [
-              { label: '1, Not at all comfortable', data: [5, 5, 24, 7, 2, 5, 17, 2, 7, 1, 3, 10, 4, 8, 14, 21, 3, 11, 1, 1, 13, 7, 6, 17, 8, 10, 2, 1], backgroundColor: '#7D0707' },
-              { label: '2', data: [3, 2, 11, 2, 1, 2, 5, 1, 3, 1, 2, 4, 3, 2, 3, 4, 1, 6, 1, 0, 4, 7, 2, 7, 4, 6, 2, 0], backgroundColor: '#B90808' },
-              { label: '3', data: [3, 3, 9, 2, 1, 2, 4, 1, 3, 1, 2, 4, 4, 4, 3, 4, 1, 6, 2, 0, 6, 6, 1, 7, 4, 8, 2, 1], backgroundColor: 'red' },
-              { label: '4', data: [3, 4, 8, 3, 0, 3, 3, 1, 2, 1, 1, 7, 4, 4, 2, 3, 1, 9, 2, 0, 4, 7, 1, 9, 4, 3, 1, 1], backgroundColor: '#FF8100' },
-              { label: '5', data: [7, 9, 8, 8, 2, 9, 9, 3, 7, 2, 3, 9, 8, 8, 9, 8, 3, 14, 7, 1, 9, 8, 5, 12, 11, 10, 3, 1], backgroundColor: '#FFC000' },
-              { label: '6', data: [5, 7, 5, 5, 1, 4, 4, 2, 5, 2, 4, 8, 10, 4, 4, 3, 1, 7, 3, 2, 6, 7, 3, 9, 4, 3, 2, 1], backgroundColor: '#FFE000' },
-              { label: '7', data: [6, 7, 6, 4, 2, 5, 5, 4, 8, 6, 4, 8, 9, 4, 5, 4, 4, 9, 5, 3, 6, 7, 7, 8, 6, 3, 3, 3], backgroundColor: '#FFFF53' },
-              { label: '8', data: [8, 10, 4, 7, 5, 7, 7, 9, 10, 12, 6, 9, 11, 7, 6, 6, 10, 8, 6, 6, 6, 7, 9, 8, 11, 6, 3, 5], backgroundColor: '#D8FF00' },
-              { label: '9', data: [9, 9, 3, 7, 4, 7, 7, 10, 13, 16, 7, 11, 11, 13, 7, 7, 4, 6, 8, 6, 8, 9, 12, 6, 7, 8, 6, 6], backgroundColor: '#76FF24' },
-              { label: '10, Totally comfortable', data: [47, 43, 12, 46, 79, 49, 29, 64, 36, 56, 65, 26, 32, 44, 42, 35, 67, 21, 63, 81, 27, 33, 49, 12, 38, 37, 71, 81], backgroundColor: '#62D200' },
-              { label: 'Indifferent', data: [1, 0, 1, 2, 2, 3, 3, 1, 4, 0, 1, 1, 0, 1, 2, 1, 3, 1, 0, 0, 5, 1, 0, 0, 1, 2, 2, 0], backgroundColor: 'blue' },
-              { label: 'It depends', data: [1, 0, 2, 4, 1, 1, 1, 0, 0, 0, 1, 0, 3, 0, 0, 0, 1, 1, 0, 0, 3, 0, 1, 1, 1, 1, 0, 0], backgroundColor: '#00AFFF' },
-              { label: 'Don\'t know', data: [2, 1, 7, 3, 0, 3, 6, 2, 2, 2, 1, 3, 1, 1, 3, 4, 1, 1, 2, 0, 3, 1, 4, 4, 1, 3, 3, 0], backgroundColor: 'grey' }
+              { label: 'Uncomfortable', data: [15, 14, 52, 14, 4, 12, 29, 4, 15, 4, 8, 25, 16, 18, 22, 31, 5, 31, 6, 2, 27, 26, 10, 40, 19, 27, 7, 3], backgroundColor: 'red' },
+              { label: 'Moderately comfortable', data: [12, 15, 13, 13, 3, 14, 12, 5, 12, 4, 7, 18, 18, 12, 13, 12, 4, 21, 10, 3, 15, 15, 8, 21, 16, 13, 5, 2], backgroundColor: 'orange' },
+              { label: 'Comfortable', data: [69, 69, 25, 64, 90, 67, 48, 88, 67, 90, 82, 54, 63, 68, 60, 52, 86, 44, 82, 95, 47, 57, 77, 34, 62, 54, 84, 95], backgroundColor: 'green' },
+              { label: 'Indifferent', data: [1, 0, 1, 2, 2, 3, 3, 1, 4, 0, 1, 0, 0, 1, 2, 1, 3, 1, 0, 0, 5, 1, 0, 0, 1, 2, 1, 0], backgroundColor: '#00AFFF' },
+              { label: 'It depends', data: [1, 0, 2, 4, 1, 1, 2, 0, 0, 0, 1, 0, 2, 0, 0, 0, 1, 1, 0, 0, 3, 0, 1, 1, 1, 1, 0, 0], backgroundColor: 'blue' },
+              { label: 'Do not know', data: [2, 2, 7, 3, 0, 3, 6, 2, 2, 2, 1, 3, 1, 1, 3, 4, 1, 2, 2, 0, 3, 1, 4, 4, 1, 3, 3, 0], backgroundColor: 'grey' }
             ]
           },
           childrenSameSexPartner: {
             datasets: [
               { label: 'Uncomfortable', data: [24, 17, 74, 33, 8, 16, 55, 7, 53, 9, 14, 57, 29, 56, 53, 59, 11, 51, 26, 3, 27, 40, 22, 56, 37, 55, 13, 5], backgroundColor: 'red' },
               { label: 'Moderately comfortable', data: [13, 14, 6, 17, 7, 16, 11, 9, 15, 10, 9, 16, 18, 13, 10, 13, 9, 16, 21, 4, 16, 14, 15, 17, 16, 15, 7, 5], backgroundColor: 'orange' },
-              { label: 'Comfortable', data: [59, 67, 16, 43, 83, 65, 62, 47, 28, 80, 29, 80, 72, 23, 51, 29, 34, 25, 72, 31, 50, 91, 47, 44, 59, 23, 43, 25, 74, 89], backgroundColor: 'green' },
+              { label: 'Comfortable', data: [59, 67, 16, 43, 83, 62, 28, 80, 29, 80, 72, 23, 51, 29, 34, 25, 72, 31, 50, 91, 47, 44, 59, 23, 43, 25, 74, 89], backgroundColor: 'green' },
               { label: 'Indifferent', data: [1, 0, 1, 2, 1, 3, 2, 0, 2, 0, 1, 0, 0, 0, 1, 1, 4, 1, 1, 0, 4, 1, 0, 0, 1, 1, 1, 0], backgroundColor: '#00AFFF' },
               { label: 'It depends', data: [1, 0, 0, 2, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 2, 0, 0, 1, 3, 0, 1, 1, 1, 0, 1, 0, 1, 3], backgroundColor: 'blue' },
               { label: 'Do not know', data: [2, 2, 3, 3, 0, 2, 3, 3, 1, 1, 3, 3, 1, 2, 2, 2, 2, 1, 2, 1, 3, 1, 3, 3, 2, 4, 4, 1], backgroundColor: 'grey' }
@@ -6234,13 +6195,13 @@ document.addEventListener('DOMContentLoaded', function () {
               { label: 'Moderately comfortable', data: [15, 20, 8, 16, 12, 18, 11, 13, 16, 10, 13, 16, 17, 13, 13, 11, 13, 15, 18, 12, 15, 15, 15, 18, 17, 12, 10, 10], backgroundColor: 'orange' },
               { label: 'Comfortable', data: [48, 48, 10, 30, 71, 49, 21, 65, 24, 74, 55, 19, 40, 23, 26, 20, 60, 24, 37, 75, 32, 36, 51, 20, 36, 24, 63, 77], backgroundColor: 'green' },
               { label: 'Indifferent', data: [1, 0, 1, 2, 2, 3, 2, 0, 5, 0, 1, 1, 0, 3, 0, 1, 2, 1, 0, 0, 4, 1, 0, 1, 2, 2, 1, 0], backgroundColor: 'aqua' },
-              { label: 'It depends', data: [1, 0, 0, 3, 1, 2, 2, 1, 1, 0, 1, 0, 1, 0, 1, 0, 2, 1, 0, 1, 3, 1, 0, 1, 1, 1, 1, 1], backgroundColor: 'blue' },
+              { label: 'It depends', data: [1, 0, 0, 3, 1, 2, 2, 1, 1, 0, 1, 0, 1, 0, 1, 0, 2, 1, 0, 1, 3, 1, 0, 1, 1, 1, 1, 0], backgroundColor: 'blue' },
               { label: 'Don\'t know', data: [3, 2, 4, 5, 1, 3, 5, 4, 3, 2, 4, 3, 3, 2, 2, 3, 3, 3, 2, 1, 4, 2, 5, 3, 3, 5, 6, 1], backgroundColor: 'grey' }
             ]
           },
           agreeLGBRigths: {
             datasets: [
-              { label: 'Totally disagree', data: [14, 9, 50, 16, 3, 6, 6, 7, 34, 5, 31, 5, 9, 32, 13, 30, 38, 45, 6, 30, 6, 3, 17, 28, 6, 38, 33, 36, 9, 3], backgroundColor: 'red' },
+              { label: 'Totally disagree', data: [14, 9, 50, 16, 3, 6, 34, 5, 31, 5, 9, 32, 13, 30, 38, 45, 6, 30, 6, 3, 17, 28, 6, 38, 33, 36, 9, 3], backgroundColor: 'red' },
               { label: 'Tend to disagree', data: [14, 13, 20, 24, 4, 10, 22, 6, 22, 5, 9, 28, 21, 19, 17, 22, 11, 21, 25, 2, 20, 26, 10, 29, 23, 23, 11, 3], backgroundColor: 'orange' },
               { label: 'Tend to agree', data: [26, 27, 13, 31, 12, 28, 21, 29, 26, 19, 25, 25, 35, 28, 22, 17, 32, 29, 25, 10, 26, 26, 55, 19, 18, 20, 18, 10], backgroundColor: 'yellow' },
               { label: 'Totally agree', data: [43, 50, 8, 23, 80, 53, 16, 55, 18, 68, 53, 10, 28, 17, 17, 12, 49, 15, 43, 85, 33, 15, 24, 8, 24, 15, 57, 84], backgroundColor: 'green' },
@@ -6249,7 +6210,7 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           agreeSameSexRelatioships: {
             datasets: [
-              { label: 'Totally disagree', data: [11, 8, 51, 9, 3, 5, 5, 7, 26, 6, 19, 4, 6, 28, 9, 29, 41, 34, 4, 28, 6, 3, 12, 20, 7, 39, 22, 28, 7, 2], backgroundColor: 'red' },
+              { label: 'Totally disagree', data: [11, 8, 51, 9, 3, 5, 26, 6, 19, 4, 6, 28, 9, 29, 41, 34, 4, 28, 6, 3, 12, 20, 7, 39, 22, 28, 7, 2], backgroundColor: 'red' },
               { label: 'Tend to disagree', data: [12, 10, 21, 17, 3, 8, 16, 6, 21, 5, 6, 28, 17, 21, 18, 19, 9, 18, 15, 3, 16, 21, 16, 29, 18, 20, 7, 2], backgroundColor: 'orange' },
               { label: 'Tend to agree', data: [28, 27, 13, 41, 8, 28, 29, 32, 30, 20, 27, 29, 40, 27, 19, 23, 31, 32, 29, 7, 30, 36, 49, 20, 24, 29, 12, 5], backgroundColor: 'yellow' },
               { label: 'Totally agree', data: [46, 53, 8, 29, 85, 56, 22, 51, 27, 69, 57, 10, 31, 19, 16, 19, 55, 17, 49, 87, 36, 19, 24, 7, 34, 18, 70, 90], backgroundColor: 'green' },
@@ -6295,16 +6256,16 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           changeTransgenderDocuments: {
             datasets: [
-              { label: 'No', data: [46, 45, 74, 65, 39, 35, 62, 36, 48, 36, 45, 64, 47, 55, 67, 53, 43, 67, 51, 31, 50, 56, 42, 73, 61, 65, 43, 44], backgroundColor: 'red' },
-              { label: 'Yes', data: [47, 53, 14, 27, 52, 61, 27, 55, 46, 54, 47, 29, 47, 35, 25, 35, 52, 25, 44, 67, 45, 38, 47, 17, 35, 25, 50, 50], backgroundColor: 'green' },
+              { label: 'No', data: [31, 28, 66, 42, 18, 24, 43, 25, 37, 12, 23, 51, 40, 45, 43, 36, 16, 60, 24, 14, 41, 42, 18, 71, 49, 51, 25, 20], backgroundColor: 'red' },
+              { label: 'Yes', data: [62, 70, 17, 49, 74, 69, 44, 64, 57, 81, 70, 39, 54, 42, 46, 53, 80, 30, 74, 84, 52, 52, 72, 16, 47, 37, 66, 74], backgroundColor: 'green' },
               { label: 'Do not know', data: [7, 2, 17, 9, 8, 7, 13, 11, 6, 7, 7, 10, 6, 13, 11, 11, 4, 10, 2, 2, 7, 6, 10, 13, 4, 12, 9, 6], backgroundColor: 'grey' }
             ]
           },
           
           thirdGenderOptionOnDocuments: {
             datasets: [
-              { label: 'No', data: [31, 28, 66, 42, 18, 24, 43, 25, 37, 12, 23, 51, 40, 45, 43, 36, 16, 60, 24, 14, 41, 42, 18, 71, 49, 51, 25, 20], backgroundColor: 'red' },
-              { label: 'Yes', data: [62, 70, 17, 49, 74, 69, 44, 64, 57, 81, 70, 39, 54, 42, 46, 53, 80, 30, 74, 84, 52, 52, 72, 16, 47, 37, 66, 74], backgroundColor: 'green' },
+              { label: 'No', data: [46, 45, 74, 65, 39, 35, 62, 36, 48, 36, 45, 64, 47, 55, 67, 53, 43, 67, 51, 31, 50, 56, 42, 73, 61, 65, 43, 44], backgroundColor: 'red' },
+              { label: 'Yes', data: [47, 53, 14, 27, 52, 61, 27, 55, 46, 54, 47, 29, 47, 35, 25, 35, 52, 25, 44, 67, 45, 38, 47, 17, 35, 25, 50, 50], backgroundColor: 'green' },
               { label: 'Do not know', data: [7, 2, 12, 8, 9, 4, 11, 9, 6, 10, 8, 7, 6, 10, 8, 12, 5, 8, 5, 2, 5, 6, 11, 10, 4, 10, 7, 6], backgroundColor: 'grey' }
             ]
           },
@@ -6369,12 +6330,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 y: {
                   stacked: true, // Enable stacking on the y-axis
-                  beginAtZero: true // Ensure y-axis starts from 0
+                  beginAtZero: true, // Ensure y-axis starts from 0
+                  ticks: {
+                    callback: function(value) {
+                        return value + '%';  // Append percentage sign to y-axis labels
+                    }
                 }
               }
             }
           }
-        );
+        }
+      );
       
         function updateChart(option) {
           // Check if the selected option exists in chartData
