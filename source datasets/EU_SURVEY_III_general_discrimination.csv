@@ -1,0 +1,40 @@
+country,topic,question,answer,percentage,notes
+Albania,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,51,""
+Austria,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,38,""
+Belgium,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,32,""
+Bulgaria,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,50,""
+Cyprus,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,50,""
+Czechia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,35,""
+Germany,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,38,""
+Denmark,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,29,""
+Estonia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,31,""
+Greece,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,45,""
+Spain,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,37,""
+Finland,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,24,""
+France,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,34,""
+Croatia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,35,""
+Hungary,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,40,""
+Ireland,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,35,""
+Italy,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,38,""
+Lithuania,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,47,""
+Luxembourg,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,34,""
+Latvia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,38,""
+North Macedonia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,39,""
+Malta,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,31,""
+Netherlands,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,31,""
+Poland,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,44,""
+Portugal,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,38,""
+Romania,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,39,""
+Serbia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,45,""
+Sweden,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,21,""
+Slovenia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,29,""
+Slovakia,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,46,""
+EU27,Discrimination,Discrimination in areas of life > Felt discriminated in the 12 months before the survey in any of 8 areas of life,Yes,37,""
+‡,small sample size,,,,
+¹,not available due to small sample size,,,,
+Note:,"Out of all respondents aged 15+ who were at risk of being discriminated (i.e. have been in at least one situation listed under core areas of life) in the past 12 months.|The answer category ""No"" does also include small number of respondents, who answered ""Don't know"" or ""Prefer not to say"". The core areas of life include: looking for work, at work, housing, education, healthcare, administration, and other services.",,,,
+Source:,"EU LGBTIQ Survey III, 2023",,,,
+Date:,2025-01-08,,,,
+Question Code:,D1_1,,,,
+Hyperlink:,http://fra.europa.eu/dsense/render/map?indicator=D1_1&dimensionsCombination=answer+X+country+X+year+X+0&unit=percentage&aes_x=country&aes_z=answer&answer=01.%20yes&survey=LGBTIQ&ext=csv,,,,
+General Disclaimer of the FRA website:,http://fra.europa.eu/en/terms-and-conditions,,,,

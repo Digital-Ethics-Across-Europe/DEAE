@@ -1,0 +1,40 @@
+country,topic,question,answer,percentage,notes
+Albania,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,31,""
+Austria,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,13,""
+Belgium,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,11,""
+Bulgaria,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,31,""
+Cyprus,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,30,""
+Czechia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,13,""
+Germany,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,14,""
+Denmark,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,9,""
+Estonia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,14,""
+Greece,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,25,""
+Spain,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,14,""
+Finland,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,6,""
+France,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,12,""
+Croatia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,16,""
+Hungary,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,27,""
+Ireland,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,11,""
+Italy,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,15,""
+Lithuania,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,34,""
+Luxembourg,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,14,""
+Latvia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,19,""
+North Macedonia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,25,""
+Malta,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,12,""
+Netherlands,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,7,""
+Poland,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,22,""
+Portugal,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,22,""
+Romania,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,30,""
+Serbia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,26,""
+Sweden,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,9,""
+Slovenia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,10,""
+Slovakia,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,28,""
+EU27,Discrimination,Discrimination in areas of life > Felt discriminated in the past 12 months in educational institutions (as student or as parent),Yes,15,""
+‡,small sample size,,,,
+¹,not available due to small sample size,,,,
+Note:,"Out of all respondents aged 15+ who were at risk of being discriminated by school/university personnel in education in the past 12 months.|The answer category ""No"" does also include small number of respondents, who answered ""Don't know"" or ""Prefer not to say"".",,,,
+Source:,"EU LGBTIQ Survey III, 2023",,,,
+Date:,2025-01-15,,,,
+Question Code:,D1_2_e,,,,
+Hyperlink:,http://fra.europa.eu/dsense/render/map?indicator=D1_2_e&dimensionsCombination=answer+X+country+X+year+X+0&unit=percentage&aes_x=country&aes_z=answer&answer=01.%20yes&survey=LGBTIQ&ext=csv,,,,
+General Disclaimer of the FRA website:,http://fra.europa.eu/en/terms-and-conditions,,,,
