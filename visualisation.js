@@ -5752,7 +5752,7 @@ function updateCountryInfo(countryId, year) {
             status: getStatusIcon(countryData.registeredPartnership),
           },
           {
-            category: "Registered Partnership",
+            category: "Limited Registered Partnership",
             status: getStatusIcon(countryData.limitedRegisteredPartnershipregisteredPartnership),
           },
           {
