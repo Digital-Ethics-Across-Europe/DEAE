@@ -2,6 +2,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix prov: <https://www.w3.org/TR/prov-o/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
@@ -12,9 +13,9 @@
     dcterms:title "Marriage and parenting regulations 1989-2016";
     dcterms:description "This dataset contains data about the state of marriage and parenting regolamentation for samesex couples in European Union countries from the year 1989 until the year 2016";
     dcterms:creator "team/LukasFirantas";
-    dcterms:issued "2025/01/20"^^xsd:date;
-    dcterms:modified "2025/01/20"^^xsd:date;
-    dcterms:source <https://www.lawsandfamilies.eu/en/legal-project/interactive-database/>;
+    dcterms:issued "2025/01/21"^^xsd:date;
+    dcterms:modified "2025/01/21"^^xsd:date;
+    prov:wasDerivedFrom <https://www.lawsandfamilies.eu/en/legal-project/interactive-database/>;
     dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
     dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
