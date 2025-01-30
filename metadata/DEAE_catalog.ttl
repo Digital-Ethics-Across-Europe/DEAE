@@ -2,6 +2,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix prov: <https://www.w3.org/TR/prov-o/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
@@ -14,8 +15,8 @@
     dcterms:publisher "team/GiorgiaUmana";
     dcterms:publisher "team/LukasFirantas";
     dcterms:publisher "team/ValentinaBertelli";
-    dcterms:issued "2025/01/20"^^xsd:date;
-    dcterms:modified "2025/01/20"^^xsd:date;
+    dcterms:issued "2025/01/21"^^xsd:date;
+    dcterms:modified "2025/01/30"^^xsd:date;
     dcat:dataset <data/DS1>;
     dcat:dataset <data/DS2>;
     dcat:dataset <data/DS3>;

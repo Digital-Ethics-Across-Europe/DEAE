@@ -387,6 +387,11 @@ color:white
     color:white
 }
 
+.nav-tabs .nav-link:hover:nth-child(6) {
+  background-color: rgb(255, 33, 185); 
+  color:white
+}
+
 .nav-tabs .nav-link.active {
 margin-bottom: -1px; 
 border-radius: 15px 15px 0 0;
@@ -529,10 +534,18 @@ table th, table td{
 
 #ds4-table td a:hover {
     color: #6900ea;
+}
+
+#ds5-table td a:hover {
+  color: rgb(255, 33, 185);
 } 
 
 .table-purple {
     background-color: rgb(238, 218, 252);
+}
+
+.table-pink {
+  background-color: rgb(237, 193, 225);
 }
 
 @media only screen and (max-width: 426px) {

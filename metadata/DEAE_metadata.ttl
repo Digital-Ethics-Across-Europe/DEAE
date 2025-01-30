@@ -21,6 +21,7 @@
     dcat:dataset <data/DS2>;
     dcat:dataset <data/DS3>;
     dcat:dataset <data/DS4>;
+    dcat:dataset <data/DS5>;
     foaf:homepage <https://digital-ethics-across-europe.github.io/DEAE/>;
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
     dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
@@ -65,7 +66,7 @@
     dcterms:publisher "team/ValentinaBertelli";
     dcterms:creator "team/ValentinaBertelli";
     dcterms:issued "2025/01/21"^^xsd:date;
-    dcterms:modified "2025/01/21"^^xsd:date;
+    dcterms:modified "2025/01/30"^^xsd:date;
     prov:wasDerivedFrom <https://fra.europa.eu/en/publications-and-resources/data-and-maps/2024/eu-lgbtiq-survey-iii>;
     dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
@@ -110,7 +111,7 @@
     dcat:distribution <data/DS3/marriage_and_parenting_2024.json>;
     dcat:distribution <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS3/marriage_and_parenting_2024.json>.
 
-    <data/DS4>
+<data/DS4>
     a dcat:Dataset;
     dcterms:identifier <data/DS4>;
     dcterms:title "Marriage and parenting regulations 1989-2016";
@@ -138,6 +139,30 @@
     dcat:distribution <data/DS4/marriage_and_parenting_1989-2016.csv>;
     dcat:distribution <data/DS4/marriage_and_parenting_1989-2016.json>.
 
+<data/DS5>
+    a dcat:Dataset;
+    dcterms:identifier <data/DS5>;
+    dcterms:title "Hate crimes against the LGBTQ+ comunity 2016-2023";
+    dcterms:description "This dataset contains data about reported hate crimes committed against the LGBTQ+ comunity in Europe from the year 2016 to the year 2023";
+    dcterms:publisher "team/ValentinaBertelli";
+    dcterms:creator "team/ValentinaBertelli";
+    dcterms:issued "2025/01/30"^^xsd:date;
+    dcterms:modified "2025/01/30"^^xsd:date;
+    prov:wasDerivedFrom <https://hatecrime.osce.org/anti-lgbti-hate-crime>;
+    dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
+    dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
+    dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
+    dcat:startDate "2016"^^xsd:gYear
+    dcat:endDate "2023"^^xsd:gYear
+    dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
+    dcterms:subject <http://eurovoc.europa.eu/4728>;
+    dcterms:subject <URI: http://eurovoc.europa.eu/3348>
+    dcat:keyword "LGBTQ+ comunity";
+    dcat:keyword "violence against LGBTQ+";
+    dcat:distribution <data/DS5/hate_crime.csv>;
+    dcat:distribution <data/DS5/hate_crime.json>.
 
 <data/DS1/Discrimination_in_the_EU_sp535_volumeA.csv>
     a  dcat:Distribution;
@@ -202,6 +227,22 @@
     dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
     dcterms:description "JSON distribution of DEAE data about about marriage and parenting laws 1989-2016";  
     dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<data/DS5/hate_crime.csv>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS5/hate_crime.csv>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "CSV distribution of DEAE data crimes against LGBTQ+";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
+
+<data/DS5/hate_crime.json>
+    a  dcat:Distribution;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS5/hate_crime.json>;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
+    dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
+    dcterms:description "JSON distribution of DEAE data about crimes against LGBTQ+";  
+    dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.    
 
 <team/AlishaCarolHiscox>
     a foaf:Agent    
