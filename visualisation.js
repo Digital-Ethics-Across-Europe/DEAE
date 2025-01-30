@@ -5670,14 +5670,14 @@ const data = {
     
   };
 
-  const yearSlider = document.getElementById("yearSlider");
+const yearSlider = document.getElementById("yearSlider");
 const selectedYearText = document.getElementById("selectedYear");
 const countryName = document.getElementById("countryName");
 const countryInfo = document.getElementById("countryInfo");
 
 
 function updateMapColors(year) {
-  const paths = document.querySelectorAll("svg path");
+  const paths = document.querySelectorAll(".firstMap svg path");
 
   paths.forEach((path) => {
     const countryId = path.id;
@@ -5841,7 +5841,7 @@ yearSlider.addEventListener("input", (e) => {
   updateCountryInfo(selectedCountryId, year);  
 });
 
-const paths = document.querySelectorAll("svg path");
+const paths = document.querySelectorAll(".firstMap svg path");
 paths.forEach((path) => {
   path.addEventListener("click", () => {
     const countryId = path.id;
@@ -6061,7 +6061,8 @@ document.addEventListener('DOMContentLoaded', function () {
               label: 'Discrimination felt by LGBTQ+ members in the European Union in 2023',
               data: data1.map(row => row.discriminationLastTwelveMonths),
               backgroundColor: 'red',
-              borderWidth: 1
+              borderWidth: 1,
+              borderRadius:8,
           }
           ]
       },
@@ -6306,7 +6307,7 @@ document.addEventListener('DOMContentLoaded', function () {
               labels: labels,
               datasets: chartData.discriminationSexualOrientation.datasets
             },
-            options: {
+            options: {borderRadius:8,
               responsive: true,
               plugins: {
                 title: {

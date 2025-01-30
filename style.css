@@ -871,3 +871,27 @@ option {
     font-size: 1em;
   }
 }
+
+
+#VisualizationViolence {margin:0; 
+padding: 0}
+
+#VisualizationViolence p{margin:0; 
+  padding: 0}
+
+#sliderInfo2{display: flex;
+	flex-direction: row;
+	align-items: center;
+	width:100%;}
+
+  #sliderInfo2 input{width:100%;
+}
+
+
+
+#VisualizationViolence #country p{margin-left: 1%;
+  font-weight: 600;
+  
+font-size: medium;}
+
+#countryName2{text-transform: uppercase;}
