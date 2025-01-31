@@ -362,7 +362,7 @@ const allYears = {
   
 
   function getColor(numIncidents) {
-    if (numIncidents < 1) return "#FFD97A"; 
+    if (numIncidents < 1) return "#FFEEC2"; 
     if (numIncidents < 2) return "#FFC533";
     if (numIncidents < 5) return "#ffba08";
     if (numIncidents < 10) return "#FAA307";
@@ -377,7 +377,7 @@ const allYears = {
   }
   
   // Function to update map colors based on year
-  function updateMapColors(year) {
+  function updateMapColorsTwo(year) {
     document.querySelectorAll(".secondMap svg path").forEach((path) => {
       const countryId = path.id;
       if (allYears[year] && allYears[year][countryId]) {
@@ -390,7 +390,7 @@ const allYears = {
     });
   }
   
-  function updateCountryInfo(countryId, year) {
+  function updateCountryInfoTwo(countryId, year) {
     if (!countryId) return;
   
     const countryData = allYears[year]?.[countryId];
@@ -407,10 +407,10 @@ const allYears = {
   yearSlider2.addEventListener("input", (e) => {
     const year = e.target.value;
     selectedYearText2.textContent = year;
-    updateMapColors(year);
+    updateMapColorsTwo(year);
   
     if (selectedCountryId) {
-      updateCountryInfo(selectedCountryId, year);
+      updateCountryInfoTwo(selectedCountryId, year);
     }
   });
   
@@ -418,9 +418,9 @@ const allYears = {
     path.addEventListener("click", () => {
       selectedCountryId = path.id;
       const year = yearSlider2.value;
-      updateCountryInfo(selectedCountryId, year);
+      updateCountryInfoTwo(selectedCountryId, year);
     });
   });
   
-  updateMapColors(yearSlider2.value);
+  updateMapColorsTwo(yearSlider2.value);
   
