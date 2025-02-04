@@ -305,7 +305,7 @@ padding-bottom: 2%;}
 }
 
 .datasets a{color:black}
-.dataset:first-child:hover a,.dataset:nth-child(2):hover a,.dataset:nth-child(3):hover a, .dataset:nth-child(3):hover a, .dataset:nth-child(4):hover a{color:white;
+.dataset:first-child:hover a,.dataset:nth-child(2):hover a,.dataset:nth-child(3):hover a, .dataset:nth-child(3):hover a, .dataset:nth-child(4):hover a, .dataset:nth-child(5):hover a{color:white;
   transition: all 0.5s ease;}
 
 
@@ -325,6 +325,9 @@ transition: all 0.5s ease; }
   color:white;
   transition: all 0.5s ease; }
 
+.datasets .dataset:nth-child(5):hover{background-color: purple;
+    color:white;
+    transition: all 0.5s ease; }
 .datasetsDivided {
   display: flex;
   flex-direction: row;
@@ -887,6 +890,10 @@ option {
 
 #violenceVisualisation{padding: 7% 0; 
 }
+
+#secondMap{width:100%;
+height:50%}
+
 #VisualizationViolence {margin:0; 
 padding: 0}
 
