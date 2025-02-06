@@ -6444,8 +6444,10 @@ document.addEventListener('DOMContentLoaded', function () {
       
         const dataLineChart = {
           Albania: {
+           
             datasets: [
-              {
+              { tension: 0.3,
+                borderWidth:7,
                 label: "Albania",
                 data: [0, 0, 0, 1, 0, 0, 0, 5],
                 borderColor: 'navy',
@@ -6455,7 +6457,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Armenia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Armenia",
                 data: [13, 13, 21, 22, 25, 59, 50, 49],
                 borderColor: 'red',
@@ -6465,7 +6468,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Austria: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Austria",
                 data: [0, 1, 4, 3, 3, 4, 2, 9],
                 borderColor: 'blue',
@@ -6475,7 +6479,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Belarus: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Belarus",
                 data: [0, 0, 1, 2, 1, 7, 0, 2],
                 borderColor: 'midnightblue',
@@ -6485,7 +6490,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Belgium: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Belgium",
                 data: [1, 6, 0, 0, 0, 0, 0, 1],
                 borderColor: 'green',
@@ -6495,7 +6501,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           BosniaandHerzegovina: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "BosniaandHerzegovina",
                 data: [7, 27, 20, 18, 11, 16, 17, 17],
                 borderColor: 'purple',
@@ -6505,7 +6512,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Bulgaria: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Bulgaria",
                 data: [0, 0, 0, 5, 3, 0, 0, 0],
                 borderColor: 'lawngreen',
@@ -6515,7 +6523,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Croatia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Croatia",
                 data: [1, 4, 0, 11, 10, 18, 0, 3],
                 borderColor: 'orange',
@@ -6525,7 +6534,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Cyprus: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Cyprus",
                 data: [1, 0, 0, 0, 0, 2, 1, 4],
                 borderColor: 'chartreuse',
@@ -6535,7 +6545,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           CzechRepublic: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "CzechRepublic",
                 data: [0, 6, 3, 7, 9, 29, 43, 22],
                 borderColor: 'brown',
@@ -6545,7 +6556,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Estonia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Estonia",
                 data: [0, 0, 0, 0, 0, 3, 1, 1],
                 borderColor: 'skyblue',
@@ -6555,7 +6567,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Finland: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Finland",
                 data: [0, 5, 0, 0, 0, 0, 5, 0],
                 borderColor: 'cyan',
@@ -6565,7 +6578,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           France: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "France",
                 data: [26, 0, 0, 0, 3, 5, 1, 0],
                 borderColor: 'darkorange',
@@ -6575,7 +6589,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Germany: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Germany",
                 data: [35, 21, 32, 34, 27, 33, 42, 34],
                 borderColor: 'yellow',
@@ -6585,7 +6600,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Greece: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Greece",
                 data: [11, 22, 5, 24, 18, 24, 22, 24],
                 borderColor: 'pink',
@@ -6595,7 +6611,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Hungary: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Hungary",
                 data: [2, 3, 0, 20, 2, 10, 4, 6],
                 borderColor: 'teal',
@@ -6605,7 +6622,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Iceland: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Iceland",
                 data: [0, 0, 1, 0, 0, 0, 0, 21],
                 borderColor: 'seashell',
@@ -6615,7 +6633,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Ireland: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Ireland",
                 data: [1, 0, 0, 1, 2, 2, 0, 0],
                 borderColor: 'blueviolet',
@@ -6625,7 +6644,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Italy: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Italy",
                 data: [4, 5, 13, 51, 21, 40, 31, 35],
                 borderColor: 'magenta',
@@ -6635,7 +6655,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Latvia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Latvia",
                 data: [0, 0, 0, 0, 0, 1, 0, 2],
                 borderColor: 'orchid',
@@ -6645,7 +6666,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Liechtenstein: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Liechtenstein",
                 data: [0, 0, 0, 0, 0, 1, 0, 0],
                 borderColor: 'snow',
@@ -6655,7 +6677,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Lithuania: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Lithuania",
                 data: [2, 1, 4, 7, 3, 2, 4, 2],
                 borderColor: 'indigo',
@@ -6665,7 +6688,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Malta: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Malta",
                 data: [0, 1, 0, 0, 0, 0, 0, 0],
                 borderColor: 'gray',
@@ -6675,7 +6699,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Moldova: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Moldova",
                 data: [16, 13, 8, 10, 12, 9, 4, 10],
                 borderColor: 'brown',
@@ -6685,7 +6710,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Montenegro: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Montenegro",
                 data: [3, 0, 2, 2, 1, 1, 1, 0],
                 borderColor: 'fuchsia',
@@ -6695,7 +6721,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Netherlands: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Netherlands",
                 data: [10, 10, 3, 11, 2, 5, 1, 1],
                 borderColor: 'black',
@@ -6705,7 +6732,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           NorthMacedonia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "NorthMacedonia",
                 data: [0, 1, 0, 6, 4, 1, 4, 1],
                 borderColor: 'violet',
@@ -6716,6 +6744,8 @@ document.addEventListener('DOMContentLoaded', function () {
           Norway: {
             datasets: [
               {
+                tension: 0.3,
+                borderWidth:7,
                 label: "Norway",
                 data: [1, 0, 0, 0, 0, 0, 1, 0],
                 borderColor: 'indianred',
@@ -6725,7 +6755,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Poland: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Poland",
                 data: [25, 32, 13, 47, 66, 24, 47, 27],
                 borderColor: 'yellowgreen',
@@ -6735,7 +6766,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Portugal: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Portugal",
                 data: [0, 3, 0, 30, 17, 1, 0, 0],
                 borderColor: 'lime',
@@ -6745,7 +6777,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Romania: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Romania",
                 data: [0, 3, 0, 0, 0, 0, 4, 6],
                 borderColor: 'olive',
@@ -6755,7 +6788,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Serbia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Serbia",
                 data: [6, 20, 20, 44, 29, 35, 53, 44],
                 borderColor: 'coral',
@@ -6765,7 +6799,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Slovakia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Slovakia",
                 data: [0, 0, 0, 0, 0, 0, 2, 1],
                 borderColor: 'peachpuff',
@@ -6775,7 +6810,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Slovenia: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Slovenia",
                 data: [0, 0, 0, 4, 1, 2, 5, 16],
                 borderColor: 'teal',
@@ -6785,7 +6821,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Spain: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Spain",
                 data: [25, 142, 131, 3, 85, 1, 0, 1],
                 borderColor: 'gold',
@@ -6795,7 +6832,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Sweden: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Sweden",
                 data: [15, 19, 22, 0, 0, 0, 1, 0],
                 borderColor: 'salmon',
@@ -6805,7 +6843,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Switzerland: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Switzerland",
                 data: [1, 0, 0, 18, 27, 49, 61, 119],
                 borderColor: 'darkslategray',
@@ -6815,7 +6854,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Turkey: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Turkey",
                 data: [75, 37, 14, 7, 3, 9, 3, 13],
                 borderColor: 'darkgreen',
@@ -6825,7 +6865,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           Ukraine: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "Ukraine",
                 data: [67, 110, 105, 114, 136, 60, 41, 29],
                 borderColor: 'royalblue',
@@ -6835,7 +6876,8 @@ document.addEventListener('DOMContentLoaded', function () {
           },
           UnitedKingdom: {
             datasets: [
-              {
+              {tension: 0.3,
+                borderWidth:7,
                 label: "UnitedKingdom",
                 data: [17, 31, 4, 3, 6, 1, 2, 5],
                 borderColor: 'crimson',

@@ -15,7 +15,12 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	
+
+	<!--favicon-->
+	<link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png">
+	<link rel="manifest" href="imgs/favicon/site.webmanifest">
 
     <link href="style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -1884,64 +1889,8 @@
 			  </select>
 			</div>
 		</div>
-		<div id="linChartText" class="content">	
-			<h2>ASDFGHJKL</h2>
-			<h3>2016 - 2023</h3>
-			<p>asdfghjklqwertyuiopzxcvbnm
-			</p>
-		</diV>
-		<div  id="linechart" class="content">
-			<div class="chart-div" id="line">
-				<div class="bar-div" >
-					<canvas id="hate-crime-line-chart"></canvas>
-				</div>
-				
-				<div class="control-row" style="margin-bottom: 500px;">
-					<select class="countrydata2" id="country-hate-crime-select">
-					  <option value="Albania">Albania</option>
-					  <option value="Armenia">Armenia</option>
-					  <option value="Austria">Austria</option>
-					  <option value="Belarus">Belarus</option>
-					  <option value="Belgium">Belgium</option>
-					  <option value="BosniaandHerzegovina">Bosnia and Herzegovina</option>
-					  <option value="Bulgaria">Bulgaria</option>
-					  <option value="Croatia">Croatia</option>
-					  <option value="Cyprus">Cyprus</option>
-					  <option value="CzechRepublic">Czech Republic</option>
-					  <option value="Estonia">Estonia</option>
-					  <option value="Finland">Finland</option>
-					  <option value="France">France</option>
-					  <option value="Germany">Germany</option>
-					  <option value="Greece">Greece</option>
-					  <option value="Hungary">Hungary</option>
-					  <option value="Iceland">Iceland</option>
-					  <option value="Ireland">Ireland</option>
-					  <option value="Italy">Italy</option>
-					  <option value="Latvia">Latvia</option>
-					  <option value="Liechtenstein">Liechtenstein</option>
-					  <option value="Lithuania">Lithuania</option>
-					  <option value="Malta">Malta</option>
-					  <option value="Moldova">Moldova</option>
-					  <option value="Montenegro">Montenegro</option>
-					  <option value="Netherlands">Netherlands</option>
-					  <option value="NorthMacedonia">North Macedonia</option>
-					  <option value="Norway">Norway</option>
-					  <option value="Poland">Poland</option>
-					  <option value="Portugal">Portugal</option>
-					  <option value="Romania">Romania</option>
-					  <option value="Serbia">Serbia</option>
-					  <option value="Slovakia">Slovakia</option>
-					  <option value="Slovenia">Slovenia</option>
-					  <option value="Spain">Spain</option>
-					  <option value="Sweden">Sweden</option>
-					  <option value="Switzerland">Switzerland</option>
-					  <option value="Turkey">Turkey</option>
-					  <option value="Ukraine">Ukraine</option>
-					  <option value="UnitedKingdom">United Kingdom</option>
-					</select>
-				  </div>
-			</div>
-	</div>
+		
+		
 	<div id="mapText" class="content">	
 		<h2>Marriage and Adoption</h2>
 		<h3>1989 - 2024</h3>
@@ -2138,17 +2087,61 @@
 		  
 		<div class="tab-content" id="nav-tabContent">
 			<div class="tab-pane fade show active" id="nav-first" role="tabpanel" aria-labelledby="nav-first-tab">
-				<h3>Quality Analysis</h3>
-				<p>A quality analysis of our source datasets was performed following the <a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/aspettiorg.html#qualita-dei-dati" style="color:red"><em>Italian National Guidelines</em></a> ("Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico") 
-				</p>
-				
+				<div  id="linechart" class="content">
+					<div class="chart-div" id="line">
+						<div class="bar-div" >
+							<canvas id="hate-crime-line-chart"></canvas>
+						</div>
+						<div class="control-row">
+							<select class="countrydata2" id="country-hate-crime-select">
+							  <option value="Albania">Albania</option>
+							  <option value="Armenia">Armenia</option>
+							  <option value="Austria">Austria</option>
+							  <option value="Belarus">Belarus</option>
+							  <option value="Belgium">Belgium</option>
+							  <option value="BosniaandHerzegovina">Bosnia and Herzegovina</option>
+							  <option value="Bulgaria">Bulgaria</option>
+							  <option value="Croatia">Croatia</option>
+							  <option value="Cyprus">Cyprus</option>
+							  <option value="CzechRepublic">Czech Republic</option>
+							  <option value="Estonia">Estonia</option>
+							  <option value="Finland">Finland</option>
+							  <option value="France">France</option>
+							  <option value="Germany">Germany</option>
+							  <option value="Greece">Greece</option>
+							  <option value="Hungary">Hungary</option>
+							  <option value="Iceland">Iceland</option>
+							  <option value="Ireland">Ireland</option>
+							  <option value="Italy">Italy</option>
+							  <option value="Latvia">Latvia</option>
+							  <option value="Liechtenstein">Liechtenstein</option>
+							  <option value="Lithuania">Lithuania</option>
+							  <option value="Malta">Malta</option>
+							  <option value="Moldova">Moldova</option>
+							  <option value="Montenegro">Montenegro</option>
+							  <option value="Netherlands">Netherlands</option>
+							  <option value="NorthMacedonia">North Macedonia</option>
+							  <option value="Norway">Norway</option>
+							  <option value="Poland">Poland</option>
+							  <option value="Portugal">Portugal</option>
+							  <option value="Romania">Romania</option>
+							  <option value="Serbia">Serbia</option>
+							  <option value="Slovakia">Slovakia</option>
+							  <option value="Slovenia">Slovenia</option>
+							  <option value="Spain">Spain</option>
+							  <option value="Sweden">Sweden</option>
+							  <option value="Switzerland">Switzerland</option>
+							  <option value="Turkey">Turkey</option>
+							  <option value="Ukraine">Ukraine</option>
+							  <option value="UnitedKingdom">United Kingdom</option>
+							</select>
+						  </div>
+					</div>
+			</div>
 				
 			</div>
 			<div class="tab-pane fade" id="nav-second" role="tabpanel" aria-labelledby="nav-second-tab">
-				<h2>Map and timeline</h2>
-				
-				<p>The following interactive map displays information 
-					</p>
+			
 				<div id="VisualizationViolence" class="content">
 					<div id="allInfo">
 						<div id="country">
