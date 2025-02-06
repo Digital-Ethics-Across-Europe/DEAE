@@ -6440,4 +6440,466 @@ document.addEventListener('DOMContentLoaded', function () {
           updateChart(event.target.value);
         });
         
+        const labelsLineChart = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+      
+        const dataLineChart = {
+          Albania: {
+            datasets: [
+              {
+                label: "Albania",
+                data: [0, 0, 0, 1, 0, 0, 0, 5],
+                borderColor: 'navy',
+                backgroundColor: 'rgba(0, 0, 128, 0.2)',
+              },
+            ],
+          },
+          Armenia: {
+            datasets: [
+              {
+                label: "Armenia",
+                data: [13, 13, 21, 22, 25, 59, 50, 49],
+                borderColor: 'red',
+                backgroundColor: 'rgba(255, 0, 0, 0.2)',
+              },
+            ],
+          },
+          Austria: {
+            datasets: [
+              {
+                label: "Austria",
+                data: [0, 1, 4, 3, 3, 4, 2, 9],
+                borderColor: 'blue',
+                backgroundColor: 'rgba(0, 0, 255, 0.2)',
+              },
+            ],
+          },
+          Belarus: {
+            datasets: [
+              {
+                label: "Belarus",
+                data: [0, 0, 1, 2, 1, 7, 0, 2],
+                borderColor: 'midnightblue',
+                backgroundColor: 'rgba(25, 25, 112, 0.2)',
+              },
+            ],
+          },
+          Belgium: {
+            datasets: [
+              {
+                label: "Belgium",
+                data: [1, 6, 0, 0, 0, 0, 0, 1],
+                borderColor: 'green',
+                backgroundColor: 'rgba(0, 255, 0, 0.2)',
+              },
+            ],
+          },
+          BosniaandHerzegovina: {
+            datasets: [
+              {
+                label: "BosniaandHerzegovina",
+                data: [7, 27, 20, 18, 11, 16, 17, 17],
+                borderColor: 'purple',
+                backgroundColor: 'rgba(128, 0, 128, 0.2)',
+              },
+            ],
+          },
+          Bulgaria: {
+            datasets: [
+              {
+                label: "Bulgaria",
+                data: [0, 0, 0, 5, 3, 0, 0, 0],
+                borderColor: 'lawngreen',
+                backgroundColor: 'rgba(124, 252, 0, 0.2)',
+              },
+            ],
+          },
+          Croatia: {
+            datasets: [
+              {
+                label: "Croatia",
+                data: [1, 4, 0, 11, 10, 18, 0, 3],
+                borderColor: 'orange',
+                backgroundColor: 'rgba(255, 165, 0, 0.2)',
+              },
+            ],
+          },
+          Cyprus: {
+            datasets: [
+              {
+                label: "Cyprus",
+                data: [1, 0, 0, 0, 0, 2, 1, 4],
+                borderColor: 'chartreuse',
+                backgroundColor: 'rgba(127, 255, 0, 0.2)',
+              },
+            ],
+          },
+          CzechRepublic: {
+            datasets: [
+              {
+                label: "CzechRepublic",
+                data: [0, 6, 3, 7, 9, 29, 43, 22],
+                borderColor: 'brown',
+                backgroundColor: 'rgba(165, 42, 42, 0.2)',
+              },
+            ],
+          },
+          Estonia: {
+            datasets: [
+              {
+                label: "Estonia",
+                data: [0, 0, 0, 0, 0, 3, 1, 1],
+                borderColor: 'skyblue',
+                backgroundColor: 'rgba(135, 206, 235, 0.2)',
+              },
+            ],
+          },
+          Finland: {
+            datasets: [
+              {
+                label: "Finland",
+                data: [0, 5, 0, 0, 0, 0, 5, 0],
+                borderColor: 'cyan',
+                backgroundColor: 'rgba(0, 255, 255, 0.2)',
+              },
+            ],
+          },
+          France: {
+            datasets: [
+              {
+                label: "France",
+                data: [26, 0, 0, 0, 3, 5, 1, 0],
+                borderColor: 'darkorange',
+                backgroundColor: 'rgba(255, 140, 0, 0.2)',
+              },
+            ],
+          },
+          Germany: {
+            datasets: [
+              {
+                label: "Germany",
+                data: [35, 21, 32, 34, 27, 33, 42, 34],
+                borderColor: 'yellow',
+                backgroundColor: 'rgba(255, 255, 0, 0.2)',
+              },
+            ],
+          },
+          Greece: {
+            datasets: [
+              {
+                label: "Greece",
+                data: [11, 22, 5, 24, 18, 24, 22, 24],
+                borderColor: 'pink',
+                backgroundColor: 'rgba(255, 105, 180, 0.2)',
+              },
+            ],
+          },
+          Hungary: {
+            datasets: [
+              {
+                label: "Hungary",
+                data: [2, 3, 0, 20, 2, 10, 4, 6],
+                borderColor: 'teal',
+                backgroundColor: 'rgba(0, 128, 128, 0.2)',
+              },
+            ],
+          },
+          Iceland: {
+            datasets: [
+              {
+                label: "Iceland",
+                data: [0, 0, 1, 0, 0, 0, 0, 21],
+                borderColor: 'seashell',
+                backgroundColor: 'rgba(255, 245, 238, 0.2)',
+              },
+            ],
+          },
+          Ireland: {
+            datasets: [
+              {
+                label: "Ireland",
+                data: [1, 0, 0, 1, 2, 2, 0, 0],
+                borderColor: 'blueviolet',
+                backgroundColor: 'rgba(138, 43, 226, 0.2)',
+              },
+            ],
+          },
+          Italy: {
+            datasets: [
+              {
+                label: "Italy",
+                data: [4, 5, 13, 51, 21, 40, 31, 35],
+                borderColor: 'magenta',
+                backgroundColor: 'rgba(255, 0, 255, 0.2)',
+              },
+            ],
+          },
+          Latvia: {
+            datasets: [
+              {
+                label: "Latvia",
+                data: [0, 0, 0, 0, 0, 1, 0, 2],
+                borderColor: 'orchid',
+                backgroundColor: 'rgba(218, 112, 214, 0.2)',
+              },
+            ],
+          },
+          Liechtenstein: {
+            datasets: [
+              {
+                label: "Liechtenstein",
+                data: [0, 0, 0, 0, 0, 1, 0, 0],
+                borderColor: 'snow',
+                backgroundColor: 'rgba(255, 250, 250, 0.2)',
+              },
+            ],
+          },
+          Lithuania: {
+            datasets: [
+              {
+                label: "Lithuania",
+                data: [2, 1, 4, 7, 3, 2, 4, 2],
+                borderColor: 'indigo',
+                backgroundColor: 'rgba(75, 0, 130, 0.2)',
+              },
+            ],
+          },
+          Malta: {
+            datasets: [
+              {
+                label: "Malta",
+                data: [0, 1, 0, 0, 0, 0, 0, 0],
+                borderColor: 'gray',
+                backgroundColor: 'rgba(169, 169, 169, 0.2)',
+              },
+            ],
+          },
+          Moldova: {
+            datasets: [
+              {
+                label: "Moldova",
+                data: [16, 13, 8, 10, 12, 9, 4, 10],
+                borderColor: 'brown',
+                backgroundColor: 'rgba(165, 42, 42, 0.2)',
+              },
+            ],
+          },
+          Montenegro: {
+            datasets: [
+              {
+                label: "Montenegro",
+                data: [3, 0, 2, 2, 1, 1, 1, 0],
+                borderColor: 'fuchsia',
+                backgroundColor: 'rgba(255, 0, 255, 0.2)',
+              },
+            ],
+          },
+          Netherlands: {
+            datasets: [
+              {
+                label: "Netherlands",
+                data: [10, 10, 3, 11, 2, 5, 1, 1],
+                borderColor: 'black',
+                backgroundColor: 'rgba(0, 0, 0, 0.2)',
+              },
+            ],
+          },
+          NorthMacedonia: {
+            datasets: [
+              {
+                label: "NorthMacedonia",
+                data: [0, 1, 0, 6, 4, 1, 4, 1],
+                borderColor: 'violet',
+                backgroundColor: 'rgba(238, 130, 238, 0.2)',
+              },
+            ],
+          },
+          Norway: {
+            datasets: [
+              {
+                label: "Norway",
+                data: [1, 0, 0, 0, 0, 0, 1, 0],
+                borderColor: 'indianred',
+                backgroundColor: 'rgba(205, 92, 92, 0.2)',
+              },
+            ],
+          },
+          Poland: {
+            datasets: [
+              {
+                label: "Poland",
+                data: [25, 32, 13, 47, 66, 24, 47, 27],
+                borderColor: 'yellowgreen',
+                backgroundColor: 'rgba(154, 205, 50, 0.2)',
+              },
+            ],
+          },
+          Portugal: {
+            datasets: [
+              {
+                label: "Portugal",
+                data: [0, 3, 0, 30, 17, 1, 0, 0],
+                borderColor: 'lime',
+                backgroundColor: 'rgba(0, 255, 0, 0.2)',
+              },
+            ],
+          },
+          Romania: {
+            datasets: [
+              {
+                label: "Romania",
+                data: [0, 3, 0, 0, 0, 0, 4, 6],
+                borderColor: 'olive',
+                backgroundColor: 'rgba(128, 128, 0, 0.2)',
+              },
+            ],
+          },
+          Serbia: {
+            datasets: [
+              {
+                label: "Serbia",
+                data: [6, 20, 20, 44, 29, 35, 53, 44],
+                borderColor: 'coral',
+                backgroundColor: 'rgba(255, 127, 80, 0.2)',
+              },
+            ],
+          },
+          Slovakia: {
+            datasets: [
+              {
+                label: "Slovakia",
+                data: [0, 0, 0, 0, 0, 0, 2, 1],
+                borderColor: 'peachpuff',
+                backgroundColor: 'rgba(255, 218, 185, 0.2)',
+              },
+            ],
+          },
+          Slovenia: {
+            datasets: [
+              {
+                label: "Slovenia",
+                data: [0, 0, 0, 4, 1, 2, 5, 16],
+                borderColor: 'teal',
+                backgroundColor: 'rgba(0, 128, 128, 0.2)',
+              },
+            ],
+          },
+          Spain: {
+            datasets: [
+              {
+                label: "Spain",
+                data: [25, 142, 131, 3, 85, 1, 0, 1],
+                borderColor: 'gold',
+                backgroundColor: 'rgba(255, 215, 0, 0.2)',
+              },
+            ],
+          },
+          Sweden: {
+            datasets: [
+              {
+                label: "Sweden",
+                data: [15, 19, 22, 0, 0, 0, 1, 0],
+                borderColor: 'salmon',
+                backgroundColor: 'rgba(250, 128, 114, 0.2)',
+              },
+            ],
+          },
+          Switzerland: {
+            datasets: [
+              {
+                label: "Switzerland",
+                data: [1, 0, 0, 18, 27, 49, 61, 119],
+                borderColor: 'darkslategray',
+                backgroundColor: 'rgba(47, 79, 79, 0.2)',
+              },
+            ],
+          },
+          Turkey: {
+            datasets: [
+              {
+                label: "Turkey",
+                data: [75, 37, 14, 7, 3, 9, 3, 13],
+                borderColor: 'darkgreen',
+                backgroundColor: 'rgba(0, 128, 0, 0.2)',
+              },
+            ],
+          },
+          Ukraine: {
+            datasets: [
+              {
+                label: "Ukraine",
+                data: [67, 110, 105, 114, 136, 60, 41, 29],
+                borderColor: 'royalblue',
+                backgroundColor: 'rgba(65, 105, 225, 0.2)',
+              },
+            ],
+          },
+          UnitedKingdom: {
+            datasets: [
+              {
+                label: "UnitedKingdom",
+                data: [17, 31, 4, 3, 6, 1, 2, 5],
+                borderColor: 'crimson',
+                backgroundColor: 'rgba(220, 20, 60, 0.2)',
+              },
+            ],
+          },
+        }
+        
+         
+        let lineChart = new Chart(
+          document.getElementById('hate-crime-line-chart'),
+          {
+            type: 'line',
+            data: {
+              labels: labelsLineChart, // Make sure labelsLineChart is defined
+              datasets: dataLineChart.Albania.datasets, // Default to Albania data
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: {
+                  position: 'top',
+                },
+                title: {
+                  display: true,
+                  text: 'Number of crimes reported each year',
+                },
+              },
+            },
+          }
+        );
+        
+        // Get the select element
+        const countrySelect = document.getElementById('country-hate-crime-select');
+        
+        // Listen for changes on the select element
+        countrySelect.addEventListener('change', function () {
+          const selectedCountry = countrySelect.value; // Get the selected country value (e.g., "Albania")
+          
+          // Call the update function with the selected country
+          updateLineChart(selectedCountry);
+        });
+        
+        // Function to update the chart based on the selected country
+        function updateLineChart(option) {
+          // Check if the selected option exists in dataLineChart
+          if (!dataLineChart.hasOwnProperty(option)) {
+            console.error('Invalid option selected:', option);
+            return; // Exit if the option does not exist
+          }
+        
+          let newDataLineChart = dataLineChart[option];
+        
+          // Ensure the datasets are well-formed for Chart.js
+          if (!newDataLineChart || !newDataLineChart.datasets || !Array.isArray(newDataLineChart.datasets)) {
+            console.error('Invalid datasets for the option:', option);
+            return; // Exit if datasets are not valid
+          }
+        
+          // Update the chart data
+          lineChart.data.datasets = newDataLineChart.datasets; // Corrected typo here
+        
+          // Call update to re-render the chart
+          lineChart.update();
+        }      
   })
