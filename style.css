@@ -807,6 +807,9 @@ option {
   position: relative
   }
 
+#country-hate-crime-select option{
+  text-align: center;
+}
   
 
 #equality-table tr, #equality-table tr{
