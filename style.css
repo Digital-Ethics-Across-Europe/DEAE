@@ -939,5 +939,19 @@ font-size: medium;}
 #countryName2{text-transform: uppercase;}
 
 
-#country-hate-crime-select{width:20%}
-#hate-crime-line-chart{width:100%}
+
+#hate-crime-select{width:30%;
+}
+
+
+#choose-country-hate{display: flex; 
+flex-direction: row;
+margin-top:2%;
+padding:0
+}
+
+
+#hate-law-text{font-size: 15px;}
+
+
+

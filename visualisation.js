@@ -6438,510 +6438,666 @@ document.addEventListener('DOMContentLoaded', function () {
         // Event listener for dropdown change
         document.getElementById('public-opinion-select').addEventListener('change', function (event) {
           updateChart(event.target.value);
-        });
-        
-        const labelsLineChart = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+      });
       
-        const dataLineChart = {
-          Albania: {
+      const labelsLineChart = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
+      
+      const dataLineChart = {
+        Albania: {
            
-            datasets: [
-              { tension: 0.3,
-                borderWidth:7,
-                label: "Albania",
-                data: [0, 0, 0, 1, 0, 0, 0, 5],
-                borderColor: 'navy',
-                backgroundColor: 'rgba(0, 0, 128, 0.2)',
-              },
-            ],
-          },
-          Armenia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Armenia",
-                data: [13, 13, 21, 22, 25, 59, 50, 49],
-                borderColor: 'red',
-                backgroundColor: 'rgba(255, 0, 0, 0.2)',
-              },
-            ],
+          datasets: [
+            { tension: 0.3,
+              borderWidth:5,
+              label: "Albania",
+              data: [0, 0, 0, 1, 0, 0, 0, 5],
+              borderColor: 'black',
+              backgroundColor: 'black',
+              pointStyle:'rectRounded',    
+              pointBorderWidth:3,     
+          
+              
+            },
+            
+            {
+              barThickness:2,
+              type: 'bar',
+              label: 'Hate Speech Law',
+              data: [0, 0, 5],
+              fill: true,
+             
+              backgroundColor: '#b1d283'
+            }
+          
+          ],
+        },
+        Armenia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Armenia",
+              data: [13, 13, 21, 22, 25, 59, 50, 49],
+              borderColor: 'red',
+              backgroundColor: 'rgba(255, 0, 0, 0.2)',
+            },
+             {borderWidth:7,
+              type: 'bar',
+              label: 'Line Dataset',
+              data: [0, 50],
+              fill: true,
+              borderColor: 'rgb(54, 162, 235)'
+            }
+          ],
+        },
+        Austria: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Austria",
+              data: [0, 1, 4, 3, 3, 4, 2, 9],
+              borderColor: 'blue',
+              backgroundColor: 'rgba(0, 0, 255, 0.2)',
+            },
+            {
+              barThickness:2,
+              type: 'bar',
+              label: 'Hate Crime and hate Speech Law',
+              data: [9],
+              fill: true,
+              backgroundColor: "#5aa24e"
+            }, 
+          ],
+        },
+        Belarus: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Belarus",
+              data: [0, 0, 1, 2, 1, 7, 0, 2],
+              borderColor: 'midnightblue',
+              backgroundColor: 'rgba(25, 25, 112, 0.2)',
+            },
+          ],
+        },
+        Belgium: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Belgium",
+              data: [1, 6, 0, 0, 0, 0, 0, 1],
+              borderColor: 'green',
+              backgroundColor: 'rgba(0, 255, 0, 0.2)',
+            },
+          ],
+        },
+        BosniaandHerzegovina: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "BosniaandHerzegovina",
+              data: [7, 27, 20, 18, 11, 16, 17, 17],
+              borderColor: 'purple',
+              backgroundColor: 'rgba(128, 0, 128, 0.2)',
+            },
+          ],
+        },
+        Bulgaria: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Bulgaria",
+              data: [0, 0, 0, 5, 3, 0, 0, 0],
+              borderColor: 'lawngreen',
+              backgroundColor: 'rgba(124, 252, 0, 0.2)',
+            },
+          ],
+        },
+        Croatia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Croatia",
+              data: [1, 4, 0, 11, 10, 18, 0, 3],
+              borderColor: 'orange',
+              backgroundColor: 'rgba(255, 165, 0, 0.2)',
+            },
+          ],
+        },
+        Cyprus: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Cyprus",
+              data: [1, 0, 0, 0, 0, 2, 1, 4],
+              borderColor: 'chartreuse',
+              backgroundColor: 'rgba(127, 255, 0, 0.2)',
+            },
+          ],
+        },
+        CzechRepublic: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "CzechRepublic",
+              data: [0, 6, 3, 7, 9, 29, 43, 22],
+              borderColor: 'brown',
+              backgroundColor: 'rgba(165, 42, 42, 0.2)',
+            },
+          ],
+        },
+        Estonia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Estonia",
+              data: [0, 0, 0, 0, 0, 3, 1, 1],
+              borderColor: 'skyblue',
+              backgroundColor: 'rgba(135, 206, 235, 0.2)',
+            },
+          ],
+        },
+        Finland: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Finland",
+              data: [0, 5, 0, 0, 0, 0, 5, 0],
+              borderColor: 'cyan',
+              backgroundColor: 'rgba(0, 255, 255, 0.2)',
+            },
+          ],
+        },
+        France: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "France",
+              data: [26, 0, 0, 0, 3, 5, 1, 0],
+              borderColor: 'darkorange',
+              backgroundColor: 'rgba(255, 140, 0, 0.2)',
+            },
+          ],
+        },
+        Germany: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Germany",
+              data: [35, 21, 32, 34, 27, 33, 42, 34],
+              borderColor: 'yellow',
+              backgroundColor: 'rgba(255, 255, 0, 0.2)',
+            },
+          ],
+        },
+        Greece: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Greece",
+              data: [11, 22, 5, 24, 18, 24, 22, 24],
+              borderColor: 'pink',
+              backgroundColor: 'rgba(255, 105, 180, 0.2)',
+            },
+          ],
+        },
+        Hungary: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Hungary",
+              data: [2, 3, 0, 20, 2, 10, 4, 6],
+              borderColor: 'teal',
+              backgroundColor: 'rgba(0, 128, 128, 0.2)',
+            },
+          ],
+        },
+        Iceland: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Iceland",
+              data: [0, 0, 1, 0, 0, 0, 0, 21],
+              borderColor: 'seashell',
+              backgroundColor: 'rgba(255, 245, 238, 0.2)',
+            },
+          ],
+        },
+        Ireland: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Ireland",
+              data: [1, 0, 0, 1, 2, 2, 0, 0],
+              borderColor: 'blueviolet',
+              backgroundColor: 'rgba(138, 43, 226, 0.2)',
+            },
+          ],
+        },
+        Italy: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Italy",
+              data: [4, 5, 13, 51, 21, 40, 31, 35],
+              borderColor: 'magenta',
+              backgroundColor: 'rgba(255, 0, 255, 0.2)',
+            },
+          ],
+        },
+        Latvia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Latvia",
+              data: [0, 0, 0, 0, 0, 1, 0, 2],
+              borderColor: 'orchid',
+              backgroundColor: 'rgba(218, 112, 214, 0.2)',
+            },
+          ],
+        },
+        Liechtenstein: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Liechtenstein",
+              data: [0, 0, 0, 0, 0, 1, 0, 0],
+              borderColor: 'snow',
+              backgroundColor: 'rgba(255, 250, 250, 0.2)',
+            },
+          ],
+        },
+        Lithuania: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Lithuania",
+              data: [2, 1, 4, 7, 3, 2, 4, 2],
+              borderColor: 'indigo',
+              backgroundColor: 'rgba(75, 0, 130, 0.2)',
+            },
+          ],
+        },
+        Malta: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Malta",
+              data: [0, 1, 0, 0, 0, 0, 0, 0],
+              borderColor: 'gray',
+              backgroundColor: 'rgba(169, 169, 169, 0.2)',
+            },
+          ],
+        },
+        Moldova: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Moldova",
+              data: [16, 13, 8, 10, 12, 9, 4, 10],
+              borderColor: 'brown',
+              backgroundColor: 'rgba(165, 42, 42, 0.2)',
+            },
+          ],
+        },
+        Montenegro: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Montenegro",
+              data: [3, 0, 2, 2, 1, 1, 1, 0],
+              borderColor: 'fuchsia',
+              backgroundColor: 'rgba(255, 0, 255, 0.2)',
+            },
+          ],
+        },
+        Netherlands: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Netherlands",
+              data: [10, 10, 3, 11, 2, 5, 1, 1],
+              borderColor: 'black',
+              backgroundColor: 'rgba(0, 0, 0, 0.2)',
+            },
+          ],
+        },
+        NorthMacedonia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "NorthMacedonia",
+              data: [0, 1, 0, 6, 4, 1, 4, 1],
+              borderColor: 'violet',
+              backgroundColor: 'rgba(238, 130, 238, 0.2)',
+            },
+          ],
+        },
+        Norway: {
+          datasets: [
+            {
+              tension: 0.3,
+              borderWidth:7,
+              label: "Norway",
+              data: [1, 0, 0, 0, 0, 0, 1, 0],
+              borderColor: 'indianred',
+              backgroundColor: 'rgba(205, 92, 92, 0.2)',
+            },
+          ],
+        },
+        Poland: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Poland",
+              data: [25, 32, 13, 47, 66, 24, 47, 27],
+              borderColor: 'yellowgreen',
+              backgroundColor: 'rgba(154, 205, 50, 0.2)',
+            },
+          ],
+        },
+        Portugal: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Portugal",
+              data: [0, 3, 0, 30, 17, 1, 0, 0],
+              borderColor: 'lime',
+              backgroundColor: 'rgba(0, 255, 0, 0.2)',
+            },
+          ],
+        },
+        Romania: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Romania",
+              data: [0, 3, 0, 0, 0, 0, 4, 6],
+              borderColor: 'olive',
+              backgroundColor: 'rgba(128, 128, 0, 0.2)',
+            },
+          ],
+        },
+        Serbia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Serbia",
+              data: [6, 20, 20, 44, 29, 35, 53, 44],
+              borderColor: 'coral',
+              backgroundColor: 'rgba(255, 127, 80, 0.2)',
+            },
+          ],
+        },
+        Slovakia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Slovakia",
+              data: [0, 0, 0, 0, 0, 0, 2, 1],
+              borderColor: 'peachpuff',
+              backgroundColor: 'rgba(255, 218, 185, 0.2)',
+            },
+          ],
+        },
+        Slovenia: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Slovenia",
+              data: [0, 0, 0, 4, 1, 2, 5, 16],
+              borderColor: 'teal',
+              backgroundColor: 'rgba(0, 128, 128, 0.2)',
+            },
+          ],
+        },
+        Spain: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Spain",
+              data: [25, 142, 131, 3, 85, 1, 0, 1],
+              borderColor: 'gold',
+              backgroundColor: 'rgba(255, 215, 0, 0.2)',
+            },
+          ],
+        },
+        Sweden: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Sweden",
+              data: [15, 19, 22, 0, 0, 0, 1, 0],
+              borderColor: 'salmon',
+              backgroundColor: 'rgba(250, 128, 114, 0.2)',
+            },
+          ],
+        },
+        Switzerland: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Switzerland",
+              data: [1, 0, 0, 18, 27, 49, 61, 119],
+              borderColor: 'darkslategray',
+              backgroundColor: 'rgba(47, 79, 79, 0.2)',
+            },
+          ],
+        },
+        Turkey: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Turkey",
+              data: [75, 37, 14, 7, 3, 9, 3, 13],
+              borderColor: 'darkgreen',
+              backgroundColor: 'rgba(0, 128, 0, 0.2)',
+            },
+          ],
+        },
+        Ukraine: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "Ukraine",
+              data: [67, 110, 105, 114, 136, 60, 41, 29],
+              borderColor: 'royalblue',
+              backgroundColor: 'rgba(65, 105, 225, 0.2)',
+            },
+          ],
+        },
+        UnitedKingdom: {
+          datasets: [
+            {tension: 0.3,
+              borderWidth:7,
+              label: "UnitedKingdom",
+              data: [17, 31, 4, 3, 6, 1, 2, 5],
+              borderColor: 'crimson',
+              backgroundColor: 'rgba(220, 20, 60, 0.2)',
+            },
+          ],
+        },
+      };
+      
+
+      const hateLawsData = {
+          Albania: {
+              hateLaw: "the <em>Criminal code</em> adopted in 2013 addresses both hate crimes and hate speech.",
+          
           },
           Austria: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Austria",
-                data: [0, 1, 4, 3, 3, 4, 2, 9],
-                borderColor: 'blue',
-                backgroundColor: 'rgba(0, 0, 255, 0.2)',
-              },
-            ],
+              hateLaw: "the <em>Austrian criminal code</em> addresses both hate crimes and hate speech.",
           },
           Belarus: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Belarus",
-                data: [0, 0, 1, 2, 1, 7, 0, 2],
-                borderColor: 'midnightblue',
-                backgroundColor: 'rgba(25, 25, 112, 0.2)',
-              },
-            ],
+            hateLaw: "no legislation on the matter",
           },
           Belgium: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Belgium",
-                data: [1, 6, 0, 0, 0, 0, 0, 1],
-                borderColor: 'green',
-                backgroundColor: 'rgba(0, 255, 0, 0.2)',
-              },
-            ],
-          },
+          hateLaw: "the <em>wet ter bestrijding van bepaalde vormen van discriminatie</em> adopted in 1905 addresses both hate crimes and hate speech.",},
           BosniaandHerzegovina: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "BosniaandHerzegovina",
-                data: [7, 27, 20, 18, 11, 16, 17, 17],
-                borderColor: 'purple',
-                backgroundColor: 'rgba(128, 0, 128, 0.2)',
-              },
-            ],
+          hateLaw: "Amendments to the <em>Criminal Code of Federation of Bosnia and Herzegovina</em> and the <em>Criminal Code of Brcko District</em> address hate crimes. The <em>Criminal Code of Republika Srpska</em> addressed both hate crimes and hate speech.",
           },
           Bulgaria: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Bulgaria",
-                data: [0, 0, 0, 5, 3, 0, 0, 0],
-                borderColor: 'lawngreen',
-                backgroundColor: 'rgba(124, 252, 0, 0.2)',
-              },
-            ],
+          hateLaw:  "the <em>Criminal Code</em> addresses both hate crimes and hate speech.",
           },
           Croatia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Croatia",
-                data: [1, 4, 0, 11, 10, 18, 0, 3],
-                borderColor: 'orange',
-                backgroundColor: 'rgba(255, 165, 0, 0.2)',
-              },
-            ],
+            hateLaw: "the <em>Criminal code</em>adopted in 2013 addresses both hate crimes and hate speech.",
+        
           },
           Cyprus: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Cyprus",
-                data: [1, 0, 0, 0, 0, 2, 1, 4],
-                borderColor: 'chartreuse',
-                backgroundColor: 'rgba(127, 255, 0, 0.2)',
-              },
-            ],
+              hateLaw: "the <em>Cyprus Penal Code, Chapter 154</em> addresses both hate crimes and hate speech.",
           },
           CzechRepublic: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "CzechRepublic",
-                data: [0, 6, 3, 7, 9, 29, 43, 22],
-                borderColor: 'brown',
-                backgroundColor: 'rgba(165, 42, 42, 0.2)',
-              },
-            ],
+            hateLaw: "no legislation on the matter",
           },
           Estonia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Estonia",
-                data: [0, 0, 0, 0, 0, 3, 1, 1],
-                borderColor: 'skyblue',
-                backgroundColor: 'rgba(135, 206, 235, 0.2)',
-              },
-            ],
-          },
+          hateLaw: "the <em>Penal Code</em> addresses both hate speech.",},
           Finland: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Finland",
-                data: [0, 5, 0, 0, 0, 0, 5, 0],
-                borderColor: 'cyan',
-                backgroundColor: 'rgba(0, 255, 255, 0.2)',
-              },
-            ],
+          hateLaw: "the <em>Criminal code</em> adopted in 2011 addresses both hate crimes and hate speech.",
           },
           France: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "France",
-                data: [26, 0, 0, 0, 3, 5, 1, 0],
-                borderColor: 'darkorange',
-                backgroundColor: 'rgba(255, 140, 0, 0.2)',
-              },
-            ],
+          hateLaw:  "unclear.",
           },
           Germany: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Germany",
-                data: [35, 21, 32, 34, 27, 33, 42, 34],
-                borderColor: 'yellow',
-                backgroundColor: 'rgba(255, 255, 0, 0.2)',
-              },
-            ],
+            hateLaw: "the <em>Law for the revision of the sanctions law</em> addresses both hate crimes and hate speech.",
           },
           Greece: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Greece",
-                data: [11, 22, 5, 24, 18, 24, 22, 24],
-                borderColor: 'pink',
-                backgroundColor: 'rgba(255, 105, 180, 0.2)',
-              },
-            ],
+            hateLaw: "the <em>Article 81A</em> of the <em>Penal Code (Law 4619/2019)</em> as amended by <em>Article 14</em> of <em>Law 5090/2024</em> addresses hate crimes; <em>Law 927/1979</em> as amended by <em>Law 4285/2014</em> addresseds hate speech.",
           },
           Hungary: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Hungary",
-                data: [2, 3, 0, 20, 2, 10, 4, 6],
-                borderColor: 'teal',
-                backgroundColor: 'rgba(0, 128, 128, 0.2)',
-              },
-            ],
-          },
+          hateLaw: "the <em>Act No. C of 2012 on the Criminal Code</em> adopted in 2012 addresses both hate crimes and hate speech.",},
           Iceland: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Iceland",
-                data: [0, 0, 1, 0, 0, 0, 0, 21],
-                borderColor: 'seashell',
-                backgroundColor: 'rgba(255, 245, 238, 0.2)',
-              },
-            ],
-          },
-          Ireland: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Ireland",
-                data: [1, 0, 0, 1, 2, 2, 0, 0],
-                borderColor: 'blueviolet',
-                backgroundColor: 'rgba(138, 43, 226, 0.2)',
-              },
-            ],
+          hateLaw:  "no legislation on the matter",
           },
           Italy: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Italy",
-                data: [4, 5, 13, 51, 21, 40, 31, 35],
-                borderColor: 'magenta',
-                backgroundColor: 'rgba(255, 0, 255, 0.2)',
-              },
-            ],
+          hateLaw: "no legislation on the matter",
           },
           Latvia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Latvia",
-                data: [0, 0, 0, 0, 0, 1, 0, 2],
-                borderColor: 'orchid',
-                backgroundColor: 'rgba(218, 112, 214, 0.2)',
-              },
-            ],
+            hateLaw: "the <em> Criminal Code of Latvia</em> adopted in 1998, amended 2014, addresses hate crimes.",
+        
           },
           Liechtenstein: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Liechtenstein",
-                data: [0, 0, 0, 0, 0, 1, 0, 0],
-                borderColor: 'snow',
-                backgroundColor: 'rgba(255, 250, 250, 0.2)',
-              },
-            ],
-          },
-          Lithuania: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Lithuania",
-                data: [2, 1, 4, 7, 3, 2, 4, 2],
-                borderColor: 'indigo',
-                backgroundColor: 'rgba(75, 0, 130, 0.2)',
-              },
-            ],
-          },
-          Malta: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Malta",
-                data: [0, 1, 0, 0, 0, 0, 0, 0],
-                borderColor: 'gray',
-                backgroundColor: 'rgba(169, 169, 169, 0.2)',
-              },
-            ],
-          },
-          Moldova: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Moldova",
-                data: [16, 13, 8, 10, 12, 9, 4, 10],
-                borderColor: 'brown',
-                backgroundColor: 'rgba(165, 42, 42, 0.2)',
-              },
-            ],
-          },
-          Montenegro: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Montenegro",
-                data: [3, 0, 2, 2, 1, 1, 1, 0],
-                borderColor: 'fuchsia',
-                backgroundColor: 'rgba(255, 0, 255, 0.2)',
-              },
-            ],
-          },
-          Netherlands: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Netherlands",
-                data: [10, 10, 3, 11, 2, 5, 1, 1],
-                borderColor: 'black',
-                backgroundColor: 'rgba(0, 0, 0, 0.2)',
-              },
-            ],
-          },
-          NorthMacedonia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "NorthMacedonia",
-                data: [0, 1, 0, 6, 4, 1, 4, 1],
-                borderColor: 'violet',
-                backgroundColor: 'rgba(238, 130, 238, 0.2)',
-              },
-            ],
-          },
-          Norway: {
-            datasets: [
-              {
-                tension: 0.3,
-                borderWidth:7,
-                label: "Norway",
-                data: [1, 0, 0, 0, 0, 0, 1, 0],
-                borderColor: 'indianred',
-                backgroundColor: 'rgba(205, 92, 92, 0.2)',
-              },
-            ],
-          },
-          Poland: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Poland",
-                data: [25, 32, 13, 47, 66, 24, 47, 27],
-                borderColor: 'yellowgreen',
-                backgroundColor: 'rgba(154, 205, 50, 0.2)',
-              },
-            ],
-          },
-          Portugal: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Portugal",
-                data: [0, 3, 0, 30, 17, 1, 0, 0],
-                borderColor: 'lime',
-                backgroundColor: 'rgba(0, 255, 0, 0.2)',
-              },
-            ],
-          },
-          Romania: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Romania",
-                data: [0, 3, 0, 0, 0, 0, 4, 6],
-                borderColor: 'olive',
-                backgroundColor: 'rgba(128, 128, 0, 0.2)',
-              },
-            ],
-          },
-          Serbia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Serbia",
-                data: [6, 20, 20, 44, 29, 35, 53, 44],
-                borderColor: 'coral',
-                backgroundColor: 'rgba(255, 127, 80, 0.2)',
-              },
-            ],
-          },
-          Slovakia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Slovakia",
-                data: [0, 0, 0, 0, 0, 0, 2, 1],
-                borderColor: 'peachpuff',
-                backgroundColor: 'rgba(255, 218, 185, 0.2)',
-              },
-            ],
-          },
-          Slovenia: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Slovenia",
-                data: [0, 0, 0, 4, 1, 2, 5, 16],
-                borderColor: 'teal',
-                backgroundColor: 'rgba(0, 128, 128, 0.2)',
-              },
-            ],
-          },
-          Spain: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Spain",
-                data: [25, 142, 131, 3, 85, 1, 0, 1],
-                borderColor: 'gold',
-                backgroundColor: 'rgba(255, 215, 0, 0.2)',
-              },
-            ],
-          },
-          Sweden: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Sweden",
-                data: [15, 19, 22, 0, 0, 0, 1, 0],
-                borderColor: 'salmon',
-                backgroundColor: 'rgba(250, 128, 114, 0.2)',
-              },
-            ],
-          },
-          Switzerland: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Switzerland",
-                data: [1, 0, 0, 18, 27, 49, 61, 119],
-                borderColor: 'darkslategray',
-                backgroundColor: 'rgba(47, 79, 79, 0.2)',
-              },
-            ],
-          },
-          Turkey: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Turkey",
-                data: [75, 37, 14, 7, 3, 9, 3, 13],
-                borderColor: 'darkgreen',
-                backgroundColor: 'rgba(0, 128, 0, 0.2)',
-              },
-            ],
+            hateLaw: "the <em>Criminal Code of 24 June 1987 (StGB) - Strafgesetzbuch vom 24. Juni 1987 (StGB)</em> adopted in 1988 addresses hate speech.",
+        
+        },
+        Lithuania: {
+            hateLaw: "the <em>Criminal Code of the Republic of Lithuania</em> adopted in 1905 addresses both hate crimes and hate speech.",
+        },
+        Malta: {
+          hateLaw: "the <em>ACT No. VIII of 2012. AN ACT to amend the Criminal Code, Cap. 9</em> adopted in 2012 addresses both hate crimes and hate speech.",
+        },
+        Moldova: {
+        hateLaw: "the <em>Criminal Code, amendment</em> addresses both hate crimes and hate speech.",},
+        Montenegro: {
+        hateLaw: "the <em>Criminal Code</em> adopted in 2014 addresses both hate crimes and hate speech.",
+        },
+        Netherlands: {
+        hateLaw:  "the <em>Wetboek van Strafrecht (Penal Code)</em> adopted un 1881, amended 2007, addresses both hate crimes and hate speech.",
+        },
+        NorthMacedonia: {
+          hateLaw: "the <em>Criminal code</em> addresses hate crimes.",
+      
+        },
+        Norway: {
+            hateLaw: "the <em>Norwegian criminal code 2015</em> adopted in 2015 addresses both hate crimes and hate speech.",
+        },
+        Poland: {
+          hateLaw: "no legislation on the matter",
+        },
+        Portugal: {
+        hateLaw: "the <em>Lei 59/2007</em> adopted in 2007 addresses hate speech.",},
+        Romania: {
+        hateLaw: "unknown.",
+        },
+        Serbia: {
+        hateLaw:  "the <em>Act No. 300/2005 Criminal law</em> adopted in 2013 addresses hate crime; the <em>Act No. 300/2005 Criminal law</em> addresses hate speech.",
+        },
+        Slovakia: {
+          hateLaw: "the <em>Law for the revision of the sanctions law</em> addresses both hate crimes and hate speech.",
+        },
+        Slovenia: {
+          hateLaw: "the <em>Criminal Code</em> adopted in 2008 addresses hate speech, a later version addressed hate crime.",
+        },
+        Spain: {
+        hateLaw: "the <em>Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal</em> adopted in 1995 addresses both hate crimes and hate speech.",},
+        Sweden: {
+        hateLaw:  "the <em>Brottsbalk (1962:700)</em> adopted in 2003 addresses both hate crimes and hate speech.",
+        },
+        Switzerland: {
+        hateLaw: "the <em>Code pénal & Code pénal militaire</em> addresses hate speech.",
+        },
+        Turkey: {
+          hateLaw: "no legislation on the matter",
+      
+        },
+        UnitedKingdom: {
+          hateLaw: "the <em>Public Order Act</em> (1986),the <em>Public Order (Northern Ireland) Order </em> (1987), the <em>Criminal Justice Act</em> (2003) and the <em>Hate Crime and Public Order (Scotland) Act</em> address both hate crime and hate speech.",
           },
           Ukraine: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "Ukraine",
-                data: [67, 110, 105, 114, 136, 60, 41, 29],
-                borderColor: 'royalblue',
-                backgroundColor: 'rgba(65, 105, 225, 0.2)',
-              },
-            ],
-          },
-          UnitedKingdom: {
-            datasets: [
-              {tension: 0.3,
-                borderWidth:7,
-                label: "UnitedKingdom",
-                data: [17, 31, 4, 3, 6, 1, 2, 5],
-                borderColor: 'crimson',
-                backgroundColor: 'rgba(220, 20, 60, 0.2)',
-              },
-            ],
-          },
-        }
+            hateLaw: "no legislation on the matter",
         
-         
-        let lineChart = new Chart(
-          document.getElementById('hate-crime-line-chart'),
-          {
-            type: 'line',
-            data: {
-              labels: labelsLineChart, // Make sure labelsLineChart is defined
-              datasets: dataLineChart.Albania.datasets, // Default to Albania data
-            },
-            options: {
+          },
+      };
+      
+    
+      let lineChart = new Chart(document.getElementById('hate-crime-line-chart'), {
+          type: 'line',
+          data: {
+              labels: labelsLineChart,
+              datasets: dataLineChart.Albania.datasets, 
+          },
+          options: {
               responsive: true,
               plugins: {
-                legend: {
-                  position: 'top',
-                },
-                title: {
-                  display: true,
-                  text: 'Number of crimes reported each year',
-                },
+                  legend: { position: 'top',
+                    align:'center',
+                    labels:{font: {
+                      size: 16,}},
+                      layout: {
+                        padding: {
+                          bottom: 50
+                      }}
+
+                   },
+                   
+                  title: { display: true, text: 'Number of crimes reported each year', 
+                    position: 'top',
+                    align:'center',
+                    font: {
+                      size: 18
+                  }
+                   },
               },
-            },
-          }
-        );
-        
-        // Get the select element
-        const countrySelect = document.getElementById('country-hate-crime-select');
-        
-        // Listen for changes on the select element
-        countrySelect.addEventListener('change', function () {
-          const selectedCountry = countrySelect.value; // Get the selected country value (e.g., "Albania")
-          
-          // Call the update function with the selected country
+          },
+      });
+      
+
+      document.getElementById('country-hate-crime-select').addEventListener('change', function () {
+          const selectedCountry = this.value;
           updateLineChart(selectedCountry);
-        });
-        
-        // Function to update the chart based on the selected country
-        function updateLineChart(option) {
-          // Check if the selected option exists in dataLineChart
+          updateHateLawsText(selectedCountry);
+      });
+      
+  
+      function updateLineChart(option) {
           if (!dataLineChart.hasOwnProperty(option)) {
-            console.error('Invalid option selected:', option);
-            return; // Exit if the option does not exist
+              console.error('Invalid option selected:', option);
+              return;
           }
-        
-          let newDataLineChart = dataLineChart[option];
-        
-          // Ensure the datasets are well-formed for Chart.js
-          if (!newDataLineChart || !newDataLineChart.datasets || !Array.isArray(newDataLineChart.datasets)) {
-            console.error('Invalid datasets for the option:', option);
-            return; // Exit if datasets are not valid
-          }
-        
-          // Update the chart data
-          lineChart.data.datasets = newDataLineChart.datasets; // Corrected typo here
-        
-          // Call update to re-render the chart
+          
+          lineChart.data.datasets = dataLineChart[option].datasets;
           lineChart.update();
-        }      
-  })
+      }
+      
+      function updateHateLawsText(country) {
+        const textContainer = document.getElementById('hate-law-text');
+        textContainer.innerHTML = ''; 
+    
+        
+    if (hateLawsData[country]) {
+      textContainer.innerHTML = `
+         
+          <p><strong>Active laws:</strong> ${hateLawsData[country].hateLaw}</p>
+      `;
+        } else {
+            textContainer.innerHTML = `<p>No data available</p>`;
+        }
+    }
+    })      
