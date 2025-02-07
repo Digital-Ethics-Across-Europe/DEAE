@@ -313,9 +313,9 @@ padding-bottom: 2%;}
   color:white;
   transition: all 0.5s ease; }
 
-  .datasets .dataset:nth-child(2):hover{background-color: orange;
-    color:white;
-    transition: all 0.5s ease; }
+.datasets .dataset:nth-child(2):hover{background-color: orange;
+  color:white;
+  transition: all 0.5s ease; }
 
 .datasets .dataset:nth-child(3):hover{background-color: green;
 color:white;
@@ -397,6 +397,11 @@ color:white
 
 .nav-tabs .nav-link:hover:nth-child(6) {
   background-color: rgb(255, 33, 185); 
+  color:white
+}
+
+.nav-tabs .nav-link:hover:nth-child(7) {
+  background-color: rgb(68, 221, 255); 
   color:white
 }
 
@@ -546,6 +551,10 @@ table th, table td{
 
 #ds5-table td a:hover {
   color: rgb(255, 33, 185);
+}
+
+#ds6-table td a:hover {
+  color: rgb(68, 221, 255);
 } 
 
 .table-purple {
@@ -554,6 +563,10 @@ table th, table td{
 
 .table-pink {
   background-color: rgb(237, 193, 225);
+}
+
+.table-cerulean {
+  background-color: rgb(200, 255, 253);
 }
 
 @media only screen and (max-width: 426px) {

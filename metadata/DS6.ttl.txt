@@ -10,8 +10,8 @@
 <data/DS6>
     a dcat:Dataset;
     dcterms:identifier <data/DS6>;
-    dcterms:title "public opinion about LGBTQ+";
-    dcterms:description "This dataset contains data about public opinion about the LGBTQ+ comunity in the European Union";
+    dcterms:title "Laws against hate crimes";
+    dcterms:description "This dataset contains data about european laws against hate crimes directed towards the LGBTQ+ comunity";
     dcterms:creator "team/GiorgiaUmana";
     dcterms:issued "2025/02/07"^^xsd:date;
     dcterms:modified "2025/02707"^^xsd:date;
@@ -27,8 +27,7 @@
     dcterms:subject <http://eurovoc.europa.eu/4728>;
     dcterms:subject <http://eurovoc.europa.eu/3348>;
     dcat:keyword "LGBTQ+ comunity";
-    dcat:keyword "equality";
-    dcat:keyword "society";
+    dcat:keyword "violence against LGBTQ+";
     dcat:distribution <data/DS6/laws_against-lgbtq_hate_crime.csv>;
     dcat:distribution <data/DS6/laws_against-lgbtq_hate_crime.json>.
 
