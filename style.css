@@ -305,7 +305,7 @@ padding-bottom: 2%;}
 }
 
 .datasets a{color:black}
-.dataset:first-child:hover a,.dataset:nth-child(2):hover a,.dataset:nth-child(3):hover a, .dataset:nth-child(3):hover a, .dataset:nth-child(4):hover a, .dataset:nth-child(5):hover a{color:white;
+.dataset:first-child:hover a,.dataset:nth-child(2):hover a,.dataset:nth-child(3):hover a, .dataset:nth-child(3):hover a, .dataset:nth-child(4):hover a, .dataset:nth-child(5):hover a, .dataset:nth-child(6):hover a{color:white;
   transition: all 0.5s ease;}
 
 
@@ -317,17 +317,22 @@ padding-bottom: 2%;}
     color:white;
     transition: all 0.5s ease; }
 
-.datasets .dataset:nth-child(3):hover{background-color: blue;
+.datasets .dataset:nth-child(3):hover{background-color: green;
 color:white;
 transition: all 0.5s ease; }
 
-.datasets .dataset:nth-child(4):hover{background-color: green;
+.datasets .dataset:nth-child(4):hover{background-color: blue;
   color:white;
   transition: all 0.5s ease; }
 
 .datasets .dataset:nth-child(5):hover{background-color: purple;
     color:white;
     transition: all 0.5s ease; }
+
+.datasets .dataset:nth-child(6):hover{background-color: rgb(255, 33, 185);
+  color:white;
+  transition: all 0.5s ease; }    
+
 .datasetsDivided {
   display: flex;
   flex-direction: row;

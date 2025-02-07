@@ -7,46 +7,46 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<data/DS5>
+<data/DS6>
     a dcat:Dataset;
-    dcterms:identifier <data/DS5>;
-    dcterms:title "Hate crimes against the LGBTQ+ comunity 2016-2023";
-    dcterms:description "This dataset contains data about reported hate crimes committed against the LGBTQ+ comunity in Europe from the year 2016 to the year 2023";
-    dcterms:publisher "team/ValentinaBertelli";
-    dcterms:creator "team/ValentinaBertelli";
-    dcterms:issued "2025/01/30"^^xsd:date;
-    dcterms:modified "2025/01/30"^^xsd:date;
-    prov:wasDerivedFrom <https://hatecrime.osce.org/anti-lgbti-hate-crime>;
+    dcterms:identifier <data/DS6>;
+    dcterms:title "public opinion about LGBTQ+";
+    dcterms:description "This dataset contains data about public opinion about the LGBTQ+ comunity in the European Union";
+    dcterms:creator "team/GiorgiaUmana";
+    dcterms:issued "2025/02/07"^^xsd:date;
+    dcterms:modified "2025/02707"^^xsd:date;
+    prov:wasDerivedFrom <https://rainbowmap.ilga-europe.org/categories/hate-crime-hate-speech/>;
     dcat:landingPage <https://digital-ethics-across-europe.github.io/DEAE/>
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>;
     dcterms:spatial <https://www.geonames.org/6255148/europe.html>;
-    dcat:startDate "2016"^^xsd:gYear
-    dcat:endDate "2023"^^xsd:gYear
+    dcat:startDate "1905"^^xsd:gYear
+    dcat:endDate "2024"^^xsd:gYear
     dcterms:license	<https://creativecommons.org/licenses/by/4.0/>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST>;
     dcterms:subject <http://eurovoc.europa.eu/4728>;
-    dcterms:subject <http://eurovoc.europa.eu/3348>
+    dcterms:subject <http://eurovoc.europa.eu/3348>;
     dcat:keyword "LGBTQ+ comunity";
-    dcat:keyword "violence against LGBTQ+";
-    dcat:distribution <data/DS5/hate_crime.csv>;
-    dcat:distribution <data/DS5/hate_crime.json>.
-    
-<data/DS5/hate_crime.csv>
+    dcat:keyword "equality";
+    dcat:keyword "society";
+    dcat:distribution <data/DS6/laws_against-lgbtq_hate_crime.csv>;
+    dcat:distribution <data/DS6/laws_against-lgbtq_hate_crime.json>.
+
+<data/DS6/laws_against-lgbtq_hate_crime.csv>
     a  dcat:Distribution;
-    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS5/hate_crime.csv>;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS6/laws_against_lgbtq_hate_crimes.csv>;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV/>;
     dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
-    dcterms:description "CSV distribution of DEAE data crimes against LGBTQ+";  
+    dcterms:description "CSV distribution of DEAE data about laws against lgbtq+ directed hate crimes";  
     dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
 
-<data/DS5/hate_crime.json>
+<data/DS6/laws_against-lgbtq_hate_crime.json>
     a  dcat:Distribution;
-    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS5/hate_crime.json>;
+    dcat:accessURL <https://github.com/Digital-Ethics-Across-Europe/DEAE/blob/main/data/DS6/laws_against_lgbtq_hate_crimes.json>;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON/>;
     dcterms:license   <http://creativecommons.org/licenses/by/4.0/>;
-    dcterms:description "JSON distribution of DEAE data about crimes against LGBTQ+";  
+    dcterms:description "JSON distribution of DEAE data about laws against lgbtq+ directed hate crimes";  
     dcatap:avaliability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>.
 
-<team/ValentinaBertelli>
-    a foaf:Agent    
+<team/GiorgiaUmana>
+    a foaf:Agent     
