@@ -6752,7 +6752,7 @@ document.addEventListener('DOMContentLoaded', function () {
               borderWidth:7,
               label: "Number of crimes",
               data: [0, 0, 1, 0, 0, 0, 0, 21],
-              borderColor: 'seashell',
+              borderColor: 'navy',
               backgroundColor: 'rgba(255, 245, 238, 0.2)',
             },
           ],
