@@ -6447,26 +6447,16 @@ document.addEventListener('DOMContentLoaded', function () {
            
           datasets: [
             { tension: 0.3,
-              borderWidth:5,
-              label: "Albania",
+              borderWidth:6,
+              label: "Number of crimes",
               data: [0, 0, 0, 1, 0, 0, 0, 5],
-              borderColor: 'black',
-              backgroundColor: 'black',
+              borderColor: '#ffe570',
+              backgroundColor: '#ffe570',
               pointStyle:'rectRounded',    
-              pointBorderWidth:3,     
-          
-              
+              pointBorderWidth:5,     
             },
             
-            {
-              barThickness:2,
-              type: 'bar',
-              label: 'Hate Speech Law',
-              data: [0, 0, 5],
-              fill: true,
-             
-              backgroundColor: '#b1d283'
-            }
+            
           
           ],
         },
@@ -6474,44 +6464,45 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Armenia",
+              label: "Number of crimes",
               data: [13, 13, 21, 22, 25, 59, 50, 49],
               borderColor: 'red',
               backgroundColor: 'rgba(255, 0, 0, 0.2)',
-            },
-             {borderWidth:7,
-              type: 'bar',
-              label: 'Line Dataset',
-              data: [0, 50],
-              fill: true,
-              borderColor: 'rgb(54, 162, 235)'
             }
           ],
         },
         Austria: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime and Hate Speech Law',
+            data: [{
+                x: 2016,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+            
+        },
             {tension: 0.3,
               borderWidth:7,
-              label: "Austria",
+              label: "Number of crimes",
               data: [0, 1, 4, 3, 3, 4, 2, 9],
               borderColor: 'blue',
               backgroundColor: 'rgba(0, 0, 255, 0.2)',
             },
-            {
-              barThickness:2,
-              type: 'bar',
-              label: 'Hate Crime and hate Speech Law',
-              data: [9],
-              fill: true,
-              backgroundColor: "#5aa24e"
-            }, 
+            
           ],
         },
         Belarus: {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Belarus",
+              label: "Number of crimes",
               data: [0, 0, 1, 2, 1, 7, 0, 2],
               borderColor: 'midnightblue',
               backgroundColor: 'rgba(25, 25, 112, 0.2)',
@@ -6522,7 +6513,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Belgium",
+              label: "Number of crimes",
               data: [1, 6, 0, 0, 0, 0, 0, 1],
               borderColor: 'green',
               backgroundColor: 'rgba(0, 255, 0, 0.2)',
@@ -6530,32 +6521,78 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         BosniaandHerzegovina: {
-          datasets: [
+          datasets: [ {
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2016,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        }, {
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 4, 
+            pointRadius: 7, 
+            pointBackgroundColor: '#2d00f7', 
+            pointBorderColor: '#2d00f7', 
+            type: '',
+            label: 'Hate Speech Law',
+            data: [{
+                x: 2017,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+            
+        }, 
             {tension: 0.3,
               borderWidth:7,
-              label: "BosniaandHerzegovina",
+              label: "Number of crimes",
               data: [7, 27, 20, 18, 11, 16, 17, 17],
               borderColor: 'purple',
               backgroundColor: 'rgba(128, 0, 128, 0.2)',
-            },
+            }
+                
           ],
+          
         },
         Bulgaria: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2023,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
-              label: "Bulgaria",
+              label: "Number of crimes",
               data: [0, 0, 0, 5, 3, 0, 0, 0],
               borderColor: 'lawngreen',
               backgroundColor: 'rgba(124, 252, 0, 0.2)',
             },
+            
           ],
         },
         Croatia: {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Croatia",
+              label: "Number of crimes",
               data: [1, 4, 0, 11, 10, 18, 0, 3],
               borderColor: 'orange',
               backgroundColor: 'rgba(255, 165, 0, 0.2)',
@@ -6563,21 +6600,36 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         Cyprus: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2017,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
-              label: "Cyprus",
+              label: "Number of crimes",
               data: [1, 0, 0, 0, 0, 2, 1, 4],
               borderColor: 'chartreuse',
               backgroundColor: 'rgba(127, 255, 0, 0.2)',
             },
+            
           ],
         },
         CzechRepublic: {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "CzechRepublic",
+              label: "Number of crimes",
               data: [0, 6, 3, 7, 9, 29, 43, 22],
               borderColor: 'brown',
               backgroundColor: 'rgba(165, 42, 42, 0.2)',
@@ -6588,7 +6640,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Estonia",
+              label: "Number of crimes",
               data: [0, 0, 0, 0, 0, 3, 1, 1],
               borderColor: 'skyblue',
               backgroundColor: 'rgba(135, 206, 235, 0.2)',
@@ -6599,7 +6651,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Finland",
+              label: "Number of crimes",
               data: [0, 5, 0, 0, 0, 0, 5, 0],
               borderColor: 'cyan',
               backgroundColor: 'rgba(0, 255, 255, 0.2)',
@@ -6610,7 +6662,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "France",
+              label: "Number of crimes",
               data: [26, 0, 0, 0, 3, 5, 1, 0],
               borderColor: 'darkorange',
               backgroundColor: 'rgba(255, 140, 0, 0.2)',
@@ -6621,18 +6673,48 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Germany",
+              label: "Number of crimes",
               data: [35, 21, 32, 34, 27, 33, 42, 34],
               borderColor: 'yellow',
               backgroundColor: 'rgba(255, 255, 0, 0.2)',
             },
+            {
+              pointStyle: 'rectRounded',
+              pointBorderWidth: 2, 
+              pointRadius: 6, 
+              pointBackgroundColor: '#E500A4', 
+              pointBorderColor: '#E500A4', 
+              type: '',
+              label: 'Hate Crime Law',
+              data: [{
+                  x: 2023,
+                  y: 0,
+                  r: 1
+              }],
+              fill: true,
+          },
           ],
         },
         Greece: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2019,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
+            
             {tension: 0.3,
               borderWidth:7,
-              label: "Greece",
+              label: "Number of crimes",
               data: [11, 22, 5, 24, 18, 24, 22, 24],
               borderColor: 'pink',
               backgroundColor: 'rgba(255, 105, 180, 0.2)',
@@ -6643,7 +6725,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Hungary",
+              label: "Number of crimes",
               data: [2, 3, 0, 20, 2, 10, 4, 6],
               borderColor: 'teal',
               backgroundColor: 'rgba(0, 128, 128, 0.2)',
@@ -6651,10 +6733,24 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         Iceland: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law - Amended',
+            data: [{
+                x: 2022,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
-              label: "Iceland",
+              label: "Number of crimes",
               data: [0, 0, 1, 0, 0, 0, 0, 21],
               borderColor: 'seashell',
               backgroundColor: 'rgba(255, 245, 238, 0.2)',
@@ -6665,7 +6761,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Ireland",
+              label: "Number of crimes",
               data: [1, 0, 0, 1, 2, 2, 0, 0],
               borderColor: 'blueviolet',
               backgroundColor: 'rgba(138, 43, 226, 0.2)',
@@ -6676,7 +6772,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Italy",
+              label: "Number of crimes",
               data: [4, 5, 13, 51, 21, 40, 31, 35],
               borderColor: 'magenta',
               backgroundColor: 'rgba(255, 0, 255, 0.2)',
@@ -6687,7 +6783,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Latvia",
+              label: "Number of crimes",
               data: [0, 0, 0, 0, 0, 1, 0, 2],
               borderColor: 'orchid',
               backgroundColor: 'rgba(218, 112, 214, 0.2)',
@@ -6698,7 +6794,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Liechtenstein",
+              label: "Number of crimes",
               data: [0, 0, 0, 0, 0, 1, 0, 0],
               borderColor: 'snow',
               backgroundColor: 'rgba(255, 250, 250, 0.2)',
@@ -6709,7 +6805,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Lithuania",
+              label: "Number of crimes",
               data: [2, 1, 4, 7, 3, 2, 4, 2],
               borderColor: 'indigo',
               backgroundColor: 'rgba(75, 0, 130, 0.2)',
@@ -6720,7 +6816,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Malta",
+              label: "Number of crimes",
               data: [0, 1, 0, 0, 0, 0, 0, 0],
               borderColor: 'gray',
               backgroundColor: 'rgba(169, 169, 169, 0.2)',
@@ -6729,9 +6825,24 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         Moldova: {
           datasets: [
+            {
+              pointStyle: 'rectRounded',
+              pointBorderWidth: 2, 
+              pointRadius: 6, 
+              pointBackgroundColor: '#E500A4', 
+              pointBorderColor: '#E500A4', 
+              type: '',
+              label: 'Hate Crim and Hate Speech Law',
+              data: [{
+                  x: 2022,
+                  y: 0,
+                  r: 1
+              }],
+              fill: true,
+          },
             {tension: 0.3,
               borderWidth:7,
-              label: "Moldova",
+              label: "Number of crimes",
               data: [16, 13, 8, 10, 12, 9, 4, 10],
               borderColor: 'brown',
               backgroundColor: 'rgba(165, 42, 42, 0.2)',
@@ -6742,7 +6853,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Montenegro",
+              label: "Number of crimes",
               data: [3, 0, 2, 2, 1, 1, 1, 0],
               borderColor: 'fuchsia',
               backgroundColor: 'rgba(255, 0, 255, 0.2)',
@@ -6753,7 +6864,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Netherlands",
+              label: "Number of crimes",
               data: [10, 10, 3, 11, 2, 5, 1, 1],
               borderColor: 'black',
               backgroundColor: 'rgba(0, 0, 0, 0.2)',
@@ -6761,10 +6872,24 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         NorthMacedonia: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2018,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
-              label: "NorthMacedonia",
+              label: "Number of crimes",
               data: [0, 1, 0, 6, 4, 1, 4, 1],
               borderColor: 'violet',
               backgroundColor: 'rgba(238, 130, 238, 0.2)',
@@ -6776,7 +6901,7 @@ document.addEventListener('DOMContentLoaded', function () {
             {
               tension: 0.3,
               borderWidth:7,
-              label: "Norway",
+              label: "Number of crimes",
               data: [1, 0, 0, 0, 0, 0, 1, 0],
               borderColor: 'indianred',
               backgroundColor: 'rgba(205, 92, 92, 0.2)',
@@ -6787,7 +6912,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Poland",
+              label: "Number of crimes",
               data: [25, 32, 13, 47, 66, 24, 47, 27],
               borderColor: 'yellowgreen',
               backgroundColor: 'rgba(154, 205, 50, 0.2)',
@@ -6798,7 +6923,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Portugal",
+              label: "Number of crimes",
               data: [0, 3, 0, 30, 17, 1, 0, 0],
               borderColor: 'lime',
               backgroundColor: 'rgba(0, 255, 0, 0.2)',
@@ -6809,7 +6934,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Romania",
+              label: "Number of crimes",
               data: [0, 3, 0, 0, 0, 0, 4, 6],
               borderColor: 'olive',
               backgroundColor: 'rgba(128, 128, 0, 0.2)',
@@ -6820,7 +6945,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Serbia",
+              label: "Number of crimes",
               data: [6, 20, 20, 44, 29, 35, 53, 44],
               borderColor: 'coral',
               backgroundColor: 'rgba(255, 127, 80, 0.2)',
@@ -6831,7 +6956,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Slovakia",
+              label: "Number of crimes",
               data: [0, 0, 0, 0, 0, 0, 2, 1],
               borderColor: 'peachpuff',
               backgroundColor: 'rgba(255, 218, 185, 0.2)',
@@ -6839,10 +6964,24 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         Slovenia: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2023,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
-              label: "Slovenia",
+              label: "Number of crimes",
               data: [0, 0, 0, 4, 1, 2, 5, 16],
               borderColor: 'teal',
               backgroundColor: 'rgba(0, 128, 128, 0.2)',
@@ -6853,7 +6992,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Spain",
+              label: "Number of crimes",
               data: [25, 142, 131, 3, 85, 1, 0, 1],
               borderColor: 'gold',
               backgroundColor: 'rgba(255, 215, 0, 0.2)',
@@ -6864,7 +7003,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Sweden",
+              label: "Number of crimes",
               data: [15, 19, 22, 0, 0, 0, 1, 0],
               borderColor: 'salmon',
               backgroundColor: 'rgba(250, 128, 114, 0.2)',
@@ -6875,7 +7014,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Switzerland",
+              label: "Number of crimes",
               data: [1, 0, 0, 18, 27, 49, 61, 119],
               borderColor: 'darkslategray',
               backgroundColor: 'rgba(47, 79, 79, 0.2)',
@@ -6886,7 +7025,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Turkey",
+              label: "Number of crimes",
               data: [75, 37, 14, 7, 3, 9, 3, 13],
               borderColor: 'darkgreen',
               backgroundColor: 'rgba(0, 128, 0, 0.2)',
@@ -6897,7 +7036,7 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [
             {tension: 0.3,
               borderWidth:7,
-              label: "Ukraine",
+              label: "Number of crimes",
               data: [67, 110, 105, 114, 136, 60, 41, 29],
               borderColor: 'royalblue',
               backgroundColor: 'rgba(65, 105, 225, 0.2)',
@@ -6905,10 +7044,24 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         UnitedKingdom: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime and Hate Speech Law',
+            data: [{
+                x: 2024,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
-              label: "UnitedKingdom",
+              label: "Number of crimes",
               data: [17, 31, 4, 3, 6, 1, 2, 5],
               borderColor: 'crimson',
               backgroundColor: 'rgba(220, 20, 60, 0.2)',
@@ -7048,7 +7201,11 @@ document.addEventListener('DOMContentLoaded', function () {
               plugins: {
                   legend: { position: 'top',
                     align:'center',
-                    labels:{font: {
+                    labels:{
+                      usePointStyle: true, 
+                      pointStyle: 'rectRounded', 
+                
+                      font: {
                       size: 16,}},
                       layout: {
                         padding: {

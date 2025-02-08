@@ -601,10 +601,10 @@ ul li{font-size:1.25rem ;}
 
 #textVisualisation h3{font-size: 1.2rem} 
 a{text-decoration: none;
-  color:green;
-font-weight:550;}
+  color:black;
+}
 a:hover{text-decoration: none;
-  color:green}
+  }
 
 #legend{
 margin:2% 5%;
@@ -819,7 +819,7 @@ option {
 .countrydata2{border: 1px solid black;
   border-radius: 20px;
   align-items: center;
- margin:2%;
+  margin:2%;
   padding: 1.5%;
   width: 80%;
   position: relative
