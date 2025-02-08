@@ -6445,38 +6445,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const dataLineChart = {
         Albania: {
            
-          datasets: [{
-            pointStyle: 'rectRounded',
-            pointBorderWidth: 2, 
-            pointRadius: 6, 
-            pointBackgroundColor: '#E500A4', 
-            pointBorderColor: '#E500A4', 
-            type: '',
-            label: 'Hate Crime Law',
-            data: [{
-                x: 2016,
-                y: 0,
-                r: 1
-            }],
-            fill: true,
-            
-        },
-          {
-            pointStyle: 'rectRounded',
-            pointBorderWidth: 4, 
-            pointRadius: 7, 
-            pointBackgroundColor: '#2d00f7', 
-            pointBorderColor: '#2d00f7', 
-            type: '',
-            label: 'Hate Speech Law',
-            data: [{
-                x: 2020,
-                y: 0,
-                r: 1
-            }],
-            fill: true,
-            
-        },        
+          datasets: [
             { tension: 0.3,
               borderWidth:6,
               label: "Number of crimes",
@@ -6499,18 +6468,26 @@ document.addEventListener('DOMContentLoaded', function () {
               data: [13, 13, 21, 22, 25, 59, 50, 49],
               borderColor: 'red',
               backgroundColor: 'rgba(255, 0, 0, 0.2)',
-            },
-             {borderWidth:7,
-              type: 'bar',
-              label: 'Line Dataset',
-              data: [0, 50],
-              fill: true,
-              borderColor: 'rgb(54, 162, 235)'
             }
           ],
         },
         Austria: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime and Hate Speech Law',
+            data: [{
+                x: 2016,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+            
+        },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6518,14 +6495,7 @@ document.addEventListener('DOMContentLoaded', function () {
               borderColor: 'blue',
               backgroundColor: 'rgba(0, 0, 255, 0.2)',
             },
-            {
-              barThickness:2,
-              type: 'bar',
-              label: 'Hate Crime and hate Speech Law',
-              data: [9],
-              fill: true,
-              backgroundColor: "#5aa24e"
-            }, 
+            
           ],
         },
         Belarus: {
@@ -6551,18 +6521,63 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         BosniaandHerzegovina: {
-          datasets: [
+          datasets: [ {
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2016,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        }, {
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 4, 
+            pointRadius: 7, 
+            pointBackgroundColor: '#2d00f7', 
+            pointBorderColor: '#2d00f7', 
+            type: '',
+            label: 'Hate Speech Law',
+            data: [{
+                x: 2017,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+            
+        }, 
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
               data: [7, 27, 20, 18, 11, 16, 17, 17],
               borderColor: 'purple',
               backgroundColor: 'rgba(128, 0, 128, 0.2)',
-            },
+            }
+                
           ],
+          
         },
         Bulgaria: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2023,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6570,6 +6585,7 @@ document.addEventListener('DOMContentLoaded', function () {
               borderColor: 'lawngreen',
               backgroundColor: 'rgba(124, 252, 0, 0.2)',
             },
+            
           ],
         },
         Croatia: {
@@ -6584,7 +6600,21 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         Cyprus: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2017,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6592,6 +6622,7 @@ document.addEventListener('DOMContentLoaded', function () {
               borderColor: 'chartreuse',
               backgroundColor: 'rgba(127, 255, 0, 0.2)',
             },
+            
           ],
         },
         CzechRepublic: {
@@ -6647,10 +6678,40 @@ document.addEventListener('DOMContentLoaded', function () {
               borderColor: 'yellow',
               backgroundColor: 'rgba(255, 255, 0, 0.2)',
             },
+            {
+              pointStyle: 'rectRounded',
+              pointBorderWidth: 2, 
+              pointRadius: 6, 
+              pointBackgroundColor: '#E500A4', 
+              pointBorderColor: '#E500A4', 
+              type: '',
+              label: 'Hate Crime Law',
+              data: [{
+                  x: 2023,
+                  y: 0,
+                  r: 1
+              }],
+              fill: true,
+          },
           ],
         },
         Greece: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2019,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
+            
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6672,7 +6733,21 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         Iceland: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law - Amended',
+            data: [{
+                x: 2022,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6750,6 +6825,21 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         Moldova: {
           datasets: [
+            {
+              pointStyle: 'rectRounded',
+              pointBorderWidth: 2, 
+              pointRadius: 6, 
+              pointBackgroundColor: '#E500A4', 
+              pointBorderColor: '#E500A4', 
+              type: '',
+              label: 'Hate Crim and Hate Speech Law',
+              data: [{
+                  x: 2022,
+                  y: 0,
+                  r: 1
+              }],
+              fill: true,
+          },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6782,7 +6872,21 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         NorthMacedonia: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2018,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6860,7 +6964,21 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         Slovenia: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime Law',
+            data: [{
+                x: 2023,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
@@ -6926,7 +7044,21 @@ document.addEventListener('DOMContentLoaded', function () {
           ],
         },
         UnitedKingdom: {
-          datasets: [
+          datasets: [{
+            pointStyle: 'rectRounded',
+            pointBorderWidth: 2, 
+            pointRadius: 6, 
+            pointBackgroundColor: '#E500A4', 
+            pointBorderColor: '#E500A4', 
+            type: '',
+            label: 'Hate Crime and Hate Speech Law',
+            data: [{
+                x: 2024,
+                y: 0,
+                r: 1
+            }],
+            fill: true,
+        },
             {tension: 0.3,
               borderWidth:7,
               label: "Number of crimes",
